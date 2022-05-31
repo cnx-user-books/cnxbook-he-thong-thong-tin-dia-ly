@@ -1,0 +1,162 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Cấu trúc cơ sở dữ liệu trong GIS</title>
+  <metadata>
+  <md:content-id>m30398</md:content-id><md:title>Cấu trúc cơ sở dữ liệu trong GIS</md:title>
+  <md:abstract>Một cơ sở dữ liệu của hệ thống thông tin địa lý có thể chia ra làm 2 loại số liệu cơ bản: số liệu không gian và phi không gian. Mỗi loại có những đặc điểm riêng và chúng khác nhau về yêu cầu lưu giữ số liệu, hiệu quả, xử lý và hiển thị.
+	Số liệu không gian là những mô tả số của hình ảnh bản đồ, chúng bao gồm toạ độ, quy luật và các ký hiệu dùng để xác định một hình ảnh bản đồ cụ thể trên từng bản đồ. Hệ thống thông tin địa lý dùng các số liệu không gian để tạo ra một bản đồ hay hình ảnh bản đồ trên màn hình hoặc trên giấy thông qua thiết bị ngoại vi, …
+	Số liệu phi không gian là những diễn tả đặc tính, số lượng, mối quan hệ của các hình ảnh bản đồ với vị trí địa lý của chúng. Các số liệu phi không gian được gọi là dữ liệu thuộc tính, chúng liên quan đến vị trí địa lý hoặc các đối tượng không gian và liên kết chặt chẽ với chúng trong hệ thống thông tin địa lý thông qua một cơ chế thống nhất chung.</md:abstract>
+  <md:uuid>7dda6011-7eca-41b3-a71d-e7731eaf2ec5</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-575122179037">
+      <title>MÔ HÌNH THÔNG TIN KHÔNG GIAN</title>
+      <para id="id22344842">Dữ liệu là trung tâm của hệ thống GIS, hệ thống GIS chứa càng nhiều thì chúng càng có ý nghĩa. Dữ liệu của hệ GIS được lưu trữ trong CSDL và chúng được thu thập thông qua các mô hình thế giới thực. Dữ liệu trong hệ GIS còn được gọi là thông tin không gian. Đặc trưng thông tin không gian là có khả năng mô tả “vật thể ở đâu” nhờ vị trí tham chiếu, đơn vị đo và quan hệ không gian. Chúng còn khả năng mô tả “hình dạng hiện tượng” thông qua mô tả chất lượng, số lượng của hình dạng và cấu trúc. Cuối cùng, đặc trưng thông tin không gian mô tả “quan hệ và tương tác” giữa các hiện tượng tự nhiên. Mô hình không gian đặc biệt quan trọng vì cách thức thông tin sẽ ảnh hưởng đến khả năng thực hiện phân tích dữ liệu và khả năng hiển thị đồ hoạ của hệ thống.</para>
+      <section id="id-340805964451">
+        <title>Hệ thống Vector </title>
+        <section id="id-312043410722">
+          <title>Kiểu đối tượng điểm (Points)</title>
+          <para id="id22067978">Điểm được xác định bởi cặp giá trị đ. Các đối tượng đơn, thông tin về địa lý chỉ gồm cơ sở vị trí sẽ được phản ánh là đối tượng điểm. Các đối tượng kiểu điểm có đặc điểm:</para>
+          <list id="id22067989" list-type="bulleted">
+            <item>Là toạ độ đơn (x,y)</item>
+            <item>Không cần thể hiện chiều dài và diện tích </item>
+          </list>
+          <figure id="id22428343">
+            <media id="id1172785695722" alt=""><image src="../../media/graphics1-2d71.png" mime-type="image/png" height="218" width="447"/></media>
+          </figure>
+          <para id="id22428367">Hình 4.1: Số liệu vector được biểu thị dưới dạng điểm (Point).</para>
+          <para id="id22428377">Tỷ lệ trên bản đồ tỷ lệ lớn, đối tượng thể hiện dưới dạng vùng. Tuy nhiên trên bản đồ tỷ lệ nhỏ, đối tượng này có thể thể hiện dưới dạng một điểm. Vì vậy, các đối tượng điểm và vùng có thể được dùng phản ánh lẫn nhau.</para>
+        </section>
+        <section id="id-858667873091">
+          <title>Kiểu đối tượng đường (Arcs)</title>
+          <para id="id22428400">Đường được xác định như một tập hợp dãy của các điểm. Mô tả các đối tượng địa lý dạng tuyến, có các đặc điểm sau:</para>
+          <list id="id22428408" list-type="bulleted">
+            <item>Là một dãy các cặp toạ độ </item>
+            <item>Một arc bắt đầu và kết thúc bởi node</item>
+            <item>Các arc nối với nhau và cắt nhau tại node</item>
+            <item>Hình dạng của arc được định nghĩa bởi các điểm vertices</item>
+            <item>Độ dài chính xác bằng các cặp toạ độ </item>
+          </list>
+          <figure id="id21884179">
+            <media id="id1172785567534" alt=""><image src="../../media/graphics2-dd1e.png" mime-type="image/png" height="260" width="533"/></media>
+          </figure>
+          <para id="id21884203">Hình 4.2: Số liệu vector được biểu thị dưới dạng Arc</para>
+        </section>
+        <section id="id-785689081064">
+          <title>Kiểu đối tượng vùng (Polygons)</title>
+          <para id="id21085722">Vùng được xác định bởi ranh giới các đường thẳng. Các đối tượng địa lý có diện tích và đóng kín bởi một đường được gọi là đối tượng vùng polygons, có các đặc điểm sau:</para>
+          <list id="id21085737" list-type="bulleted">
+            <item>Polygons được mô tả bằng tập các đường (arcs) và điểm nhãn (label points) </item>
+            <item>Một hoặc nhiều arc định nghĩa đường bao của vùng </item>
+            <item>Một điểm nhãn label points nằm trong vùng để mô tả, xác định cho mỗi một vùng.</item>
+          </list>
+          <figure id="id21085778">
+            <media id="id6393077" alt=""><image src="../../media/graphics3-0338.png" mime-type="image/png" height="236" width="372"/></media>
+          </figure>
+          <para id="id21872571">Hình 4.3: Số liệu vector được biểu thị dưới dạng vùng (Polygon)</para>
+          <para id="id21872581">
+            <media id="id1172781572227" alt=""><image src="../../media/graphics4-0500.png" mime-type="image/png" height="372" width="272"/></media>
+            <media id="id1172782502840" alt=""><image src="../../media/graphics5-787e.png" mime-type="image/png" height="451" width="225"/></media>
+          </para>
+          <para id="id21872638">Hình 4.4: Một số khái niệm trong cấu trúc cơ sở dữ liệu bản đồ. </para>
+        </section>
+      </section>
+      <section id="id-414613065938">
+        <title>4.2.2. Hệ thống Raster</title>
+        <para id="id21872646">Mô hình dữ liệu dạng raster phản ánh toàn bộ vùng nghiên cứu dưới dạng một lưới các ô vuông hay điểm ảnh (pixcel). Mô hình raster có các đặc điểm:</para>
+        <list id="id22058397" list-type="bulleted">
+          <item>Các điểm được xếp liên tiếp từ trái qua phải và từ trên xuống dưới.</item>
+          <item>Mỗi một điểm ảnh (pixcel) chứa một giá trị.</item>
+          <item>Một tập các ma trận điểm và các giá trị tương ứng tạo thành một lớp (layer).</item>
+          <item>Trong cơ sở dữ liệu có thể có nhiều lớp.</item>
+        </list>
+        <para id="id22058438">Mô hình dữ liệu raster là mô hình dữ liệu GIS được dùng tương đối phổ biến trong các bài toán về môi trường, quản lý tài nguyên thiên nhiên.</para>
+        <para id="id21664811">Mô hình dữ liệu raster chủ yếu dùng để phản ánh các đối tượng dạng vùng là ứng dụng cho các bài toán tiến hành trên các loại đối tượng dạng vùng: phân loại; chồng xếp.</para>
+        <para id="id21664823">Các nguồn dữ liệu xây dựng nên dữ liệu raster có thể bao gồm:</para>
+        <list id="id21664830" list-type="bulleted">
+          <item>Quét ảnh </item>
+          <item>Ảnh máy bay, ảnh viễn thám </item>
+          <item>Chuyển từ dữ liệu vector sang </item>
+          <item>Lưu trữ dữ liệu dạng raster.</item>
+          <item>Nén theo hàng (Run lengh coding).</item>
+          <item>Nén theo chia nhỏ thành từng phần (Quadtree).</item>
+          <item>Nén theo ngữ cảnh (Fractal).</item>
+        </list>
+        <para id="id21664883">Trong một hệ thống dữ liệu cơ bản raster được lưu trữ trong các ô (thường hình vuông) được sắp xếp trong một mảng hoặc các dãy hàng và cột. Nếu có thể, các hàng và cột nên được căn cứ vào hệ thống lưới bản đổ thích hợp.</para>
+        <para id="id22058452">Việc sử dụng cấu trúc dữ liệu raster tất nhiên đưa đến một số chi tiết bị mất. Với lý do này, hệ thống raster-based không được sử dụng trong các trường hợp nơi có các chi tiết có chất lượng cao được đòi hỏi. </para>
+        <figure id="id22462185">
+          <media id="id1172786075069" alt=""><image src="../../media/graphics6-9deb.png" mime-type="image/png" height="223" width="600"/></media>
+        </figure>
+        <para id="id22462209">Hình 4.5: Sự biểu thị kết quả bản đồ dưới dạng Raster</para>
+        <para id="id22462216">4.2.3. Chuyển đổi cơ sở dữ liệu dạng vector và raster</para>
+        <para id="id22462222">Việc chọn của cấu trúc dử liệu dưới dạng vector hoặc raster tuỳ thuộc vào yêu cầu của người sử dụng, đối với hệ thống vector, thì dữ liệu được lưu trữ sẽ chiếm diện tích nhỏ hơn rất nhiều so với hệ thống raster, đồng thời các đường contour sẽ chính xác hơn hệ thống raster. Ngoài ra cũng tuỳ vào phần mềm máy tính đang sử dụng mà nó cho phép nên lưu trữ dữ liệu dưới dạng vector hay raster. Tuy nhiên đối với việc sử dụng ảnh vệ tinh trong GIS thì nhất thiết phải sử dụng dưới dạng raster. </para>
+        <para id="id22462231">Một số công cụ phân tích của GIS phụ thuộc chặt chẽ vào mô hình dữ liệu raster, do vậy nó đòi hỏi quá trình biến đổi mô hình dữ liệu vector sang dữ liệu raster, hay còn gọi là raster hoá. Biến đổi từ raster sang mô hình vector, hay còn gọi là vector hoá, đặc biệt cần thiết khi tự động quét ảnh. Raster hoá là tiến trình chia đường hay vùng thành các ô vuông (pixcel). Ngược lại, vector hoá là tập hợp các pixcel để tạo thành đường hay vùng. Nết dữ liệu raster không có cấu trúc tốt, thí dụ ảnh vệ tinh thì việc nhận dạng đối tượng sẽ rất phức tạp.</para>
+        <para id="id22287956">Nhiệm vụ biến đổi vector sang raster là tìm tập hợp các pixel trong không gian raster trùng khớp với vị trí của điểm, đường, đường cong hay đa giác trong biểu diễn vector. Tổng quát, tiến trình biến đổi là tiến trình xấp xỉ vì với vùng không gian cho trước thì mô hình raster sẽ chỉ có khả năng địa chỉ hoá các vị trí toạ độ nguyên. Trong mô hình vector, độ chính xác của điểm cuối vector được giới hạn bởi mật độ hệ thống toạ độ bản đồ còn vị trí khác của đoạn thẳng được xác định bởi hàm toán học.</para>
+        <figure id="id21533508">
+          <media id="id1172784968454" alt=""><image src="../../media/graphics7-3d31.png" mime-type="image/png" height="354" width="527"/></media>
+        </figure>
+        <para id="id21533531">Hình 4.6: Sự chuyển đổi dữ liệu giữa raster và vector (Nguồn : Tor Bernhardsen, 1992)</para>
+        <para id="id21533542">4.2.4. Thuận lợi và bất lợi của hệ thống dữ liệu raster và vector</para>
+        <para id="id21533549">4.2.4.1. Thuận lợi của hệ thống cơ sở dữ liệu raster </para>
+        <list id="id21533558" list-type="bulleted">
+          <item>Vị trí địa lý của mỗi ô được xác định bởi vị trí của nó trong ô biểu tượng, hình ảnh có thể được lưu trữ trong một mảng tương xứng trong máy vi tính cung cấp đủ dữ liệu bất kỳ lúc nào. Vì vậy mỗi ô có thể nhanh chóng và dễ dàng được định địa chỉ trong máy theo vị trí địa lý của nó.</item>
+          <item>Những vị trí kế cận được hiện diện bởi các ô kế cận, vì vậy mối liên hệ giữa các ô có thể được phân tích một cách thuận tiện</item>
+          <item>Quá trình tính toán đơn giản hơn và dễ dàng hơn cơ sở hệ thống dữ liệu vector.</item>
+          <item>Đơn vị bản đồ ranh giới thửa được trình bày một cách tự nhiên bởi giá trị ô khác nhau, khi giá trị thay đổi, việc chỉ định ranh giới thay đổi.</item>
+        </list>
+        <para id="id21776059">4.2.4.2. Bất lợi của hệ thống dữ liệu raster</para>
+        <list id="id21776064" list-type="bulleted">
+          <item>Khả năng lưu trữ đòi hỏi lớn hơn nhiều so với hệ thống cơ sở dữ liệu vector.</item>
+          <item>Kích thước ô định rõ sự quyết định ở phương pháp đại diện ở phương pháp đại diện. Điều này đặc biệt khó dễ cân xứng với sự hiện diện đặc tính thuộc về đường thẳng.</item>
+        </list>
+        <para id="id21776095">Thường hầu như hình ảnh gần thì nối tiếp nhau, điều này có nghĩa là nó phải tiến hành một bản đồ hoàn chỉnh chính xác để thay đổi 1 ô đơn. Quá trình tiến hành của dữ liệu về kết hợp thì choáng nhiều chỗ hơn với 1 hệ thống cơ sở vector.</para>
+        <para id="id21776110">Dữ liệu được đưa vào hầu như được số hoá trong hình thức vector, vì thế nó phải chính xác 1 vector đến sự thay đổi hoạt động raster để đổi dữ liệu hệ số hoá vào trong hình thức lưu trữ thích hợp.</para>
+        <para id="id22287987">Điều này thì khó hơn việc xây dựng vào trong bản đồ từ dữ liệu raster.</para>
+        <para id="id21934055">4.2.4.3. Thuận lợi của hệ thống cơ sở vector</para>
+        <list id="id21934061" list-type="bulleted">
+          <item>Việc lưu trữ được đòi hỏi ít hơn hệ thống cơ sở dữ liệu raster</item>
+          <item>Bản đồ gốc có thể được hiện diện ở sự phân giải gốc của nó.</item>
+          <item>Đặc tính phương pháp như là các kiểu từng, đường sá, sông suối, đất đai có thể được khôi phục lại và tiến triển 1 cách đặc biệt.</item>
+          <item>Điều này dễ hơn để kết hợp trạng thái khác nhau của phương pháp mô tả dữ liệu với 1 đặc tính phương pháp đơn.</item>
+          <item>Hệ số hoá các bản đổ không cần được khôi phục lại từ hình thức raster.</item>
+          <item>Dữ liệu lưu trữ có thể được tiến triển trong bản đồ kiểu dạng đường thẳng mà không 1 raster để sự khôi phục vector.</item>
+        </list>
+        <para id="id21934116">4.2.4.4. Bất lợi của hệ thống cơ sở dữ liệu vector</para>
+        <list id="id21001332" list-type="bulleted">
+          <item>Vị trí của điểm đỉnh cần được lưu trữ 1 cách rõ ràng </item>
+        </list>
+        <list id="id21001343" list-type="bulleted">
+          <item>Mối quan hệ của những điểm này phải được định dạng trong 1 cấu trúc thuộc về địa hình học, mà nó có lẽ khó để hiểu và điều khiển.</item>
+          <item>Thuật toán cho việc hoàn thành chức năng thì hoàn toàn tương đương trong hệ thống cơ sở dữ liệu raster là quá phức tạp và việc hoàn thành có lẽ là không xác thực.</item>
+          <item>Sự thay đổi 1 cách liên tiếp dữ liệu thuộc về không gian không thể được hiện diện như raster. 1 sự khôi phục để raster được yêu cầu tiến hành dữ liệu kiểu này.</item>
+        </list>
+        <para id="id21001386">4.3. MÔ HÌNH THÔNG TIN THUỘC TÍNH </para>
+        <para id="id21001391">Số liệu phi không gian hay còn gọi là thuộc tính là những mô tả về đặc tính, đặc điểm và các hiện tượng xảy ra tại các vị trí địa lý xác định. Một trong các chức năng đặc biệt của công nghệ GIS là khả năng của nó trong việc liên kết và xử lý đồng thời giữa dữ liệu bản đồ và dữ liệu thuộc tính. Thông thường hệ thống thông tin địa lý có 4 loại số liệu thuộc tính:</para>
+        <para id="id21001407">- Đặc tính của đối tượng: liên kết chặt chẽ với các thông tin không gian có thể thực hiện SQL (Structure Query Language) và phân tích</para>
+        <para id="id21838576">- Số liệu hiện tượng, tham khảo địa lý: miêu tả những thông tin, các hoạt động thuộc vị trí xác định.</para>
+        <para id="id21838586">- Chỉ số địa lý: tên, địa chỉ, khối, phương hướng định vị, …liên quan đến các đối tượng địa lý.</para>
+        <para id="id21838596">- Quan hệ giữa các đối tượng trong không gian, có thể đơn giản hoặc phức tạp (sự liên kết, khoảng tương thích, mối quan hệ đồ hình giữa các đối tượng).</para>
+        <para id="id21838608">Để mô tả một cách đầy đủ các đối tượng địa lý, trong bản đồ số chỉ dùng thêm các loại đối tượng khác: điểm điều khiển, toạ độ giới hạn và các thông tin mang tính chất mô tả (annotation).</para>
+        <para id="id21838619">Annotation: Các thông tin mô tả có các đặc điểm:</para>
+        <list id="id21838633" list-type="bulleted">
+          <item>Có thể nằm tại một vị trí xác định trên bản đồ </item>
+          <item>Có thể chạy dọc theo arc</item>
+          <item>Có thể có các kích thước, màu sắc, các kiểu chữ khác nhau </item>
+          <item>Nhiều mức của thông tin mô tả có thể được tạo ra với ứng dụng khác nhau.</item>
+          <item>Có thể tạo thông tin cơ sở dữ liệu lưu trữ thuộc tính </item>
+          <item>Có thể tạo độc lập với các đối tượng địa lý ïcó trong bản đồ </item>
+          <item>Không có liên kết với các đối tượng điểm, đường, vùng và dữ liệu thuộc tính của chúng </item>
+        </list>
+        <para id="id22229653">Bản chất một số thông tin dữ liệu thuộc tính như sau:</para>
+        <para id="id22229660">- Số liệu tham khảo địa lý: mô tả các sự kiện hoặc hiện tượng xảy ra tại một vị trí xác định. Không giống các thông tin thuộc tính khác, chúng không mô tả về bản thân các hình ảnh bản đồ. Thay vào đó chúng mô tả các danh mục hoặc các hoạt động như cho phép xây dựng, báo cáo tai nạn, nghiên cứu y tế, … liên quan đến các vị trí địa lý xác định. Các thông tin tham khảo địa lý đặc trưng được lưu trữ và quản lý trong các file độc lập và hệ thống không thể trực tiếp tổng hợp chúng với các hình ảnh bản đồ trong cơ sở dữ liệu của hệ thống. Tuy nhiên các bản ghi này chứa các yếu tố xác định vị trí của sự kiện hay hiện tượng.</para>
+        <para id="id22229667">- Chỉ số địa lý: được lưu trong hệ thống thông tin địa lý để chọn, liên kết và tra cứu số liệu trên cơ sở vị trí địa lý mà chúng đã được mô tả bằng các chỉ số địa lý xác định. Một chỉ số có thể bao gồm nhiều bộ xác định cho các thực thể địa lý sử dụng từ các cơ quan khác nhau như là lập danh sách các mã địa lý mà chúng xác định mối quan hệ không gian giữa các vị trí hoặc giữa các hình ảnh hay thực thể địa lý. Ví dụ: chỉ số địa lý về đường phố và địa chỉ địa lý liên quan đến phố đó.</para>
+        <para id="id22229674">- Mối quan hệ không gian: của các thực thể tại vị trí địa lý cụ thể rất quan trọng cho các chức năng xử lý của hệ thống thông tin địa lý. Các mối quan hệ không gian có thể là mối quan hệ đơn giản hay lôgic, ví dụ tiếp theo số nhà 101 phải là số nhà 103 nếu là số nhà bên lẻ hoặc nếu là bên chẵn thì cả hai đều phải là các số chẵn kề nhau. Quan hệ Topology cũng là một quan hệ không gian. Các quan hệ không gian có thể được mã hoá như các thông tin thuộc tính hoặc ứng dụng thông qua giá trị toạ độ của các thực thể.</para>
+        <para id="id22229682">- Mối quan hệ giữa dữ liệu không gian và phi không gian: thể hiện phương pháp chung để liên kết hai loại dữ liệu đó thông qua bộ xác định, lưu trữ đồng thời trong các thành phần không gian và phi không gian. Các bộ xác định có thể đơn giản là một số duy nhất liên tục, ngẫu nhiên hoặc các chỉ báo địa lý hay số liệu xác định vị trí lưu trữ chung. Bộ xác định cho một thực thể có thể chứa toạ độ phân bố của nó, số hiệu mảnh bản đồ, mô tả khu vực hoặc con trỏ đến vị trí lưu trữ của số liệu liên quan. Bộ xác định được lưu trữ cùng với các bản ghi toạ độ hoặc mô tả số khác của các hình ảnh không gian và cùng với các bản ghi số liệu thuộc tính liên quan.</para>
+        <para id="id21788849">Sự liên kết giữa hai loại thông tin cơ bản trong cơ sở dữ liệu GIS thể hiện theo sơ đồ sau:</para>
+        <para id="id22207441"><table id="id22207462" summary=""><tgroup cols="4"><colspec colnum="1" colname="c1"/><colspec colnum="2" colname="c2"/><colspec colnum="3" colname="c3"/><colspec colnum="4" colname="c4"/><tbody><row><entry>ID (mã)</entry><entry>Tính chất 1</entry><entry>Tính chất 2</entry><entry>Tính chất 3</entry></row><row><entry>1</entry><entry>x</entry><entry>x</entry><entry>x</entry></row><row><entry>2</entry><entry>x</entry><entry>x</entry><entry>x</entry></row><row><entry>3</entry><entry>x</entry><entry>x</entry><entry>x</entry></row><row><entry>…</entry><entry>…</entry><entry>…</entry><entry>…</entry></row></tbody></tgroup></table>1243</para>
+        <para id="id21759524"/>
+        <para id="id21759546">Hình 4.7: Mối quan hệ giữa thông tin bản đồ và thông tin thuộc tính (Nguồn : Nguyễn Thế Thận, Trần Công Yên, 2000)</para>
+      </section>
+    </section>
+  </content>
+</document>

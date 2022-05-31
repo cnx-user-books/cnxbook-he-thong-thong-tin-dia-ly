@@ -1,0 +1,446 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Cơ sở địa lý học</title>
+  <metadata>
+  <md:content-id>m30470</md:content-id><md:title>Cơ sở địa lý học</md:title>
+  <md:abstract>Cơ sở địa lý học</md:abstract>
+  <md:uuid>1cfabbdb-4762-4fd8-bb54-3840fb9ea2bd</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-584769759079">
+      <title>KHÁI NIỆM CHUNG VỀ BẢN ĐỒ ĐỊA LÝ</title>
+      <section id="id-0417937275185">
+        <title>Định nghĩa </title>
+        <para id="id21778958">Bản đồ địa lý là sự biểu thị thu nhỏ qui ước của bề mặt trái đất lên mặt phẳng, xây dựng trên cơ sở toán học với sự trợ giúp và sử dụng các ký hiệu qui ước để phản ánh sự phân bố, trạng thái và mối quan hệ tương quan của các hiện tượng thiên nhiên và xã hội được lựa chọn và khái quát hoá để phù hợp với mục đích sử dụng của bản đồ và đặc trưng cho khu vực nghiên cứu.</para>
+        <figure id="id21778976">
+          <media id="id14853497" alt=""><image src="../../media/graphics1-bd56.png" mime-type="image/png" height="221" width="509"/></media>
+        </figure>
+        <para id="id21792606">Hình 2.1: Biểu thị của bề mặt trái đất lên mặt phẳng (Nguồn : Keith Clarke, 1995)</para>
+        <list id="id21792621" list-type="enumerated">
+          <item>Bản đồ như mô hình toán học</item>
+        </list>
+        <para id="id21792631">Chúng ta biết trái đất có dạng Geoid, nhưng trong thực tế được coi là hình Elipxoid có kích thước và hình dạng gần đúng như hình Geoid.</para>
+        <figure id="id21792644">
+          <media id="id17957300" alt=""><image src="../../media/graphics2-3afb.png" mime-type="image/png" height="197" width="233"/></media>
+        </figure>
+        <para id="id21110454">Hình 2.2: Dạng Geoid và hình Elipxoid (Nguồn : Dorothy Freidel, 1993)</para>
+        <para id="id21110467">Khi biểu thị lên mặt phẳng một phần nhỏ bề mặt trái đất (trong phạm vi 20x20km) thì độ cong trái đất có thể bỏ qua. Trong trường hợp này các đường thẳng đã đo trên thực địa được thu nhỏ theo tỷ lệ qui định và biểu thị trên giấy không cần hiệu chỉnh độ cong của trái đất. Những bản vẽ như thế gọi là bình đồ.</para>
+        <para id="id21110482">Trên bình đồ, tỷ lệ ở mọi nơi và mọi hướng đều như nhau. Trên bản đồ biểu thị toàn bộ trái đất hoặc một diện tích lớn thì độ cong của trái đất là không thể bỏ qua.</para>
+        <para id="id21110494">Việc chuyển từ mặt Elipxoid lên mặt phẳng được thực hiện nhờ phép chiếu bản đồ. Các phép chiếu biểu hiện quan hệ giữa toạ độ các điểm trên mặt đất và toạ độ các điểm đó trên mặt phẳng bằng các phương pháp toán học. trong trường hợp này, các phần tử nội dung bản đồ giữ đúng vị trí địa lý, nhưng sẽ có sai số về hình dạng hoặc diện tích. Bề mặt trái đất được biểu thị trên bản đồ với mức độ thu nhỏ khác nhau tại những phần khác nhau của nó, có nghĩa là tỷ lệ ở những điểm khác nhau trên bản đồ cũng khác nhau. Có thể biểu thị mặt cầu trái đất trên mặt phẳng theo nhiều cách khác nhau. Nếu dùng các phép chiếu khác nhau và tuân theo các điều kiện toán học nhất định đặt ra cho sự biểu thị đó. </para>
+        <para id="id21075981">Ví dụ: người ta cần những phép chiếu đồng góc hoặc đồng diện tích. Muốn vậy, theo những điều kiện nhất định tính toạ độ các giao điểm của kinh tuyến và vĩ tuyến. Dựa theo những điểm này dựng hệ lưới kinh vĩ tuyến gọi là lưới bản đồ. Lưới bản đồ dùng làm cơ sở để chuyển vẽ toàn bộ nội dung còn lại của bản đồ</para>
+        <para id="id21076006">b. Mô hình thực tiễn </para>
+        <para id="id21868770">Trên bản đồ người ta thể hiện các đối tượng và hiện tượng có trên mặt đất trong thiên nhiên, xã hội và các lĩnh vực hoạt động của con người.</para>
+        <para id="id21868780">Các yếu tố nội dung của bản đồ là:</para>
+        <list id="id21868786" list-type="bulleted">
+          <item>Thuỷ hệ </item>
+          <item>Địa hình bề mặt </item>
+          <item>Dân cư</item>
+          <item>Đường giao thông </item>
+          <item>Ranh giới hành chánh - chính trị </item>
+          <item>Lớp phủ thổ nhường - thực vật </item>
+          <item>Các đối tượng kinh tế xã hội</item>
+        </list>
+        <para id="id22196140">Các yếu tố kể trên được thể hiện trên bản đồ địa lý chung và trên một số các bản đồ chuyên đề.</para>
+        <para id="id22196149">Bản đồ chuyên đề có các yếu tố nội dung riêng đặc trưng cho từng loại như thổ nhường địa chất. Trên các bản đồ chuyên đề các yếu tố địa lý chung được thể hiện với các mức độ khác nhau phụ thuộc vào giá trị của chúng trong việc nêu bật các yếu tố chính của bản đồ chuyên đề. Chúng ta sẽ trở lại với nội dung của bản đồ chuyên đề ở phần sau.</para>
+        <list id="id22196166" list-type="enumerated">
+          <item>Bản đồ như mô hình qui ước </item>
+        </list>
+        <para id="id22196176">Các yếu tố nội dung của bản đồ được thể hiện bằng những ký hiệu qui ước. Các ký hiệu thể hiện vị trí, hình dáng kích thước của đối tượng trong thực tế, ngoài ra còn thể hiện một số đặc trưng về số lượng và chất lượng.</para>
+        <para id="id22196191">Phân ra 3 loại ký hiệu:</para>
+        <list id="id22039700" list-type="bulleted">
+          <item>Ký hiệu theo tỷ lệ - vùng </item>
+          <item>Ký hiệu theo tỷ lệ - đường </item>
+          <item>Ký hiệu phi tỷ lệ - điểm </item>
+        </list>
+        <para id="id22039723">Việc thể hiện kích thước và các đặc trưng khác đối tượng trên bản đồ đạt được bằng cách sử dụng màu sắc, cấu trúc của ký hiệu và các ghi chú kèm theo.</para>
+        <para id="id22039734">Việc sử dụng hệ thống ký hiệu qui ước cho phép chúng ta:</para>
+        <list id="id22039741" list-type="bulleted">
+          <item>Biểu thị toàn bộ bề mặt trái đất hoặc những khu vực lớn trong một bản đồ giúp chúng ta nắm bắt những điểm quan trọng không thể thể hiện với tỷ lệ nhỏ. Điều đó là không thể nếu sử dụng những mô hình không gian kiểu ảnh hàng không.</item>
+          <item>Thể hiện bề mặt lồi lõm của trái đất lên mặt phẳng </item>
+          <item>Phản ánh các tính chất bên trong của sự vật, hiện tượng </item>
+          <item>Thể hiện sự phân bố, các quan hệ của sự vật, hiện tượng một cách trực quan </item>
+          <item>Loại bỏ những mặt ít giá trị, các chi tiết vụn vặt không đặc trưng hoặc đặc trưng cho các đối tượng riêng lẻ, mặt khác nêu bật các tính chất căn bản, các tính chất chung. Ký hiệu giữ những nét đặc trưng trên trên các bản đồ khác nhau về tỷ lệ và thể loại. Như vậy tạo điều kiện thuận lợi cho việc sử dụng các bản đồ khác nhau.</item>
+        </list>
+        <para id="id22510449">d. Lựa chọn và tổng quát hoá (TQH)</para>
+        <para id="id22510455">Các bản đồ với tỷ lệ, đề tài với mục đích sử dụng khác nhau có những yêu cầu khác nhau về các yếu tố nội dung. Tổng quát hoá bản đồ là phương pháp thể hiện và phát hiện những nét chủ yếu và điển hình đặc trưng cho các hiện tượng được phản ánh. Tổng quát hoá là bắt buộc khi ta xây dựng những mô hình thu nhỏ. Tổng quát hoá bản đồ được thực hiện bằng cách: </para>
+        <list id="id22048489" list-type="bulleted">
+          <item>Chọn lọc các đối tượng và hiện tượng được biểu thị </item>
+          <item>Khái quát các đặc trưng về số lượng và chất lượng </item>
+          <item>Thay thế các đối tượng riêng lẻ bằng những đối tượng bao quát </item>
+          <item>Khái quát hình vẽ biểu thị các đối tượng và hiện tượng </item>
+        </list>
+        <para id="id22048523">Tổng quát hoá dẫn đến mâu thuẫn (xung khắc) giữa những yêu cầu về độ chính xác hình học và phù hợp địa lý của bản đồ song tổng quát hoá là bắt buộc với khi xây dựng bất kỳ model thu nhỏ nào. Tổng quát hoá ở một mức độ nào đó được dùng như phương tiện trừu tượng hoá và nhận thức .Tổng quát hoá đem lại cho bản đồ những giá trị mới. Như vậy, cơ sở toán học, sự tổng quát hoá các yếu tố nội dung và sự thể hiện các đối tượng và hiện tượng bằng các ký hiệu qui ước là 3 đặc tính cơ bản phân biệt giữa bản đồ và các hình thức biểu thị bề mặt trái đất khác.</para>
+      </section>
+      <section id="id-189482172167">
+        <title>Các tính chất của bản đồ </title>
+        <para id="id22048536">- Tính trực quan: bản đồ cho ta khả năng bao quát và tiếp thu nhanh chóng những yếu tố chủ yếu và quan trọng nhất của nội dung bản đồ. Nó phản ánh các tri thức về các đối tượng (hiện tượng) được biểu thị bằng bản đồ, người sử dụng có thể tìm ra những qui luật của sự phân bố các đối tượng và hiện tượng </para>
+        <para id="id22043146">- Tính đo được: có liên quan chặt chẽ với cơ sở toán học của bản đồ. Căn cứ vào tỷ lệ, phép chiêu, vào thang bậc của các dấu hiệu qui ước, người sử dụng có khả năng xác định các trị số khác nhau như: toạ độ, biên độ, khoảng cách, diện tích, thể tích, góc phương hướng. Chính nhờ tính chất này mà bản đồ được dùng làm cơ sở để xây dựng các mô hình toán học của các hiện tượng địa lý, giải quyết các bài toán khoa học và thực tiễn.</para>
+        <para id="id22043162">- Tính thông tin: khả năng lưu trữ và truyền đạt cho người sử dụng.</para>
+      </section>
+      <section id="id-145719491655">
+        <title>Các yếu tố nội dung của bản đồ địa lý </title>
+        <list id="id21100131" list-type="enumerated">
+          <item>Thuỷ hệ </item>
+        </list>
+        <para id="id21100140">Gồm các đối tượng thuỷ văn: biển, sông, kênh, hồ, các hồ chứa nước nhân tạo, mạch nước, giếng, mương máng, ... các công trình thuỷ lợi khác và giao thông thuỷ: bến cảng, cầu cống, thuỷ điện, đập. Theo giá trị giao thông chia sông thành tàu bè đi lại được hay không, theo tính chất dòng chảy: có dòng chảy hoặc khô cạn một mùa,... nguồn nước: tự nhiên nhân tạo các kiểu đường bờ. Khi thể hiện thuỷ hệ người ta dùng các ký hiệu khác nhau ho phép phản ánh đầy đủ nhất các đặc tính. Bằng những ký hiệu bổ sung, giải thích con số,... thể hiện các đặc tính như: chiều rộng, sâu tốc độ hướng dòng chảy, chất đáy, điểm đường bờ chất lượng nước,... đối với những đối tượng quan trọng ta ghi chú tên gọi địa lý của chúng. Trên bản đồ sông được thể hiện bằng một hoặc hai nét phụ thuộc vào độ rộng trên thực địa mức độ quan trọng và tỷ lệ bản đồ.</para>
+        <para id="id21100144">b. Điểm dân cư</para>
+        <para id="id21100148">Là một trong các yếu tố quan trọng nhất của bản đồ địa hình được đặc trưng bởi kiểu cư trú: (TT,TN), dân số ý nghĩa hành chính chính trị. Đặc điểm của dân cư được biểu thị bằng độ lớn màu sắc, kiểu dáng của ký hiệu và ghi chú tên gọi.</para>
+        <para id="id21873062">Ví dụ: trên bản đồ địa hình tỷ lệ 1/5000 biểu thị tất cả các công trình xây dựng theo tỷ lệ, đặc trưng của vật liệu xây dựng ...</para>
+        <para id="id22138190">Trên bản đồ 25.000 đến 100.000 biểu thị các điểm dân cư tập trung bằng các ô phố và khái quát đặc trưng chất lượng. Các công trình xây dựng độc lập biểu thị bằng ký hiệu phi tỷ lệ, cố gắng giữ sự phân bố.</para>
+        <para id="id22138203">c. Đường giao thông </para>
+        <para id="id22138208">Gồm đường sắt, đường bộ, đường thuỷ, đường hàng không. Đặc tính của các đường giao thông được thể hiện khá đầy đủ, tỉ mỉ về khái niệm giao thông và trạng thái cấp quản lý đường. Mạng lưới đường giao thông thể hiện chi tiết hay khái lược phụ thuộc vào tỷ lệ bản đồ, cần thiết phải phản ánh mật độ, hướng và vị trí của đường giao thông. Đường sắt phân theo chiều rộng, số đường rầy, hiện trạng và số dạng sức kéo. Trên đường sắt biểu thị nhà ga, các vật kiến trúc, thiết bị đường sắt (cầu, cống, tháp nước, trạm canh...), đường tàu điện. Đường bộ phân ra theo tình trạng kỹ thuật, chiều rộng, cấp quản lý, giá trị giao thông </para>
+        <para id="id22138242">Để nêu bật các đặc trưng trên bản đồ sử dụng các ký hiệu với màu sắc, kiểu dán khác nhau và các ghi chú giải thích. Khi lựa chọn biểu thị đường giao thông phải xét đến ý nghĩa của đường sá, ưu tiên biểu thị những con đường đảm bảo mối quan hệ giữa các điểm dân cư và các đầu nút giao thông, các trung tâm văn hoá – kinh tế, ...</para>
+        <para id="id22138246">d. Các đối tượng kinh tế xã hội </para>
+        <para id="id21935899">Đường dây thông tin, dẫn điện, dầu, khí đốt, các đối tượng kinh tế, văn hoá, lịch sử, sân bay, cảng </para>
+        <para id="id21935905">e. Dáng đất </para>
+        <para id="id21935913">Trên bản đồ địa lý được thể hiện bằng các đường bình đồ. Một số dạng riêng biệt thể hiện bằng ký hiệu (vực, khe xói, đá tảng, đá vụn).</para>
+        <para id="id21935923">- Độ cao so với mặt biển của một số điểm đặc trưng </para>
+        <para id="id21935930">- Các đối tượng sơn băng (dãy núi, đồng bằng, thung lũng yên ngựa, địa hình caster, đường phân thuỷ, tụ thuỷ, ...).</para>
+        <para id="id21935939">Khoảng cao đều giữa các đường bình độ trên bản đồ địa hình được qui định trong các qui phạm theo tỷ lệ bản đồ và đặc điểm khu vực (đồng bằng hoặc núi). Ví dụ: bản đồ 1/50.000 khoảng cao đều bằng 10-20 m; 1/100.000 khoảng cao đều 20-40 m. Để thể hiện đầy đủ các tính chất đặc trưng của địa hình, đặc biệt là các vùng đồng bằng, người ta vẽ thêm các đường bình độ nửa khoảng cao đều và đường bình độ phụ. Các đường bình độ cái được đánh số, các đường bình độ ở yên núi bổ sung vạch chỉ dốc. Dáng đất (địa hình) có khi được thể hiện bằng phương pháp tô bóng địa hình, hoặc phân tầng màu theo độ cao hoặc kết hợp giữa các phương pháp.</para>
+        <list id="id22236832" list-type="enumerated">
+          <item>Ranh giới hành chính - chính trị </item>
+        </list>
+        <para id="id22236842">Bao gồm ranh giới quốc gia và ranh giới cấp hành chính tuỳ thuộc vào vào tỷ lệ và mục đích sử dụng của bản đồ.</para>
+        <list id="id22236851" list-type="enumerated">
+          <item>Cơ sở thiên văn- trắc địa và điểm định hướng (bản đồ địa hình)</item>
+        </list>
+        <para id="id22275240">Địa vật định hướng là những đối tượng cho phép ta xác định vị trí nhanh chóng và chính xác trên bản đồ thường được biểu tượng bằng các đối tượng phi tỷ lệ trên thực tế là những địa vật dễ nhận biết (ngã ba, ngã tư đường sá, giếng ở xa khu dân cư...) hoặc nhô cao so với mặt đất.</para>
+        <para id="id22275257">Các điểm thuộc lưới khống chế cơ sở được biểu thị với mức độ chi tiết và độ chính xác phụ thuộc vào tỷ lệ cũng như mức độ sử dụng của bản đồ </para>
+        <list id="id22275268" list-type="enumerated">
+          <item>Ghi chú trên bản đồ </item>
+        </list>
+        <para id="id22275280">Ghi chú trên bản đồ là các chữ viết nhằm giải thích theo ký hiệu, các địa danh, tên các đối tượng. Chúng kết hợp với ký hiệu trên bản đồ và làm phong phú nội dung của bản đồ. Ghi chú bản đồ giúp chúng ta khái quát nội dung của bản đồ cũng như phân biệt các đối tượng.</para>
+        <para id="id22275284">* Phân loại ghi chú trên bản đồ:</para>
+        <para id="id22275290">Có nhiều loại ghi chú khác nhau</para>
+        <list id="id22040112" list-type="bulleted">
+          <item>Tên riêng của các đối tượng: tên thành phố, tên tỉnh, ...</item>
+          <item>Ghi chú chỉ dẫn </item>
+          <item>Ghi chú giải thích tính chất của các đối tượng, thuật ngữ địa lý, các đặc trưng về số lượng, chất lượng ...</item>
+          <item>Ghi chú có khả năng chuyển tải thông tin bằng font chữ, kích thước, màu sắc, định hướng ...Ghi chú thường được bố trí gần với các đối tượng liên quan </item>
+          <item>Lớp phủ thực vật - thổ nhường</item>
+        </list>
+        <para id="id21879023">Trên bản đồ biểu thị các loại rừng, cây bụi, vườn cây, đồn điền, ruộng muối, đất mặn, đầm lầy. Ranh giới các khu vực được biểu thị chính xác về phương diện đồ hoạ, các loại thực vật và thổ nhường khác nhau được thể hiện bằng ký hiệu qui ước đặc trưng.</para>
+        <para id="id21879042">Ví dụ: Đầm lầy phân ra thành đầm lầy qua được, đầm lầy không qua được và khó qua. Rừng, rừng già, rừng thưa, rừng non, rừng mới trồng ... Các loại thực vật tự nhiên và người trồng ...</para>
+        <para id="id21879062">Trên bản đồ chuyên đề lớp phủ thực vật và thổ nhường thường không được thể hiện hoặc thể hiện sơ lược phụ thuộc vào nội dung, tỷ lệ và mục đích sử dụng của bản đồ.</para>
+        <para id="id22129499"><figure id="id22129508"><media id="id22267939" alt=""><image src=".png" mime-type="image/png" height="406" width="452"/></media></figure>Ranh giới hành chánhMạng lưới sông rạchLoại đấtHiện trạngCao độBản đồ nềnToạ độ điểm tham khảo</para>
+        <para id="id21929937">Hình .2.3: Mô hình các lớp dữ liệu trong GIS</para>
+      </section>
+      <section id="id-553317846163">
+        <title>Cơ sở toán học của bản đồ địa lý </title>
+        <para id="id21929960">Bao gồm:</para>
+        <list id="id21929964" list-type="bulleted">
+          <item>Tỷ lệ </item>
+          <item>Cơ sở trắc địa và thiên văn </item>
+          <item>Lưới kinh - vĩ tuyến và các lưới toạ độ khác </item>
+          <item>Bố cục bản đồ và khung bản đồ </item>
+          <item>Hệ thống chia mảnh </item>
+          <item>Số liệu </item>
+        </list>
+        <para id="id22438534">a. Tỉ lệ bản đồ (map scale)</para>
+        <para id="id22438544">Tỷ lệ bản đồ thường được hiểu là tỷ lệ độ dài của một đường trên bản đồ và độ dài thực của nó trên thực địa. Trên bình đồ biểu thị một khu vực nhỏ của bề mặt trái đất, ảnh hưởng của độ cong trái đất trên bản đồ là không đáng kể nên tỷ lệ trên toàn bản đồ là như nhau. Trên bản đồ những khu vực lớn hơn, độ cong của trái đất gây nên sự biến dạng trong biểu thị các các đối tượng nên tỷ lệ bản đồ là đại lượng thay đổi từ điểm này sang điểm khác hay thậm chí trên cùng một điểm cũng thay đổi theo các hướng khác nhau. Tỷ lệ chính của bản đồ (được ghi trên bản đồ) được bảo toàn ở một số điểm và một số hướng tuỳ thuộc vào phép chiếu. Ta hiểu tỷ lệ của bản đồ là mức độ thu nhỏ của bề mặt trái đất khi biểu diễn lên bản đồ.</para>
+        <para id="id22438551">Tỉ lệ bản đồ nói lên mức độ chi tiết các thành phần có thể biểu hiện được trên bản đồ và kích thước các chi tiết có thể đo đạc được tương ứng với điều kiện ngoài thực tế.</para>
+        <para id="id21538799">Tỉ lệ bản đồ có thể được biểu hiện như là một đơn vị đo đạc và chuyển đổi, thí dụ như ở tỉ lệ 1/24.000, 1 cm trên bản đồ tương ứng với 24.000 cm ngoài thực tế hoặc 24 m.</para>
+        <para id="id21538812">Một bản đồ có tỉ lệ là 1/10.000 sẽ bao phủ một vùng rộng lớn hơn bản đồ ở tỉ lệ 1/24.000, tuy nhiên bản đồ có tỉ lệ lớn sẽ chứa các đặc điểm chi tiết hơn bản đồ có tỉ lệ nhỏ.</para>
+        <list id="id21622405" list-type="enumerated">
+          <item>Cơ sở trắc địa - thiên văn của bản đồ </item>
+        </list>
+        <para id="id22438556">Được đặc trưng bởi hình Elipxoit và hệ thống toạ độ trắc địa khởi điểm đã sử dụng để thành lập bản đồ. Cơ sở trắc địa- thiên văn được thể hiện bằng các điểm khống chế, các điểm khống chế là những điểm đã được cố định trên thực địa và được xác định toạ độ. Những điểm khống chế này được sử dụng khi thành lập bản đồ tỷ lệ lớn để xác định đúng vị trí các yếu tố nội dung của bản đồ </para>
+        <para id="id21538819">* Geoid là gì?</para>
+        <para id="id21622436">Bề mặt tự nhiên của trái đất rất phức tạp về mặt hình học không thể biểu thị nó bởi một qui luật nhất định nào. Trong trắc địa bề mặt tự nhiên trái đất được thay thế bằng mặt Geoid. Mặt Geoid là mặt nước biển trung bình yên tĩnh trải rộng xuyên qua lục địa và luôn vuông góc với các hướng dây dọi. Tuy được định nghĩa đơn giản như vậy song do sự phân bố không đồng đều của các khối vật chất trong vỏ quả đất làm biến đổi hướng trọng lực, nên bề mặt Geoid có dạng phức tạp về mặt hình học.</para>
+        <para id="id21622443">* Bề mặt Elipxoid quay của trái đất </para>
+        <para id="id21622449">Trong thực tiễn trắc địa bản đồ, người ta lấy mặt Elipxoid quay có hình dạng kích thước gần giống Geoid làm bề mặt toán học thay cho Geoid. Elipxoid có khối lượng bằng khối lượng Geoid, tâm trùng với trọng tâm của trái đất, mặt phẳng xích đạo trùng với mặt phẳng xích đạo trái đất.</para>
+        <para id="id21622453">Kích thước của Elipxoid quay được xác định bằng:</para>
+        <list id="id22265056" list-type="enumerated">
+          <item>Bán trục lớn</item>
+          <item>Bán trục nhỏ </item>
+        </list>
+        <para id="id22265071">Độ dẹt:  = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">−</m:mo><m:mi>b</m:mi></m:mrow><m:mi>a</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {a - b}  over  {a} } } {}</m:annotation></m:semantics></m:math></para>
+        <list id="id22304328" list-type="enumerated">
+          <item>Độ lệch tâm </item>
+          <item>Độ lệch tâm thứ 2:
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>e</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mroot><m:mrow><m:mi fontstyle="italic">a2</m:mi><m:mo stretchy="false">−</m:mo><m:mi fontstyle="italic">b2</m:mi></m:mrow><m:mrow/></m:mroot><m:mi fontstyle="italic">a2</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{e= {  { nroot {}  {a2 - b2} }  over  {a2} } } {}</m:annotation></m:semantics></m:math></item>
+        </list>
+        <para id="id22166830">Kích thước của Elipxoid trái đất được tính theo tài liệu đo đạc trắc địa, thiên văn và trọng lực.</para>
+        <para id="id22166838">Ngoài việc xác định kích thước của Elipxoid thay cho Geoid, cần phải đặt đúng Elipxoid ở thể trái đất gọi là định hướng Elipxoid. Định hướng Elipxoid khác nhau dẫn đến sự khác nhau về toạ độ của một điểm khi tính toạ độ từ những góc khác nhau. </para>
+        <para id="id22043410">Kích thước và định hướng elipxoid được xác định khác nhau trên thế giới gây nên sự phức tạp trong sử dụng tài liệu trắc địa - bản đồ.</para>
+        <para id="id22043424">* Các nguồn tài liệu trắc địa - bản đồ ở Việt Nam:</para>
+        <list id="id22043430" list-type="bulleted">
+          <item>Bản đồ do Pháp thành lập trước năm 1954 chủ yếu sử dụng Elipxoid Cbamie 1880 </item>
+          <item>Bản đồ sau năm 1954 sử dụng Elipxoid Krassobsk, lưới chiếu Gauss, Kruger</item>
+          <item>Bản đồ do người Mỹ thành lập trước năm 1975, lưới chiếu UTM, Elipxoid, Everest, 1830</item>
+        </list>
+        <para id="id22043459">Bản đồ UTM là nguồn tài liệu phong phú, đặc biệt đối với các vùng núi và cao nguyên hiểm trở. Thường được thành lập bằng phương pháp chụp ảnh máy bay. Việc sửa đổi, hiệu chỉnh để đưa vào sử dụng các nguồn tài liệu này đang được thực hiện.</para>
+        <list id="id21008300" list-type="enumerated">
+          <item>Hệ toạ độ</item>
+        </list>
+        <para id="id21008311">Trước khi các số liệu về địa lý được sử dụng trong GIS, chúng phải được tham khảo với một hệ thống toạ độ thông thường. Các khó khăn với các số liệu toạ độ địa lý là một số hệ thống toạ độ địa lý tham khảo mà nó diễn tả thế giới thật bằng nhiều cách và với độ chính xác khác nhau.</para>
+        <para id="id21008326">Các toạ độ trên bề mặt trái đất là Vĩ độ (latitude), được đo theo đơn vị độ Bắc hoặc Nam của xích đạo. Kinh độ (longtitude), được đo theo đơn vị độ Tây hoặc Đông của kinh độ Greenweek ở Anh. Vị trí của kinh độ và vĩ độ thực tế chỉ có tính cách tương đối, khoảng cách và diện tích phải được tính toán bằng việc dùng phương pháp tính toán địa lý không gian và bán kính của trái đất đến các điểm cần tính.</para>
+        <para id="id21008344">Về mặt ứng dụng, vĩ độ và kinh độ thường được sử dụng trong việc mô tả các vùng đất chính</para>
+        <list id="id22061114" list-type="bulleted">
+          <item>Hệ toạ độ địa lý </item>
+        </list>
+        <para id="id22061125">Các giao điểm của bán trục nhỏ với mặt Elipxoid trái đất được gọi là các cực Bắc và Nam. Các vòng tròn tạo ra do các mặt phẳng thẳng góc với trục nhỏ và cắt Elipxoid gọi là các vĩ tuyến. Vĩ tuyến lớn nhất nằm trên mặt phẳng đi qua tâm Elipxoid gọi là đường xích đạo. Bán kính đường xích đạo = a</para>
+        <para id="id22061139">Các giao tuyến của các mặt phẳng Elipxoid với các mặt phẳng đi qua trục quay (trục nhỏ) là những Elipxoid bằng nhau và còn gọi là các kinh tuyến. Vi trí của các điểm trên mặt Elipxoid trái đất hoặc mặt cầu xác định bằng toạ độ địa lý là vĩ độ () và kinh độ ()</para>
+        <para id="id22230414">Qua bất kỳ một điểm nào đó trên bề mặt Elipxoid kể một đường thẳng đứng (pháp tuyến) hướng vào trong Elipxoid khi cắt mặt phẳng xích đạo, đường pháp tuyến tạo với nó một góc đó chính là vĩ độ địa lý, được tính từ xích đạo, nhận giá trị từ 0 đến 900 lên Bắc ký hiệu là v.B hoặc N; v.N hoặc S</para>
+        <para id="id22230429">Góc giữa các mặt phẳng kinh tuyến đi qua một điểm cho trước và mặt phẳng của kinh tuyến gốc gọi là kinh đồ địa lý, ký hiệu . Kinh độ tính từ kinh tuyến gốc (kinh tuyến Greenwich) sang đông đến 1800 là dương (k.đ. E); kinh tuyến gốc sang tây đến 1800 (k.t.W)</para>
+      </section>
+    </section>
+    <section id="id-0756475243069">
+      <title>CÁC HỆ QUI CHIẾU BẢN ĐỒ (MAP PROJECTIONS) </title>
+      <section id="id-533289007403">
+        <title>Lưới chiếu bản đồ (lưới kinh vĩ tuyến)</title>
+        <para id="id21615022">Lưới kinh vĩ tuyến chính là sự thể hiện trực quan của phép chiếu bản đồ.</para>
+        <list id="id21615030" list-type="enumerated">
+          <item>Phép chiếu bản đồ là gì? </item>
+        </list>
+        <para id="id21615040">Bề mặt hình cầu của trái đất chỉ có thể được biểu thị đồng dạng trên quả địa cầu, để nghiên cứu bề mặt trái đất một cách chi tiết chúng ta bắt buộc phải sử dụng bản đồ khi xây dựng bản đồ, vấn đề cần thiết là phải biểu thị bề mặt hình cầu của trái đất lên mặt phẳng.</para>
+        <para id="id21615054">Khoảng cách giữa các điểm, diện tích, hình dạng các khu vực trên trái đất khi biểu thị lên mặt phẳng không tránh khỏi sự biến dạng, hay nói cách khác có sai số. Sự phân bố độ lớn của các sai số này rất là khác nhau, phụ thuộc vào độ lớn của lãnh thổ được biểu thị và vị trí của chúng trong hệ toạ độ được sử dụng chia nhỏ bề mặt nghiên cứu sẽ giảm phần nào các sai số trên, song mất sự liên tục cần thiết cho nghiên cứu khái quát, cũng thực hiện công tác đo đạc ở các vùng giáp ranh. Để biểu thị bề mặt Elipxoid lên mặt phẳng người ta sử dụng phép chiếu bản đồ. Phép chiếu bản đồ xác định sự tương ứng giữa bề mặt Elipxoid và mặt phẳng có nghĩa là mỗi điểm trên bề mặt Elipxoid quay có toạ độ ,  tương ứng với một điểm duy nhất trên mặt phẳng với toạ độ vuông góc X,Y.</para>
+        <para id="id21912038">Lưới kinh vĩ độ (hoặc các đường toạ độ khác xây dựng trong những phép chiếu nhất định gọi là lưới chiếu bản đồ), lưới chiếu bản đồ đó là cơ sở toán học để phân bố chính xác các yếu tố nội dung bản đồ. Quan hệ phụ thuộc giữa toạ độ một điểm trên mặt đất và toạ độ vuông góc của điểm đó trên bản đồ được biểu thị bằng công thức </para>
+        <para id="id22255664">x= f1(, )</para>
+        <para id="id22255704">y = f2 (, )</para>
+        <figure id="id21885474">
+          <media id="id20863545" alt=""><image src="../../media/graphics3-7f0e.png" mime-type="image/png" height="149" width="484"/></media>
+        </figure>
+        <para id="id21885498">Hình 2.4: Phép chiếu bản đồ</para>
+        <para id="id21885507">b. Các phép chiếu hình và lưới chiếu hình</para>
+        <para id="id21887725">Các phép chiếu bản đồ được phân loại như sau:</para>
+        <para id="id21887731">Phân loại theo tính chất biểu diễn (theo đặc điểm sai số) và hình dạng lưới kinh vĩ tuyến </para>
+        <list id="id21887739" list-type="bulleted">
+          <item>Phép chiếu giữ góc là phép chiếu trong đó góc được biểu diễn không có sai số </item>
+          <item>Phép chiếu giữ diện tích </item>
+          <item>Phép chiếu giữ độ dài theo một hướng nhất định </item>
+          <item>Phép chiếu tự do </item>
+        </list>
+        <para id="id21887772">Phân loại theo mặt phẳng phụ trợ được sử dụng </para>
+        <list id="id21887778" list-type="bulleted">
+          <item>Hình nón</item>
+          <item>Hình trụ </item>
+          <item>Hình trụ giả </item>
+          <item>Hình nón giả </item>
+          <item>Nhiều hình nón </item>
+          <item>Phương vị </item>
+        </list>
+        <para id="id22039802">Lưới chiếu bản đồ là cơ sở toán học để phân bố chính xác các yếu tố nội dung bản đồ. Việc trải mặt cầu lên mặt phẳng bằng các phương pháp chiếu hình bản đồ cơ bản là </para>
+        <figure id="id22039819">
+          <media id="id18912335" alt=""><image src="../../media/graphics4-20a4.png" mime-type="image/png" height="402" width="454"/></media>
+        </figure>
+        <para id="id21001010">Hình 2.5: Các lưới chiếu hình ống, nón, phương vị (Cylindrical, Conical, Plannar)</para>
+        <figure id="id21001021">
+          <media id="id21879381" alt=""><image src="../../media/graphics5-f817.png" mime-type="image/png" height="369" width="543"/></media>
+        </figure>
+        <para id="id21001045">Hình 2.6: Các phương pháp chiếu hình ở khu vực xích đạo, vùng cực và vùng vĩ độ (Nguồn : Dylan Prentiss, 2002 )</para>
+        <para id="id22173154">Trong các phép chiếu này mặt hình ống, mặt hình nón và mặt phẳng là những bề mặt hỗ trợ. Nếu nguồn sáng ở tâm trái đất chiếu hắt mạng lưới kinh vĩ tuyến lên các bề mặt phụ này, thì ta nhận ra các dấu hiệu riêng của mỗi loại chiếu hình như sau:</para>
+        <list id="id22173169" list-type="bulleted">
+          <item>Phép chiếu hình trụ (Cylindrical family)</item>
+        </list>
+        <para id="id22173184">Kinh tuyến là những đường song song thẳng đứng, vĩ tuyến là những đường song song nằm ngang và vuông góc với kinh tuyến. Dọc theo đường xích đạo tiếp xúc với mặt phẳng hình ống không có biến dạng trên bản đồ, càng xa đường tiếp xúc về phía hai cực, sai số càng lớn.</para>
+        <figure id="id22173202">
+          <media id="id23201967" alt=""><image src="../../media/graphics6-8c57.png" mime-type="image/png" height="253" width="588"/></media>
+        </figure>
+        <para id="id22383836">Hình 2.7: Phép chiếu hình ống được hiển thị dưới dạng mặt phẳngphẳng (Nguồn : Lâm Quang Dốc, 1996)</para>
+        <list id="id22383847" list-type="bulleted">
+          <item>Phép chiếu hình nón (Conic family)</item>
+        </list>
+        <para id="id22383860">Kinh tuyến là chùm đường thẳng giao nhau tại đỉnh hình quạt, vĩ tuyến là những cung tròn đồng tâm tại đỉnh hình quạt. Dọc theo vĩ tuyến tiếp xúc với mặt nón không có biến dạng trên bản đồ. Càng ra xa vĩ tuyến tiếp xúc theo chiều kinh tuyến, sai số càng lớn.</para>
+        <figure id="id22383869">
+          <media id="id17180634" alt=""><image src="../../media/graphics7-61cf.png" mime-type="image/png" height="288" width="476"/></media>
+        </figure>
+        <para id="id21583451">Hình 2.8: Phép chiếu hình nón được hiển thị dưới dạng mặt phẳng (Nguồn : Lâm Quang Dốc, 1996)</para>
+        <list id="id21583463" list-type="bulleted">
+          <item>Phép chiếu hình phương vị (Planar family)</item>
+        </list>
+        <para id="id21583473">Nếu mặt phẳng tiếp xúc với mặt cầu tại cực, thì kinh tuyến là chùm đường thẳng giao nhau tại điểm cực, vĩ tuyến là những đường tròn lấy điểm cực làm tâm. Tại điểm cực không có sai số chiếu hình, càng xa cực sai số càng lớn.</para>
+        <figure id="id21756983">
+          <media id="id14934919" alt=""><image src="../../media/graphics8.png" mime-type="image/png" height="292" width="531"/></media>
+        </figure>
+        <para id="id21757006">Hình 2.9: Phép chiếu hình phương vị được hiển thị dưới dạng mặt phẳngphẳng (Nguồn : Lâm Quang Dốc, 1996)</para>
+        <para id="id21757018">Trên đây là 3 loại lưới chiếu hình cơ bản, phân theo phương pháp chiếu hình và nêu đặc điểm của chúng ở dạng tiêu chuẩn. Muốn xây dựng bản đồ một khu vực hoặc thế giới, ni ta căn cứ vào vị trí địa lý, đặc điểm hình học và kích thước to nhỏ của khu vực thiết kế bản đồ, căn cứ vào bố cục bản đồ, khuôn khổ xuất bản và tiện lợi cho sản xuất, mà chọn một trong những phương pháp chiếu đồ giữ góc, giữ diện tích, giữ chiều dài.. Các bản đồ xuất bản thông thường chúng ta dùng lưới chiếu giữ hình dạng, đối với các mục đích nghiên cứu thường dùng lưới chiếu giữ diện tích.</para>
+        <para id="id21757024">Việc phân loại chỉ là tương đối, nhất là hiện nay người ta áp dụng rộng rãi các phương pháp giải tích toán học để tính toán các phép chiếu mới có dạng lưới chuẩn không thể liệt vào những loại phép chiếu kể trên. Tuỳ thuộc vào độ lớn, hình dạng, vị trí của lãnh thổ, tỷ lệ bản đồ và mục đích sử dụng, người ta cho phép những phép chiếu khác nhau. Khi sử dụng tài liệu bản đồ phải biết rõ về phép chiếu được dùng để thành lập bản đồ. Khi dùng bản đồ để thiết kế, đo đạc, ta phải biết rõ về tính chất các sai số đặc trưng của phép chiếu và đặc điểm phân bố để có thể tính toán hiệu chỉnh kết quả đo đạc, xác định vị trí các đối tượng trong thực tế. Muốn vậy người ta nghiên cứu dạng lưới bản đồ, sự định hướng, sự biểu thị cực xích đạo và lưới kinh vĩ tuyến, xác định bằng phương pháp gần đúng sai số biểu thị góc, diện tích và khoảng cách. </para>
+        <para id="id22130975">Khi dùng bản đồ để làm tài liệu thành lập bản đồ khác cần phải biết đích xác về phép chiếu bản đồ để có thể thực hiện các phép chuyển đổi các đối tượng sang hệ toạ độ của bản đồ thành lập. Ngoài ra có các phép chiếu như sau:</para>
+        <list id="id22130979" list-type="bulleted">
+          <item>Phép chiếu Gauss - Kriugera và hệ toạ độ Gauss- Kriugera.</item>
+        </list>
+        <para id="id22457026">Phép chiếu Gauss- Kriugera là phép chiếu hình trụ ngang giữa góc dùng để tính toạ độ của mạng lưới trắc địa cũng như tính toán lưới toạ độ bản đồ dùng cho bản đồ địa hình tỷ lệ lớn. Bề mặt trái đất được biểu diễn theo từng múi kinh tuyến, theo vĩ độ, múi lấy từ cực này tới cực kia, còn theo kinh độ thường lấy kéo dài từ 30 đến 60. Kinh vĩ tuyến được biểu thị bằng những đường cong, trừ xích đạo và kinh tuyến trục. Mỗi múi có gốc toạ độ riêng, cho phép ta thu nhỏ sai số trên lưới chiếu.</para>
+        <para id="id22457055">Ở Việt Nam, lưới chiếu Gauss- Kriugera được sử dụng rộng rãi áp dụng phép chiếu với múi 6 0 cho các bản đồ từ 1: 10.000 đến 1: 500.000.</para>
+        <para id="id22457062">Áp dụng với múi chiếu 30 cho các bản đồ 1: 5.000 và lớn hơn. Lãnh thổ Việt Nam nằm trong các múi 60 thứ 18, 19 tính từ kinh tuyến Greenwich, gốc toạ độ của mỗi múi là điểm giao nhau của xích đạo và kinh tuyến trục, kinh tuyến trục là trục X, xích đạo là trục Y. Để tránh tung độ (Y), âm (-), người ta cộng thêm vào tung độ giá trị 500.000m.</para>
+        <para id="id21690306">Nhiều khi người ta ghi số chỉ tên múi vào đầu giá trị y:</para>
+        <para id="id21690314">Ví dụ: y = 18 586 000</para>
+        <para id="id21690321"> Y = 19 237 000</para>
+        <para id="id21690331">Hệ toạ độ Gauss- Kriugera là hệ toạ độ vuông góc phẳng, sử dụng phép chiếu Gauss- Kriugera để tính toán mạng lưới cơ sở trắc địa theo toạ độ địa lý tính trong Elipxoid Krassobski</para>
+        <list id="id22385300" list-type="bulleted">
+          <item>Phép chiếu UTM và hệ toạ độ UTM ở Việt Nam</item>
+        </list>
+        <para id="id21690335">Lưới chiếu UTM là cùng một dạng công thức lưới chiếu giữ góc Gauxơ Krugơ. Ưu điểm của lưới chiếu là chỉ cần một bài toán cho một múi lưới chiếu là có thể giải quyết việc biên chế bản đồ địa hình cho phạm vi toàn cầu. Nhược điểm là không thể chia múi nhỏ theo hệ phân đối múi lưới chiếu Gauxơ.</para>
+        <para id="id21690340">Nói tóm lại khi dùng phương pháp chiếu đồ chuyển các đối tượng địa lý từ bề mặt cầu của quả đất lên mặt phẳng sẽ có những điểm, đường, diện tích, góc không có sai số hoặc rất nhỏ, không đáng kể, nhưng cũng có chỗ bị co lại hoặc giãn ra, hình dáng chúng bị méo mó đi mà người ta thường gọi là biến dạng bản đồ. Đó là sự phá vỡ các tính chất hình học - chiều dài đường thẳng, góc, hình dạng và diện tích các đối tượng trên bề mặt đất - trong biến dạng của chúng trên mặt phẳng.</para>
+        <para id="id22385346">Phép chiếu UTM là phép chiếu hình trụ ngang đồng góc thoả mãn điều kiện: kinh tuyến giữa là đường thẳng và trục đối xứng </para>
+        <list id="id22004250" list-type="bulleted">
+          <item>Tỷ lệ độ dài m0 trên kinh tuyến trục là m0 = const = 09996.</item>
+        </list>
+        <para id="id22004287">Trong phép chiếu UTM, có 2 đường chuẩn, giá trị m0 = 1. Hai đường chuẩn này đối xứng với nhau qua kinh tuyến trục và cắt xích đạo tại những điểm cách kinh tuyến giữa một khoảng   10 30. Do đó các trị số biến dạng trong phép chiếu UTM nhỏ hơn trong phép chiếu Gauss.</para>
+        <para id="id22308243">Nếu dùng Elipxoid có kích thước và định tâm giống nhau thì sự chuyển đổi giữa hai phép chiếu Gauss- Kriugera và UTM sẽ rất đơn giản. Lưới chiếu UTM ở Việt Nam múi 60 được áp dụng thành lập bản đồ địa hình thời kỳ trước năm 1975 bằng phương pháp chụp ảnh hàng không. Do sử dụng Elipxoid Everest 1830 việc chuyển đổi giữa hai phép chiếu trở nên phức tạp và làm hạn chế khái niệm sử dụng tài liệu bản đồ với toạ độ UTM.</para>
+      </section>
+      <section id="id-215138230355">
+        <title>Khung bản đồ </title>
+        <para id="id22003784">Khung bản đồ có rất nhiều dạng. Trên phần lớn các bản đồ khung là một đường giới hạn lãnh thổ được thể hiện gọi là khung trong song song với khung trong người ta vẽ khung ngoài có tính chất trang trí giữa khung trong và khung ngoài là trị số các đường kinh vĩ tuyến, địa danh các đường phụ cận, nút giao thông gần nhất.</para>
+      </section>
+      <section id="id-413123872833">
+        <title>Bố cục bản đồ </title>
+        <para id="id22003810">Là sự bố trí khu vực được thành lập bản đồ trên bản đồ, xác định khung của nó, sắp xếp những yếu tố trình bày ngoài khung và những tư liệu bổ sung. Các bản đồ địa hình bao giờ cũng định hướng kinh tuyến giữa theo B-N. Trong khung biểu thị khu vực được thành lập liên tục và không lập lại trên những mảnh phụ cận. Bố trí tên bản đồ, số hiệu mảnh, tỷ lệ, các tài liệu tra cứu và giải thích ... dựa theo mẫu qui định.</para>
+        <para id="id22003825">Đối với các bản đồ chuyên đề, trong khung bản đồ có thể bố trí bản chú thích, tài liệu tra cứu, đồ thị, bản đồ phụ ... Tên bản đồ, tỷ lệ ... cũng có thể đặt ở trong khung.</para>
+      </section>
+      <section id="id-127659483771">
+        <title>Phân mảnh bản đồ </title>
+        <para id="id22241323">Phụ thuộc vào tỷ lệ và lãnh thổ mà bản đồ có thể nằm trên 1 hoặc nhiều mảnh. Bản đồ địa hình chính là loại bản đồ nhiều mảnh có cách phân mảnh và đánh số được qui định chặt chẽ, có thể phân mảnh bản đồ theo lưới kinh vĩ tuyến hoặc theo km, hoặc theo khung bản đồ có kích thước đặt sẵn, ...</para>
+        <para id="id22241340">Hệ thống đánh số bản đồ nhiều mảnh giúp ta dễ dàng và nhanh chóng tìm thấy các mảnh cần thiết. </para>
+        <para id="id22241349">Sự phân mảnh và đánh số các bản đồ địa hình Việt Nam</para>
+        <list id="id22241356" list-type="bulleted">
+          <item>Bản đồ 1:1.000.000 có khung hình thang 40 theo vĩ độ 60 theo kinh độ được đánh số bằng tên đai và tên múi theo cách đánh số của bản đồ quốc tế 1:1000T, các đai 40 theo vĩ tuyến được đánh số từ xích đạo lần lượt từ A đến V. Các múi 60 theo vĩ tuyến được đánh số từ kinh tuyến 1800 ngược chiều kim đồng hồ từ 1 đến 60. Ví dụ: F- 48, F- 49...</item>
+          <item>Bản đồ 1: 1.000.000 là cơ sở để phân mảnh và đánh số các bản đồ tỷ lệ lớn hơn.</item>
+          <item>Mảnh bản đồ 1: 1.000.000 chia làm 4 mảnh bản đồ tỷ lệ 1: 500.000, đánh số A,B,C,D. Số liệu của mảnh 1: 500.000 là số hiệu 1: 1T+ số hiệu mảnh hình thang: F-48 - A,F- 48-B.</item>
+          <item>Mảnh bản đồ 1: 1.000.000 chia ra làm 36 mảnh bản đồ 1: 200.000 được đánh số hiệu bằng chữ số La Mã. Ví dụ: F-48-XI.</item>
+          <item>Mảnh bản đồ 1: 1.000.000 chia ra làm 144 mảnh bản đồ 1: 100.000 đánh số bằng chữ Ả Rập F - 48- 143.</item>
+          <item>Mảnh bản đồ 1: 100.000 hạn chế bởi hình thang 20x30 là cơ sở để phân mảnh và đánh số các tỷ lệ lớn hơn.</item>
+          <item>Mảnh bản đồ 1: 100.000 chia ra làm 4 mảnh 1:50.000 đánh số A, B, C, D; F-48-143-A, 10,15</item>
+          <item>Mảnh 50.000 chia ra làm 4 mảnh 1: 25.000; đánh số a,b,c,d; F-48-143-A-b 5,7,5</item>
+          <item>Mảnh 25.000 chia ra 4 mảnh 1: 10.000 đánh số 1 đến 4. Ví dụ: F-48-143-A-b-1,2,5,3,75</item>
+          <item>Mảnh 1:100.000 chia ra làm 384 mảnh 1: 5.000 đánh số từ 1 đến 324. Ví dụ: F-48-143-(322)</item>
+          <item>Mảnh 1:5000 chia ra làm 6 mảnh 1: 2000 đánh số từ a đến f</item>
+        </list>
+      </section>
+      <section id="id-426799144687">
+        <title>Phân loại bản đồ </title>
+        <para id="id22447454">Để tiện lợi chi việc nghiên cứu, bảo quản và sử dụng các loại bản đồ địa lý, các loại bản đồ địa lý được phân loại theo nhiều dấu hiệu:</para>
+        <list id="id22447461" list-type="enumerated">
+          <item>Theo nội dung</item>
+        </list>
+        <para id="id22353433">Phân làm 2 nhóm lớn: bản đồ địa lý chung và bản đồ chuyên đề: </para>
+        <para id="id22353440">Bản đồ địa lý chung: là bản đồ địa lý biểu thị toàn bộ các yếu tố cơ bản của lãnh thổ, mức độ chi tiết phụ thuộc vào tỷ lệ và mục đích sử dụng bản đồ địa hình chính là những bản đồ địa lý chung tỷ lệ lớn. Các bản đồ phản ánh địa thế chi tiết hơn và ở tỉ lệ lớn là chủ yếu.</para>
+        <para id="id22353469">Bản đồ chuyên đề: là bản đồ chỉ nói về một chuyên ngành, một bộ môn. Các bản đồ chuyên đề là những bản đồ chỉ thể hiện chi tiết và thật đầy đủ một yếu tố (hoặc một số yếu tố) trong nội dung của bản đồ địa lý tổng quát, ví dụ: thực vật, đường sá hay dân cư,.. Các bản đồ chuyên đề phản ánh các hiện tượng tự nhiên hoặc xã hội rất đa dạng như: khí hậu, mật độ dân, kết cấu địa chất của lớp vỏ trái đất, phân vùng kinh tế,..</para>
+        <list id="id22353482" list-type="enumerated">
+          <item>Theo tỷ lệ</item>
+        </list>
+        <para id="id21847493">Phân ra làm tỷ lệ lớn, trung bình và tỷ lệ nhỏ. Sự phân loại này có tính chất tương đối, không cố định, phụ thuộc vào nhóm nội dung. Đối với bản đồ địa lý chung phân ra:</para>
+        <list id="id21847504" list-type="bulleted">
+          <item>Bản đồ địa lý chung tỷ lệ trung bình: 1:200.000- 1: 1.000.000 bản đồ hình khái quát </item>
+          <item>Bản đồ địa lý chung tỷ lệ nhỏ &lt; 1: 1.000.000 bản đồ khái quát </item>
+          <item>Bản đồ địa lý chung tỷ lệ lớn &gt; 1: 200.000 bản đồ địa hình </item>
+          <item>Các bản đồ địa hình lại phân ra:</item>
+          <item>Bản đồ địa hình tỷ lệ nhỏ 50,100 T</item>
+          <item>Bản đồ địa hình tỷ lệ trung bình 10,25T</item>
+          <item>Bản đồ địa hình tỷ lệ lớn 5.2T</item>
+          <item>Sơ đồ 1:1000, 1:500</item>
+          <item>Mục đích sử dụng </item>
+        </list>
+        <list id="id21869811" list-type="bulleted">
+          <item>Bản đồ nhiều mục đích sử dụng </item>
+          <item>Bản đồ chuyên môn. Dùng để giải quyết những nhiệm vụ nhất định hoặc đáp ứng các đối tượng sử dụng nhất định.</item>
+        </list>
+        <para id="id21869839">Thuộc vào loại này có các bản đồ: </para>
+        <list id="id21617267" list-type="bulleted">
+          <item>Các bản đồ tra cứu</item>
+          <item>Bản đồ giáo khoa </item>
+          <item>Bản đồ quân sự </item>
+          <item>Bản đồ du lịch</item>
+          <item>Bản đồ giao thông </item>
+          <item>Bản đồ đánh giá thiết kế </item>
+          <item>Bản đồ dự báo </item>
+          <item>Theo mức độ bao quát lãnh thổ </item>
+        </list>
+        <para id="id21994156">Phân ra bản đồ bao quát thế giới, châu lục, khu vực, quốc gia, tỉnh...</para>
+        <list id="id21994163" list-type="enumerated">
+          <item>Theo tính chất sử dụng </item>
+        </list>
+        <list id="id21994175" list-type="bulleted">
+          <item>Bản đồ treo tường </item>
+          <item>Bản đồ Atlat</item>
+          <item>Phân loại theo đề tài</item>
+        </list>
+        <para id="id21994204">Theo đề tài các bản đồ chuyên đề được phân làm 2 nhóm lớn: bản đồ các hiện tượng tự nhiên và bản đồ kinh tế xã hội.</para>
+        <para id="id21994213">* Các bản đồ tự nhiên </para>
+        <list id="id21622586" list-type="bulleted">
+          <item>Địa chất: địa chất chung, địa chất thuỷ văn, địa chất công trình, địa tầng, kiến tạo, thạch học, khoáng sản, địa hoá </item>
+          <item>Địa hình mặt đất : địa mạo, đẳng cao, độ sâu</item>
+          <item>Khí hậu; lượng mưa, khí tượng </item>
+          <item>Địa vật lý </item>
+          <item>Hải dương </item>
+          <item>Thuỷ văn </item>
+          <item>Thổ nhường </item>
+          <item>Thực vật </item>
+          <item>Động vật </item>
+          <item>..</item>
+        </list>
+        <para id="id21666968">* Bản đồ các hiện tượng xã hội </para>
+        <list id="id21666974" list-type="bulleted">
+          <item>Bản đồ dân cư: phân bố dân cư, thành phần dân cư, di chuyển dân cư, nhân chủng học, phân bố và thành phần lao động </item>
+          <item>Bản đồ kinh tế: Bản đồ kinh tế chung, tài nguyên thiên nhiên ...</item>
+          <item>Bản đồ giáo dục, văn hoá, y tế </item>
+          <item>Bản đồ hành chính- chính trị </item>
+          <item>Bản đồ lịch sử</item>
+          <item>Bản đồ môi trường và bảo vệ môi trường.</item>
+        </list>
+        <para id="id21667022">* Bản đồ kỹ thuật </para>
+        <para id="id22136855">Thiết kế, hàng hải, hàng không, địa chính.</para>
+        <para id="id22136861">Sự phân loại trên bản đồ có tính chất tương đối tuỳ theo mục đích sử dụng mà các yếu tố nội dung của bản đồ chuyên đề có thể thay đổi.</para>
+      </section>
+      <section id="id-111632040682">
+        <title>Các phương pháp biểu thị hiện tượng trên bản đồ (các phương pháp bản đồ)</title>
+        <para id="id22136883">Khi thành lập bản đồ - bản đồ chuyên đề người ta sử dụng các phương pháp khác nhau để thể hiện các yếu tố nội dung. Mỗi phương pháp có thể sử dụng độc lập hoặc sử dụng phối hợp với các phương pháp khác, các phương pháp bản đồ được xây dựng căn cứ vào đặc điểm của hiện tượng, sự vật và đặc điểm phân bố của chúng trong khu vực.</para>
+        <para id="id22136897">a. Phương pháp đường đẳng trị </para>
+        <para id="id22136904">Dùng trong trường hợp cần biểu thị trên bản đồ các hiện tượng có sự thay đổi đều đặn và có sự phân bố liên tục như: Độ cao mặt đất, nhiệt độ không khí, lượng mưa ... Đường đẳng trị là những đường cong điều hoà nối liền các điểm có cùng trị số của hiện tượng. Sự vật được thể hiện tuỳ theo hiện tượng, sự vật được biểu thị mà đường đẳng trị có thể có các tên gọi riêng.</para>
+        <list id="id21830155" list-type="bulleted">
+          <item>Đường đẳng cao (bình độ, đồng mức) nối liền các điểm có toạ độ cao tuyệt đối tương đối giống nhau </item>
+          <item>Đường đẳng sâu</item>
+          <item>Đường đẳng áp </item>
+          <item>Đẳng trị thiên cùng độ lệch từ tính,...</item>
+        </list>
+        <para id="id21830183">Để xây dựng đường đẳng trị cần phải có đủ số lượng để các điểm trên bản đồ có giá trị hoặc chỉ số được xác định. Nối liền các điểm có giá trị như nhau. Kết hợp với phương pháp nội suy, ngoại suy bằng những đường cong đều đặn ta có các đường đẳng trị. Giá trị của các đường đẳng trị được ghi ở đầu hoặc ở giữa đường; đôi khi người ta tô màu vào khoảng giữa các đường đẳng trị. Phương pháp đường đẳng trị cho phép ta xác định chỉ số của hiện tượng được biểu thị ở bất kỳ điểm nào trên bản đồ. Dựa theo sự phân bố các đường đẳng trị ta có thể nghiên cứu đặc điểm và các qui luật phân bố biến đổi của hiện tượng. Điều này rất rõ với trường hợp các đường đẳng cao, đẳng sâu. Bản đồ xây dựng theo phương pháp đẳng trị cho phép ta tái hiện lại bề mặt thực tế hoặc trừu tượng của hiện tượng, thực hiện các phép đo đạc, nghiên cứu chi tiết với độ chính xác cao</para>
+        <para id="id22136909">b. Phương pháp nền chất lượng và số lượng </para>
+        <para id="id21830189">Dùng để biểu thị các hiện tượng có sự phân bố liên tục. Là phương pháp biểu thị những sự phân biệt về phương diện số lượng hoặc chất lượng của một hiện tượng nào đó trong phạm vi lãnh thổ biểu thị bằng cách phân chia lãnh thổ đó ra những phần dựa theo các dấu hiệu chất lượng đã xác định, mỗi phần được tô bằng một màu hoặc một dạng hình vẽ.</para>
+        <para id="id22136913">c. Phương pháp khoanh vùng </para>
+        <para id="id21830197">Được dùng để thể hiện các đối tượng hoặc các hiện tượng phân bố tính chất cá biệt, ví dụ sự phân bố của một số loại cây trồng hay loại động vật ... thực vật hoang dại, phân bố dân tộc thiểu số, khu vực có khoáng sản </para>
+        <para id="id22069784">Phân biệt vùng phân bố tuyệt đối và vùng phân bố tương đối.</para>
+        <list id="id22069792" list-type="bulleted">
+          <item>Vùng phân bố tuyệt đối: hiện tượng được biểu thị không có ở ngoài phạm vi, </item>
+          <item>vùng phân bố tương đối hiện tượng được biểu thị vẫn có ở ngoài phạm vi nhưng đối với số lượng không đáng kể.</item>
+        </list>
+        <para id="id22059042">Trong phạm vi của từng vùng phân bố người ta tô màu, phân bố của các chấm hoặc ký hiệu, nét gạch, ghi chú ... để thể hiện nội dung ranh giới của vùng phân bố có thể được xác định và thể hiện rõ bằng đường nét liền, nét đứt hoặc không thể hiện.</para>
+        <para id="id22069809">d. Phương pháp chấm điểm </para>
+        <para id="id22059059">Dùng để biểu thị các hiện tượng phân bố rải rác trên lãnh thổ bằng cách sử dụng các điểm tròn kích thước như nhau và đại diện cho một số giá trị số lượng của các hiện tượng biểu thị giá trị đó gọi là trọng lượng của các điểm. Các điểm được đặt lên bản đồ sẽ có sự phân bố không đồng đều và có mật độ khác nhau tương ứng với sự phân bố thực của hiện tượng, sự phản ánh đúng đắn sự phân bố của các đối tượng bằng phương pháp điểm chỉ có thể đạt được nếu trên lãnh thổ tiến hành thống kê hiện tượng theo những đơn vị đủ nhỏ. Khi đó điều quan trọng là phải lựa chọn chính xác kích thước điểm và định ra giá trị cho nó, cần phải chọn kích thước điểm sao cho nơi đối tượng phân bố dày đặc nhất là các điểm không chồng chéo lên nhau. Các điểm được phân bố đều đặn trên phạm vi đã tiến hành thống kê hiện tượng.Do đó trên nền địa lý của bản đồ người ta vạch những đường ranh giới phụ thuộc bỏ đi sau khi phân bố các điểm. Có trường hợp sử dụng các điểm có màu sắc khác nhau để thể hiện các đặc trưng phụ thuộc đặc trưng chất lượng của đối tượng phương pháp chấm điểm sử dụng thành lập bản đồ dân cư, phân bố diện tích trồng trọt, ...</para>
+        <para id="id22059094">e. Phương pháp ký hiệu đường</para>
+        <para id="id22255562">Dùng để thể hiện các hiện tượng và các đối tượng có dạng đường nét và những đối tượng có dạng kéo dài mà chiếu rộng không thể hiện theo tỷ lệ bản đồ. </para>
+        <para id="id22255572">Ví dụ: Các đường ranh giới, đường phân thuỷ, đứt gãy kiến tạo, đường giao thông sông một nét...</para>
+        <para id="id22255592">Các đặc trưng chất lượng, số lượng của đối tượng được truyền đạt bằng hình vẽ, màu sắc, cấu trúc, độ rộng của ký hiệu nét.</para>
+        <list id="id22255602" list-type="bulleted">
+          <item>Phương pháp ký hiệu đường chuyển động </item>
+        </list>
+        <para id="id22255612">Phương pháp dùng để thể hiện những sự chuyển dịch khác nhau trong không gian, ví dụ di chuyển trên lãnh thổ của một hiện tượng nào đó, như hướng gió, sự vận chuyển hàng hoá, dòng biển hướng di cư của các loài động vật ...</para>
+        <para id="id22255616">Phương tiện truyền đạt thông tin thông thường là các mũi tên và các dãy, các đặc trưng chất lượng và số lượng được thể hiện thông qua hình dạng, cấu trúc, màu sắc và kích thước của ký hiệu. Hướng của các mũi tên chỉ hướng chuyển động, các ký hiệu đường chuyển động có thể mô tả chính xác hoặc mang tính chất sơ lược đường đi của chuyển động.</para>
+        <list id="id22255620" list-type="bulleted">
+          <item>Phương pháp biểu đồ định vị </item>
+        </list>
+        <para id="id21625870">Dùng để thể hiện những hiện tượng biến đổi theo mùa hoặc có tính chất chu kỳ. Phương pháp biểu đồ định vị có khả năng thể hiện tiến trình, độ lớn, tính liên tục và tần xuất của hiện tượng. Ví dụ sự thay đổi trong năm của nhiệt độ không khí, lượng mưa, sự phân bố dòng chảy hàng năm của sông ngòi, hướng gió và sức gió tại các trạm bằng các biểu đồ, đồ thị được định vị.</para>
+        <list id="id21625884" list-type="bulleted">
+          <item>Phương pháp ký hiệu </item>
+        </list>
+        <para id="id21625894">Là phương pháp dùng các ký hiệu ngoài tỷ lệ để thể hiện các đối tượng để được xác định tại các điểm hoặc có kích thước không thể hiện được trên bản đồ hoặc diện tích của nó trên bản đồ nhỏ hơn diện tích của ký hiệu </para>
+        <para id="id21625898">Phương pháp ký hiệu có khả năng truyền đạt được các đặc trưng chất lượng, số lượng, cấu trúc, sự phát triển của các đối tượng và hiện tượng.</para>
+        <para id="id21805159">Các ký hiệu có thể phân ra làm 3 loại: </para>
+        <list id="id21805165" list-type="bulleted">
+          <item>Ký hiệu hình học: Có dạng hình học đơn giản (vuông, tam giác, tròn) được phân biệt bằng hình dạng, kích thước, màu sắc, cấu trúc, định hướng. Ký hiệu hình học đơn giản dễ nhận biết và xác định vị trí , có nhiều khả năng truyền đạt thông tin.</item>
+          <item>Ký hiệu chữ: Ký hiệu gồm một, hai chữ cái đầu tiên tên gọi của đối tượng hoặc hiện tượng thường dùng để thể hiện các mỏ khoáng sản, các ký hiệu chữ dễ hiểu, dễ nhớ nhưng khó thể hiện chính xác vị trí của đối tượng thường được kết hợp với ký hiệu hình học.</item>
+          <item>Ký hiệu trực quan: có dạng gợi cho ta liên tưởng đến đối tượng được biểu thị. </item>
+        </list>
+        <para id="id22181923">Ví dụ: để thể hiện bến cảng, sân bay ... các ký hiệu này có ưu điểm là trực quan song cũng như ký hiệu chữ khó xác định vị trí của đối tượng trên bản đồ.</para>
+        <list id="id22181948" list-type="bulleted">
+          <item>Phương pháp biểu đồ </item>
+        </list>
+        <para id="id22192886">Đó là phương pháp biểu thị các giá trị số lượng tuyệt đối của các sự vật hiện tượng trong từng đơn vị phân chia lãnh thổ thông qua các hình vẽ biểu đồ trong từng đơn vị phân chia đó. Có các dạng biểu đồ sau: vuông, tròn, biểu đồ cột. Tài liệu để thành lập bản đồ là số liệu thống kê. Phương pháp biểu đồ biểu thị được độ lớn, cấu trúc và trạng thái của hiện tượng.</para>
+        <list id="id22192907" list-type="bulleted">
+          <item>Phương pháp đồ giải </item>
+        </list>
+        <para id="id22192917">Là phương pháp biểu thị các giá trị số lượng tương đối cường độ trung bình của một hiện tượng nào đó trong từng đơn vị phân chia lãnh thổ bằng cách tô màu hoặc gạch nét với cường độ phù hợp. Các bản đồ với phương pháp đồ giải được thành lập theo số liệu thống kê, ví dụ mật độ dân cư, diện tích đất gieo trồng trên đơn vị diện tích.</para>
+      </section>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,103 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Hệ thống định vị toàn cầu (GLOBAL POSITIONING SYSTEM  - GPS)</title>
+  <metadata>
+  <md:content-id>m30534</md:content-id><md:title>Hệ thống định vị toàn cầu (GLOBAL POSITIONING SYSTEM  - GPS)</md:title>
+  <md:abstract>Trong lĩnh vực GIS, một lĩnh vực quan trọng không thể bỏ qua và sử dụng kỹ thuật GPS như là một công cụ cho dữ liệu đầu vào và dữ liệu thám sát. Đây là một kỹ thuật khá mới và tương đối tiến bộ nhưng các ứng dụng tăng dần trong lĩnh vực nghiên cứu của GIS.</md:abstract>
+  <md:uuid>24533711-d382-47e5-acb6-840abb554bcc</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-156049175862">
+      <title>GPS LÀ GÌ? </title>
+      <para id="id21884060">GPS, hệ thống định vị toàn cầu, được cấu thành như một chòm sao (có nghĩa cấu tạo của một nhóm hay một hệ thống) của quỹ đạo vệ tinh mà, kết hợp với thiết bị ở mặt đất, cho phép người sử dụng quyết định vị trí chính xác của họ bất kỳ lúc nào trên bề mặt trái đất ở bất kỳ thời gian nào. Có 24 vệ tinh trên quỹ đạo bay.</para>
+      <para id="id22249984">Hình 7.1: Quỹ đạo bay của 24 vệ tinh (Nguồn : Garmin, 2005)</para>
+      <para id="id21102295">Ở bất kỳ thời gian nào, mà không có bất kỳ chướng ngại quan sát nào của bầu trời, ở vị trí quan sát đó nên có ít nhất 4 – 6 vệ tinh “nhìn thấy”. Không nạp điện cho việc sử dụng hệ thống vệ tinh, mặc dù mỗi người sử dụng phải cung cấp thiết bị chính họ, nói chung trong hình thức của bộ phận ghi nhận tín hiệu.</para>
+      <para id="id21894707">Hình 7.2: Hệ thống định vị toàn cầu GPS (Nguồn : Garmin, 1999)</para>
+    </section>
+    <section id="id-503998333268">
+      <title>CÁC THÀNH PHẦN CHÍNH CỦA GPS</title>
+      <para id="id22192116">Hệ thống định vị toàn cầu bao gồm 3 bộ phận: bộ phận người sử dụng, bộ phận không gian và bộ phận điều khiển.</para>
+      <section id="id-0773259389234">
+        <title>Bộ phận người sử dụng (User Segment)</title>
+        <para id="id21829042">Bộ phận người sử dụng là người sử dụng và GPS ghi nhận. GPS ghi nhận là một máy thu tín hiệu sóng vô tuyến đặc biệt. Nó được thiết kế để nghe tín hiệu sóng vô tuyến được truyền từ các vệ tinh và tính toán vị trí dựa trên thông tin đó. GPS ghi nhận có nhiều kích cỡ khác nhau, hình dáng và giá cả khác nhau.</para>
+        <para id="id22401942">Tính chất và giá cả của GPS ghi nhận nói chung lệ thuộc vào chức năng mà bộ phận thu nhận có ý định. Bộ phận thu nhận dùng cho ngành hàng hải và hàng không thường sử dụng cho tính năng giao diện với thẻ nhớ chứa bản đồ đi biển. Bộ phận thu nhận dùng cho bản đồ khả năng chính xác rất cao và có giao diện người sử dụng cho phép ghi nhận dữ liệu nhanh chóng.</para>
+      </section>
+      <section id="id-813892010887">
+        <title>Bộ phận không gian (Space Segment)</title>
+        <para id="id21845684">Bộ phận không gian gồm các vệ tinh GPS mà nó truyền thời gian và vị trí tới người sử dụng. Tập hợp tất cả các vệ tinh này được gọi là “chòm sao”.</para>
+        <para id="id21845696">Hình 7.3: Các thành phần chính của GPS (Nguồn : Garmin, 2000)</para>
+        <section id="id-606424160905">
+          <title>Hệ thống NAVSTAR (Mỹ)</title>
+          <para id="id21573068">Hệ thống NAVSTAR gồm 24 vệ tinh với 6 quỹ đạo bay. Các vệ tinh này hoạt động ở quỹ đạo có độ cao 20.200 km (10,900 nm) ở góc nghiêng 55 độ và với thời gian 12 giờ/quỹ đạo. Quỹ đạo bay không gian của các vệ tinh được sắp xếp để tối thiểu 5 vệ tinh sẽ được người sử dụng nhìn thấy bao phủ toàn cầu, với vị trí chính xác hoàn toàn (position dilution of precision PDOP) của 6 vệ tinh hoặc ít hơn. </para>
+          <para id="id22459945">Mỗi vệ tinh truyền trên 2 band tần số L, L1 có tần số 1575.42 MHz và L2 có tần số 1227.6 MHz. Mỗi vệ tinh truyền trên cùng tần số xác định; tuy nhiên, tín hiệu mỗi vệ tinh thì thay đổi theo thời gian đến người sử dụng. L1 mang mã P (precise (P) code) và mã C/A (coarse/acquisition (C/A) code). L2 chỉ mang mã P (P code). </para>
+          <para id="id19055845">Thông tin dữ liệu hàng hải được thêm các mã này. Thông tin dữ liệu hàng hải giống nhau được mang cả 2 band tần số. Mã P thì thường được mã hoá vì thế chỉ mã C/A thì có sẵn đến người sử dụng bình thường; tuy nhiên, một vài thông tin có thể nhận được từ mã P. Khi mã hoá, mã P được hiểu như mã Y. Mỗi vệ tinh có 2 số nhận dạng. Đầu tiên là số NAVSTAR với nhận dạng trên thiết bị vệ tinh đặc biệt. Thứ hai là số sv (the space vehicle (sv) number). Số này được ấn định để ra lệch phóng vệ tinh. Thứ ba là số mã tiếng âm thanh (the pseudo-random noise-PRN). Đây chỉ là số nguyên mà nó được sử dụng để mã tín hiệu từ các vệ tinh đó. Một vài máy ghi nhận nhận biết vệ tinh mà chúng đang ghi nhận từ mã SV, hoặc mã khác từ mã PRN.</para>
+        </section>
+        <section id="id-676426374857">
+          <title>Hệ thống GLONASS (Nga)</title>
+          <para id="id21773842">Hệ thống GLONASS gồm 24 vệ tinh, 8 vệ tinh cho một quỹ đạo bay gồm 3 quỹ đạo. Các vệ tinh hoạt động với quỹ đạo có độ cao 19,100 km orbits ở góc nghiêng 64.8 độ và 11 giờ 15 phút/ quỹ đạo. Mỗi vệ tinh truyền trên 2 nhóm tần số L (two L frequency groups). Nhóm L1 là tâm ở tần số 1609 MHz trong khi nhóm L2 được đăng ký ở tần số 1251MHz. Mỗi vệ tinh truyền trên một cặp tần số duy nhất. Tín hiệu GLONASS mang cả mã P (precise (P) code) và mã C/A (coarse/acquisition (C/A) code). Mã P được mã hoá cho quân đội sử dụng trong khi đó mã C/A thì có sẵn cho công dân sử dụng.</para>
+        </section>
+      </section>
+      <section id="id-240320131069">
+        <title>Bộ phận điều khiển (Control Segment)</title>
+        <para id="id22026092">Bộ phận điều khiển gồm toàn bộ thiết bị trên mặt đất được sử dụng để giám sát và điều khiển các vệ tinh. Bộ phận này thường người sử dụng không nhìn thấy, nhưng đây là bộ phận quan trọng của hệ thống. Bộ phận điều khiển NAVSTAR, được gọi là hệ thống điều khiển hoạt động (operational control system (OCS)) gồm các trạm giám sát, một trạm điều khiển chính (master control station (MCS)) và anten quay.</para>
+        <para id="id22125494">Các trạm giám thụ động không nhiều hơn GPS nhận mà đường bay của các vệ tinh được nhìn thấy và do đó phạm vi tích luỹ dữ liệu từ tín hiệu vệ tinh. Có 5 trạm giám sát thụ động, toạ lạc ở Colorado Springs, Hawaii, đảo Ascencion, Diego Garcia và Kwajalein. Các trạm giám sát gởi dữ liệu thô về trạm MSC để xử lý.</para>
+        <para id="id22382844">Trạm MCS dược toạ lạc ở Falcon Air Force Base, cách 12 dặm về phía đông của Colorado Springs, Colorado và được Mỹ quản lý. Air Force's 2nd Space Operations Squadron (2nd SOPS). Trạm MCS nhận dữ liệu từ trạm giám sát trong thời gian 24 giờ/ngày và sử dụng thông tin này để xác định nếu các vệ tinh đang khoá hoặc lịch thiên văn thay đổi và để phát hiện thiết bi trục trặc. Thông tin về tàu thuỷ di chuyển và lịch thiên văn được tính toán từ tín hiệu giám sát và chuyển đến vệ tinh một lần hoặc hai lần/ngày.</para>
+        <para id="id17467681">Thông tin tính toán bởi trạm MCS, cùng với các mệnh lệnh duy trì thường xuyên được truyền bởi anten xoay trên mặt đất. Anten này toạ lạc tại đảo Ascencion, Diego Garcia và Kwajalein. Anten có đủ phương tiện để truyền đến vệ tinh theo đường liên kết sóng vô tuyến band S.</para>
+        <para id="id17467699">Thêm vào đó chức năng chính của trạm MCS duy trì 24 giờ hệ thống bản tin điện tử với tình trạng và tin tức hệ thống sau cùng. Công dân liên lạc cho vấn đề này với The United States Coast Guard's (USCG) Navigation Center (NAVCEN).</para>
+      </section>
+    </section>
+    <section id="id-229461726475">
+      <title>HỆ THỐNG LÀM VIỆC NHƯ THẾ NÀO?</title>
+      <para id="id18334919">Cơ bản, GPS sử dụng nguyên tắc hướng thẳng tương đối của hình học và lượng giác học. Mỗi vệ tinh truyền liên tục dữ liệu quỹ đạo cho tất cả các chòm sao vệ tinh cộng thêm dữ liệu đến kịp thời và thông tin khác. Do đó, mỗi GPS nhận (receiver) liên tục truy cập dữ liệu quỹ đạo chính xác từ vị trí của tất cả vệ tinh có thể tính toán bằng các vi mạch có trên tất cả các GPS nhận. Từ đó tín hiệu hoặc sóng vô tuyến di chuyển ở vận tốc hằng số, GPS nhận có thể tính toán khoảng cách liên quan từ GPS đến các vệ tinh khác mà nó có thể nghe bằng cách so sánh dữ liệu thời gian được truyền bằng các vệ tinh.</para>
+      <para id="id18334929">Hầu hết GPS nhận có thể đo vị trí của nó (kinh vĩ độ) khi đó GPS có thể ấn định ít nhất 3 vệ tinh và sẽ cung cấp giá trị độ cao (so với mặt nước biển) với ít nhất 4 vệ tinh.</para>
+    </section>
+    <section id="id-984117055425">
+      <title>GPS CHÍNH XÁC NHƯ THẾ NÀO?</title>
+      <para id="id21894658">Lý thuyết cố hữu về độ chính xác của GPS không quá 10m (&lt;= 30 feet). Tuy nhiên, để bảo mật lý do an toàn quốc gia, Bộ Quốc phòng Mỹ (the United State Department Defense), cho chính hệ thống vệ tinh GPS, thường giới hạn độ chính xác có thể đạt được bởi người sử dụng. Thực tế chỉ rõ hiệu suất sai số của máy sẽ không quá 100m (khoảng 300 feet). Thực sự thông tin vị trí kinh vĩ độ đã hiển thị trên GPS nhận sẽ sai số không quá 120 đến 180 feet.</para>
+      <section id="id-191689293886">
+        <title>S/A Dithering </title>
+        <para id="id22196058">Độ chính xác được giới hạn bởi tiến trình chính thức được biết như Selective Availability (S/A) và gọi chung là nhiễu ("dithering"). Điều này được thực hiện bởi dữ liệu thời gian đã truyền bởi vệ tinh ở mức độ nhỏ vì vậy kết quả tính toán vị trí dao động xung quanh sai số nhỏ này. Đây là tiến trình ngẫu nhiên quá đơn giản giá trị trung bình sẽ không loại bỏ toàn bộ sai số gây ra. Đơn vị bộ đội chặn lại bằng một thuật toán máy tính (có nghĩa là chương trình) để chống lại hoặc hiệu chỉnh nhiễu. Đây được gọi là mã P (P-Code).</para>
+      </section>
+      <section id="id-732130193985">
+        <title>Cao độ (Elevation) </title>
+        <para id="id22025490">Thông tin chính xác về cao độ cung cấp bởi GPS là thông tin vị trí trên bề mặt (toạ độ kinh vĩ độ). Điều này tuỳ thuộc vào địa hình tới vệ tinh, khi các vệ tinh thường ít hoặc nhiều hơn trên bầu trời, góc thu nhận dốc đứng.</para>
+      </section>
+      <section id="id-686585837447">
+        <title>Vận tốc (Speed) </title>
+        <para id="id22275283">Ở vận tốc dưới 2 dặm/giờ, ảnh hưởng nhiễu là ảnh hưởng đo vận tốc cung cấp bở GPS; tuy nhiên, ở vận tốc nhanh hơn, ảnh hưởng của nhiễu thì không đáng kể khi nhiễu dần dần rời rạc.</para>
+      </section>
+    </section>
+    <section id="id-251817413147">
+      <title>THỰC HÀNH SỬ DỤNG GPS</title>
+      <para id="id21870469">Hệ thống bản vẽ GPS được sử dụng cho các ứng dụng khác nhau. Chúng tạo và cập nhật cơ sở dữ liệu GIS trong rất nhiều các lĩnh vực như khoa học tài nguyên thiên nhiên, phân tích và phát triển đô thị, nông nghiệp và khoa học xã hội. Vị trí, thời gian và thông tin thuộc tính được thu thập bằng cách đi bộ, xe đạp, xe môtô và máy bay xung quanh các vị trí quan tâm.</para>
+      <list id="id21870476" list-type="bulleted">
+        <item>Ngành hàng hải (Navigation) - được sử dụng chính cho tàu thuỷ và hải phận trên không nhưng phải có sự giám sát ở mặt đất</item>
+        <item>Giám sát vi sai (Differential Surveying) (Real time digitizing)- được sử dụng mở rộng cho mục đích giám sát như qui hoạch vùng.</item>
+        <item>GPS có thể sử dụng cho cả việc xây dựng bản đồ và các vị trí mới có sẵn trên bản đồ.</item>
+        <item>Ứng dụng trong nông nghiệp (Agricultural Applications) – trong quản lý sâu bệnh (Pest management): ứng dụng chính xác thuốc trừ sâu cho cây trồng.</item>
+      </list>
+    </section>
+    <section id="id-131518563121">
+      <title>THU THẬP DỮ LIỆU GPS CHO GIS</title>
+      <para id="id22040301">GPS là công cụ hoàn hảo thu thập dữ liệu cho việc xây dựng và bảo quản GIS. Có một vài vấn đề đặc biệt được nhận thấy khi sử dụng GPS để thu thập dữ liệu cho GIS. Chúng ta phải xác định thu thập cái gì, khi nào và ở đâu để thu thập dữ liệu và thu thập dữ liệu như thế nào.</para>
+    </section>
+    <section id="id-203535234673">
+      <title>XÁC ĐỊNH TOẠ ĐỘ MỘT ĐIỂM</title>
+      <para id="id21112378">Ðể xác định được toạ độ của một điểm thì GPS phải đo được khoảng cách tới ít nhất 4 vệ tinh và vị trí của các vệ tinh.</para>
+      <para id="id21112387">- GPS nhận được hai loại thông tin dạng mã từ vệ tinh, đó là “almanac” và “ephemeric”:</para>
+      <para id="id22249995">+ Dữ liệu “almanac”: cho biết vị trí của những vệ tinh ở gần nhau, dữ liệu này được truyền tải và lưu trữ trong bộ nhớ GPS và được cập nhật thường xuyên khi vệ tinh bay.</para>
+      <para id="id22250008">+ Dữ liệu “ephemeric”: bao gồm quỹ đạo bay, độ cao, vị trí và tốc độ bay của mỗi vệ tinh (lịch thiên văn)</para>
+      <para id="id22145666">Khi GPS nhận được hai loại thông tin này sẽ xác định được vị trí của các vệ tinh.</para>
+      <para id="id22145675"/>
+      <para id="id21537246">Hình 7.4: Đồng hồ xác định thời gian trên vệ tinh (Nguồn : Garmin, 1999)</para>
+      <para id="id21537256">- Bên cạnh đó GPS cần phải biết khoảng cách từ các vệ tinh đến vị trí cần xác định trên mặt đất, bằng công thức:</para>
+      <para id="id22074127">s = v * t</para>
+      <para id="id22074135">s: khoảng cách</para>
+      <para id="id21537260">v: vận tốc</para>
+      <para id="id21109325">t: thời gian</para>
+      <para id="id21109335">Trong công thức này ta chỉ xác định yếu tố thời gian vì vận tốc đường truyền tín hiệu bằng với vận tốc ánh sáng (300.000 km/s)</para>
+      <para id="id22037080">Thời gian được tính từ lúc vệ tinh truyền tín hiệu đến khi GPS nhận được tín hiệu.</para>
+      <para id="id22037089">Khi đó GPS sẽ tính được toạ độ tại một điểm bằng phương pháp giao hội cạnh trong không gian.</para>
+    </section>
+  </content>
+</document>

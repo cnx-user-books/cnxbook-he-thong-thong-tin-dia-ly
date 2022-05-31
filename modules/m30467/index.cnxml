@@ -1,0 +1,132 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Các thành phần của hệ thống thông tin địa lý</title>
+  <metadata>
+  <md:content-id>m30467</md:content-id><md:title>Các thành phần của hệ thống thông tin địa lý</md:title>
+  <md:abstract>Các thành phần của hệ thống thông tin địa lý</md:abstract>
+  <md:uuid>c96963af-d37a-45ce-8390-c329cc02b311</md:uuid>
+</metadata>
+
+<content>
+    <para id="id22182271">Công nghệ GIS bao gồm 5 hợp phần cơ bản là:</para>
+    <list id="id22182277" list-type="bulleted">
+      <item>Thiết bị (hardware)</item>
+      <item>Phần mềm (software)</item>
+      <item>Số liệu (Geographic data)</item>
+      <item>Chuyên viên (Expertise)</item>
+      <item>Chính sách và cách thức quản lý (Policy and management)</item>
+    </list>
+    <figure id="id21847505">
+      <media id="id1169425639748" alt=""><image src="../../media/graphics1-fe83.png" mime-type="image/png" height="360" width="566"/></media>
+    </figure>
+    <para id="id21847529">Hình 3.1: Các hợp phần thiết yếu cho công nghệ GIS</para>
+    <para id="id21847535">Một cách chi tiết có thể giải thích bao gồm các hợp phần như sau:</para>
+    <section id="id-24876597869">
+      <title>THIẾT BỊ (Hardware)</title>
+      <para id="id21666969">Thiết bị bao gồm máy vi tính (computer), máy vẽ (plotters), máy in (printer), bàn số hoá (digitizer), thiết bị quét ảnh (scanners), các phương tiện lưu trữ số liệu (Floppy diskettes, optical cartridges, C.D ROM v.v...).</para>
+      <figure id="id21666988">
+        <media id="id1169417778452" alt=""><image src="../../media/graphics2-aee4.png" mime-type="image/png" height="355" width="598"/></media>
+      </figure>
+      <para id="id21667012">Hình 3.2: Các thành phần thiết bị cơ bản của GIS</para>
+      <section id="id-410691591825">
+        <title>Bộ xử lý trung tâm (CPU)</title>
+        <para id="id21994156">Bộ xử lý trung tâm hay còn gọi là CPU, là phần cứng quan trọng nhất của máy vi tính. CPU không những thực hành tính toán trên dữ liệu, mà còn điều khiển sắp đặt phần cứng khác mà nó thì cần thiết cho việc quản lý thông tin theo sau thông qua hệ thống. Mặc dù bộ vi xử lý hiện đại rất nhỏ chỉ khoảng 5mm2- nó có khả năng thực hiện hàng ngàn, hoặc ngay cả hàng triệu thông tin trong một giây(the Cyber 250"máy vi tính siêu hạng") có thể thực hiện 200 triệu thông tin trên giây)..</para>
+      </section>
+      <section id="id-0380900081079">
+        <title>Bộ nhớ trong (RAM)</title>
+        <para id="id21994190">Tất cả máy vi tính có một bộ nhớ trong mà chức năng như là "không gian làm việc" cho chương trình và dữ liệu. Bộ nhớ truy xuất ngẫu nhiên (RAM) này có khả năng giữ 1 giới hạn số lượng dữ liệu ở một số hạng thời gian (ví dụ, hệ điều hành MS-DOS mẫu có 640Kb ở RAM ). Điều này có nghĩa nó sẽ ít có khả năng thực hiện điều hành phức tạp trên bộ dữ liệu lớn trong hệ điều hành. </para>
+      </section>
+      <section id="id-152473232854">
+        <title>Bộ sắp xếp và lưu trữ ngoài (diskette, harddisk, CD-ROM)</title>
+        <para id="id21994214">Băng có từ tính được giữ không những trong cuộn băng lớn (giống trong cuộn băng máy hát đĩa) mà còn trong cuộn băng nhỏ (giống như cuốn băng được dùng trong máy hát nhạc). Thuận lợi của dây băng có từ tính là nó có thể lưu trữ một số lượng lớn dữ liệu (ví dụ toàn bộ Landsat MSS đòi hỏi 8MB của khả năng lưu trữ trên một băng).</para>
+        <para id="id21830152">Sự gia tăng khả năng lưu trữ thực hiện bằng các đĩa có từ tính. Các đĩa cứng với khả năng lưu trữ rất lớn (được sử dụng trên PCs phổ biến 20 hoặc 30Mb) mà còn ở các đĩa mềm với khả năng giới hạn (2.25 inch, với 360Kb hoặc 1.2 Mb hay 3.5inch với 720Kb hoặc 1.4Mb). Đĩa cứng thông thường được sử dụng cho lưu trữ tạm thời mà thông qua quá trình xử lý, sau khi dữ liệu được gán trong đĩa floppy hoặc dây băng có từ tính.</para>
+      </section>
+      <section id="id-593629151976">
+        <title>Các bộ phận dùng để nhập dữ liệu (INPUT DEVICES)</title>
+        <list id="id21830180" list-type="bulleted">
+          <item>Digitizer</item>
+        </list>
+        <para id="id21830189"> Bảng số hoá bản đổ bao gồm 1 bảng hoặc bàn viết, mà bản đổ được trải rộng ra, và 1 cursor có ý nghĩa của các đường thẳng và các điểm trên bản đổ được định vị. Trong toàn bộ bàn số hoá (digitizer) việc tổ chức được ghi bởi phương pháp của một cột lưới tốt đã gắn vào trong bảng. Dây tóc của cursor phát ra do sự đẩy của từ tính điện mà nó được tìm thấy bởi cột lưới sắt và được chuyển giao đến máy vi tính như một cặp tương xứng (mm trên 1 bảng XY hệ thống tương hợp). Hầu như các cursor được vừa vặn với 4 hoặc nhiều nút cho việc chuyển các tín hiệu đặc biệt cho việc điều khiển chương trình, ví dụ để chỉ ra điểm cuối của đường thẳng.</para>
+        <para id="id21830198">Các bảng số hoá (digitizer) hiện nay có kích thước thay đổi từ bảng nhỏ 27cmx27cm đến bảng lớn 1mx1.5m.</para>
+        <para id="id22059074">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id22069749">Hình 3.3: Bảng số hoá (digitizer) </para>
+        <list id="id22069760" list-type="bulleted">
+          <item>Scanner</item>
+        </list>
+        <para id="id22069769">Máy ghi scanner sẽ chuyển các thông tin trên bản đồ tương xứng 1 cách tự động dưới dạng hệ thống raster. Một cách luân phiên nhau, bản đổ có thể được trải rộng ra trên bàn mà đầu scanning di chuyển trong 1 loạt đường thẳng song song nhau. Các đường quét (scan) phải được vector hoá trước khi chúng được đưa vào hệ thống cơ sở dữ liệu vector.</para>
+        <para id="id22069786">
+          <!--Sorry, this media type is not supported.-->
+          <!--Sorry, this media type is not supported.-->
+        </para>
+        <para id="id22255606">Hình 3.4: Máy quét (Scanner) (Nguồn : Weir 1988) </para>
+        <list id="id22255618" list-type="bulleted">
+          <item>Các bộ phận để in ấn (OUTPUT DEVICES)</item>
+        </list>
+        <para id="id21625848">- Máy in (printer)</para>
+        <para id="id21625856">Là bộ phận dùng để in ấn các thông tin, bản đổ, dưới nhiều kích thước khác nhau tuỳ theo yêu cầu của người sử dụng, thông thường máy in có khổ từ A3 đến A4. Máy in có thể là máy màu hoặc trắng đen, hoặc là máy in phun mực, Laser, hoặc máy in kim.</para>
+        <para id="id21625870">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id21625897">Hình 3.5: Máy in (printer)</para>
+        <para id="id21625905">- Máy vẽ (plotter)</para>
+        <para id="id21805150">Đối với những yêu cầu cần thiết phải in các bản đổ có kích thước lớn, thường máy in không đáp ứng được mà ta phải dùng đến máy Plotter (máy vẽ). Máy vẽ thường có kích thước của khổ A1 hoặc A0.</para>
+        <para id="id21805158">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id21805184">Hình 3.6: Máy vẽ (plotter)</para>
+      </section>
+    </section>
+    <section id="id-359389561864">
+      <title>PHẦN MỀM (Software)</title>
+      <para id="id21805202">Là tập hợp các câu lệnh, chỉ thị nhằm điều khiển phần cứng của máy tính thực hiện một nhiệm vụ xác định, phần mềm hệ thống thông tin địa lý có thể là một hoặc tổ hợp các phần mềm máy tính. Phần mềm được sử dụng trong kỹ thuật GIS phải bao gồm các tính năng cơ bản sau:</para>
+      <para id="id22068035">- Nhập và kiểm tra dữ liệu (Data input): Bao gồm tất cả các khía cạnh về biến đổi dữ liệu đã ở dạng bản đồ, trong lĩnh vực quan sát vào một dạng số tương thích. Ðây là giai đoạn rất quan trọng cho việc xây dựng cơ sở dữ liệu địa lý.</para>
+      <para id="id22068062">- Lưu trữ và quản lý cơ sở dữ liệu (Geographic database): Lưu trữ và quản lý cơ sở dữ liệu đề cập đến phương pháp kết nối thông tin vị trí (topology) và thông tin thuộc tính (attributes) của các đối tượng địa lý (điểm, đường đại diện cho các đối tượng trên bề mặt trái đất). Hai thông tin này được tổ chức và liên hệ qua các thao tác trên máy tính và sao cho chúng có thể lĩnh hội được bởi người sử dụng hệ thống.</para>
+      <para id="id22068076">- Xuất dữ liệu (Display and reporting): Dữ liệu đưa ra là các báo cáo kết quả quá trình phân tích tới người sử dụng, có thể bao gồm các dạng: bản đồ (MAP), bảng biểu (TABLE), biểu đồ, lưu đồ (FIGURE) được thể hiện trên máy tính, máy in, máy vẽ...</para>
+      <para id="id22192927">- Biến đổi dữ liệu (Data transformation): Biến đổi dữ liệu gồm hai lớp điều hành nhằm mục đích khắc phục lỗi từ dữ liệu và cập nhật chúng. Biến đổi dữ liệu có thể được thực hiện trên dữ liệu không gian và thông tin thuộc tính một cách tách biệt hoặc tổng hợp cả hai.</para>
+      <para id="id22192944">- Tương tác với người dùng (Query input): Giao tiếp với người dùng là yếu tố quan trọng nhất của bất kỳ hệ thống thông tin nào. Các giao diện người dùng ở một hệ thống tin được thiết kế phụ thuộc vào mục đích của ứng dụng đó.</para>
+      <para id="id22181927">Các phần mềm tiêu chuẩn và sử dụng phổ biến hiện nay trong khu vực Châu Á là ARC/INFO, MAPINFO, ILWIS, WINGIS, SPANS, IDRISIW,... Hiện nay có rất nhiều phần mềm máy tính chuyên biệt cho GIS, bao gồm các phần mềm như sau:</para>
+      <list id="id22181940" list-type="bulleted">
+        <item>Phần mềm dùng cho lưu trữ, xử lý số liệu thông tin địa lý: ACR/INFO, SPAN,ERDAS-Imagine, ILWIS, MGE/MICROSTATION, IDRISIW, IDRISI, WINGIS, </item>
+        <item>Phần mềm dùng cho lưu trữ, xử lý và quản lý các thông tin địa lý: ER-MAPPER, ATLASGIS, ARCVIEW, MAPINFO,..</item>
+      </list>
+      <para id="id22288153">
+        <!--Sorry, this media type is not supported.-->
+        <media id="id1169425465074" alt=""><image src="../../media/graphics3-b90e.png" mime-type="image/png" height="44" width="163"/></media>
+      </para>
+      <para id="id22282964">
+        <!--Sorry, this media type is not supported.-->
+        <media id="id1169420977857" alt=""><image src="../../media/graphics4-edb4.png" mime-type="image/png" height="111" width="132"/></media>
+        <!--Sorry, this media type is not supported.-->
+      </para>
+      <para id="id21587272">
+        <!--Sorry, this media type is not supported.-->
+        <media id="id1169425550852" alt=""><image src="../../media/graphics5-0599.png" mime-type="image/png" height="47" width="225"/></media>
+      </para>
+      <para id="id21020585">Tuỳ theo yêu cầu và khả năng ứng dụng trong công việc cũng như khả năng kinh phí của đơn vị, việc lưu chọn một phần mềm máy tính sẽ khác nhau.</para>
+    </section>
+    <section id="id-375592827881">
+      <title>CHUYÊN VIÊN (Expertise) </title>
+      <para id="id21588344">Đây là một trong những hợp phần quan trọng của công nghệ GIS, đòi hỏi những chuyên viên hướng dẫn sử dụng hệ thống để thực hiện các chức năng phân tích và xử lý các số liệu. Đòi hỏi phải thông thạo về việc lựa chọn các công cụ GIS để sử dụng, có kiến thức về các số liệu đang được sử dụng và thông hiểu các tiến trình đang và sẽ thực hiện.</para>
+    </section>
+    <section id="id-218256367556">
+      <title>SỐ LIỆU, DỮ LIỆU ĐỊA LÝ (Geographic data)</title>
+      <para id="id21588373">Số liệu được sử dụng trong GIS không chỉ là số liệu địa lý (geo-referenced data) riêng lẽ mà còn phải được thiết kế trong một cơ sở dữ liệu (database). Những thông tin địa lý có nghĩa là sẽ bao gồm các dữ kiện về (1) vị trí địa lý, (2) thuộc tính (attributes) của thông tin, (3) mối liên hệ không gian (spatial relationships) của các thông tin, và (4) thời gian. Có 2 dạng số liệu được sử dụng trong kỹ thuật GIS là:</para>
+      <para id="id21588390">- Cơ sở dữ liệu bản đồ: là những mô tả hình ảnh bản đồ được số hoá theo một khuôn dạng nhất định mà máy tính hiểu được. Hệ thống thông tin địa lý dùng cơ sở dữ liệu này để xuất ra các bản đồ trên màn hình hoặc ra các thiết bị ngoại vi khác như máy in, máy vẽ.</para>
+      <list id="id21588400" list-type="bulleted">
+        <item>Số liệu Vector: được trình bày dưới dạng điểm, đường và diện tích, mỗi dạng có liên quan đến 1 số liệu thuộc tính được lưu trữ trong cơ sở dữ liệu.</item>
+        <item>Số liệu Raster: được trình bày dưới dạng lưới ô vuông hay ô chữ nhật đều nhau, giá trị được ấn định cho mỗi ô sẽ chỉ định giá trị của thuộc tính. Số liệu của ảnh Vệ tinh và số liệu bản đổ được quét (scanned map) là các loại số liệu Raster.</item>
+      </list>
+      <para id="id22437974">- Số liệu thuộc tính (Attribute): được trình bày dưới dạng các ký tự hoặc số, hoặc ký hiệu để mô tả các thuộc tính của các thông tin thuộc về địa lý.</para>
+      <para id="id22437991">Trong các dạng số liệu trên, số liệu Vector là dạng thường sử dụng nhất. Tuy nhiên, số liệu Raster rất hữu ích để mô tả các dãy số liệu có tính liên tục như: nhiệt độ, cao độ...và thực hiện các phân tích không gian (Spatial analyses) của số liệu. Còn số liệu thuộc tính được dùng để mô tả cơ sở dữ liệu.</para>
+      <para id="id22438008">Có nhiều cách để nhập số liệu, nhưng cách thông thường nhất hiện nay là số hoá (digitizing) bằng bàn số hoá (digitizer), hoặc thông qua việc sử dụng máy quét ảnh (Scanner)</para>
+    </section>
+    <section id="id-517445377298">
+      <title>CHÍNH SÁCH VÀ QUẢN LÝ (Policy and management)</title>
+      <para id="id22432537">Ðây là hợp phần rất quan trọng để đảm bảo khả năng hoạt động của hệ thống, là yếu tố quyết định sự thành công của việc phát triển công nghệ GIS. Hệ thống GIS cần được điều hành bởi một bộ phận quản lý, bộ phận này phải được bổ nhiệm để tổ chức hoạt động hệ thống GIS một cách có hiệu quả để phục vụ người sử dụng thông tin.</para>
+      <para id="id22432557">Để hoạt động thành công, hệ thống GIS phải được đặt trong 1 khung tổ chức phù hợp và có những hướng dẫn cần thiết để quản lý, thu thập, lưu trữ và phân tích số liệu, đồng thời có khả năng phát triển được hệ thống GIS theo nhu cầu. Hệ thống GIS cần được điều hành bởi 1 bộ phận quản lý, bộ phận này phải được bổ nhiệm để tổ chức hoạt động hệ thống GIS một cách có hiệu quả để phục vụ người sử dụng thông tin. Trong quá trình hoạt động, mục đích chỉ có thể đạt được và tính hiệu quả của kỹ thuật GIS chỉ được minh chứng khi công cụ này có thể hỗ trợ những người sử dụng thông tin để giúp họ thực hiện được những mục tiêu công việc. Ngoài ra việc phối hợp giữa các cơ quan chức năng có liên quan cũng phải được đặt ra, nhằm gia tăng hiệu quả sử dụng của GIS cũng như các nguồn số liệu hiện có.</para>
+      <para id="id22432581">Như vậy, trong 5 hợp phần của GIS, hợp phần chính sách và quản lý đóng vai trò rất quan trọng để đảm bảo khả năng hoạt động của hệ thống, đây là yếu tố quyết định sự thành công của việc phát triển công nghệ GIS.</para>
+      <para id="id22432595">Trong phối hợp và vận hành các hợp phần của hệ thống GIS nhằm đưa vào hoạt động có hiệu quả kỹ thuật GIS, 2 yếu tố huấn luyện và chính sách - quản lý là cơ sở của thành công. Việc huấn luyện các phương pháp sử dụng hệ thống GIS sẽ cho phép kết hợp các hợp phần: (1) Thiết bị (2) Phần mềm (3) Chuyên viên và (4) Số liệu với nhau để đưa vào vận hành. Tuy nhiên, yếu tố chính sách và quản lý sẽ có tác động đến toàn bộ các hợp phần nói trên, đồng thời quyết định đến sự thành công của hoạt động GIS. </para>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,128 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Tổng quan về công nghệ thông tin</title>
+  <metadata>
+  <md:content-id>m30059</md:content-id><md:title>Tổng quan về công nghệ thông tin</md:title>
+  <md:abstract>Đây là giáo trình tổng quan về công nghệ thông tin</md:abstract>
+  <md:uuid>9e62713e-f876-4e5b-a1c3-a29ff5158ee8</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-494998271294">
+      <title>KHÁI NIỆM CHUNG VỀ CÔNG NGHỆ THÔNG TIN</title>
+      <para id="id22170151">Ai cũng biết là cuộc cách mạng khoa học kỹ thuật lần thứ nhất có bản chất là quá trình cơ khí hoá, nội dung là sử dụng máy móc thay thế lao động chân tay. Kết quả của cuộc cách mạng khoa học kỹ thuật này là sự ra đời của các nước công nghiệp, cơ cấu kinh tế được chuyển đổi từ thuần tuý nông nghiệp sang công nghiệp với tỷ trọng cao hơn nhiều lần. Từ những năm 50 con người bắt đầu cuộc cách mạng khoa học kỹ thuật lần thứ hai có bản chất là hoá trình tin học hoá nội dung là sử dụng “công nghệ thông tin” để thay thế một phần lao động trí óc, để trợ giúp phần điều khiển bằng trí tuệ của con người. Vậy chúng ta cần hiểu trước hết thế nào là công nghệ thông tin và xu hướng phát triển hiện nay. </para>
+      <para id="id22170189">Công nghệ thông tin là tập hợp các ngành khoa học kỹ thuật nhầm giải quyết vấn đề thu nhận thông tin, quản lý thông tin, xử lý thông tin, truyền thông tin và cung cấp thông tin. Để giải quyết những vấn đề này, người ta đã tập trung vào các nội dung sau đây:</para>
+      <section id="id-758102270396">
+        <title>Xác định hệ thống thông tin </title>
+        <list id="id22170200" list-type="bulleted">
+          <item>Xác định các thể loại thông tin, yêu cầu về chất lượng.</item>
+          <item>Xác định các chuẩn thông tin </item>
+          <item>Xác định hệ thống phần cứng và phần mềm hệ thống </item>
+          <item>Xây dựng tổ chức cho toàn hệ thống </item>
+        </list>
+      </section>
+      <section id="id-268110188556">
+        <title>Thu nhận thông tin</title>
+        <list id="id21875925" list-type="bulleted">
+          <item>Kỹ thuật đo đạc để lấy số liệu </item>
+          <item>Tổ chức hệ thống thống kê số liệu thông qua bộ máy quản lý của ngành </item>
+          <item>Tổ chức hệ thống cập nhật dữú liệu </item>
+        </list>
+      </section>
+      <section id="id-773565368647">
+        <title>Quản lý thông tin </title>
+        <list id="id21890077" list-type="bulleted">
+          <item>Xây dựng hệ thống cơ sở dữ liệu </item>
+          <item>Hệ quản trị cơ sở dữ liệu </item>
+        </list>
+      </section>
+      <section id="id-261845368478">
+        <title>Xử lý thông tin </title>
+        <list id="id21890102" list-type="bulleted">
+          <item>Phân tích và tổng hợp hệ thống thông tin </item>
+          <item>Giải các bài toán ứng dụng chuyên ngành </item>
+        </list>
+      </section>
+      <section id="id-663733374307">
+        <title>Truyền thông tin</title>
+        <list id="id21871998" list-type="bulleted">
+          <item>Xây dựng hệ thống đường truyền thông tin </item>
+          <item>Giải pháp truyền thông tin trên mạng </item>
+          <item>Hệ quản trị mạng thông tin </item>
+        </list>
+        <list id="id21872022" list-type="bulleted">
+          <item>Bảo vệ an toàn trên đường truyền thông tin </item>
+        </list>
+        <list id="id21872032" list-type="bulleted">
+          <item>Bảo mật thông tin </item>
+        </list>
+      </section>
+      <section id="id-0974344541055">
+        <title>Cung cấp thông tin</title>
+        <list id="id21866335" list-type="bulleted">
+          <item>Xây dựng giao diện với người sử dụng </item>
+          <item>Hiển thị thông theo nhu cầu </item>
+          <item>Tổ chức mạng dịch vụ thông tin</item>
+        </list>
+      </section>
+    </section>
+    <section id="id-81749292475">
+      <title>XU HƯỚNG PHÁT TRIỂN CỦA CÔNG NGHỆ THÔNG TIN</title>
+      <section id="id-0862023389106">
+        <title>Nhu cầu đa dạng hoá thông tin </title>
+        <para id="id21866141">Trước khoảng 15 năm người ta mới chỉ quan tâm tới xử lý số cho các thông tin chữ và số vì khả năng các thiết bị tin học mới chỉ xử lý được các loại thông tin này. Nhu cầu đã đòi hỏi con người phải xử lý thông tin đa dạng hơn như thông tin đồ hoạ, hình ảnh động, âm thanh. Đến nay, các thể loại thông tin mà con người có thể cảm nhận được đều đã xử lý ở dạng số; đáng kể là các thông tin đồ hoạ ở dạng raster và vector, các thông tin multimedia ở dạng âm thanh, hình ảnh động v..v.. Trong các dạng thông tin trên người ta rất cần quan tâm tới các thông tin về không gian mà trên đó con người đang sống : các thông tin địa lý. Các thông tin này có liên quan trực tiếp tới hoạt động của con người và giúp chúng ta những quyết định chính xác về hành động của mình tác động vào môi trường.</para>
+      </section>
+      <section id="id-0804855812425">
+        <title>Nhu cầu chính xác hoá thông tin</title>
+        <para id="id21866192">Thông tin cần được thu nhập chính xác là một nhu cầu đương nhiên của con người. Đối với các thông tin chữ - số cần phải đảm bảo thu nhận chính xác. Điều quan trọng cần quan tâm hơn là tính chính xác đối với các thông tin địa lý. Đó là tính chính xác của các vị trí địa lý trong không gian và các thông tin khác gắn lên vị trí địa lý đó.</para>
+      </section>
+      <section id="id-996982488695">
+        <title>Xu hướng phát triển phần cứng và phần mềm hệ thống</title>
+        <para id="id22401645">Thiết kế phần cứng và phần mềm hệ thống cho các máy tính là một quá trình phát triển rất sinh động. Trong những năm 1950 và 1960 những người thiết kế máy tính đã đi theo tư tưởng tập trung, một máy tính sẽ thiết kế để đủ thực hiện mọi nhiệm vụ của một cơ sở xử lý thông tin. Vì vậy người ta đã thiết kế và sản xuất các loại máy tính cỡ lớn. Tất nhiên công nghệ điện tử trong giai đoạn này chưa đạt được trình độ cao nên dung tích các loại máy tính lại càng lớn. Phần mềm hệ thống cơ bản là OS và UNIX.</para>
+        <para id="id22401672">Từ những năm 1970 khi các bộ vi xử lý ra đời những người thiết kế máy tính đã đưa ra các loại máy tính cá nhân gọi là PC với phần mềm hệ thống DOS. Các máy tính PC lúc này góp phần quyết định trong việc xã hội hoá công nghệ thông tin. Sau đó trong thập kỷ này hãng Microsoft đã có công lớn trong việc hình thành phẩm nền hệ thống WINDOWS với các phiên bản 3.1xWorgroup, NT .95. Đặc biệt WINDOWS NT đã có phiên bản chạy trên máy tính cỡ trung bình. Cho tới nay hai loại máy tính vẫn đang song song tồn tại; máy tính cỡ lớn (mainframe) và trung bình (workstation ) với phần mềm hệ thống UNIX là máy tính PC với phần mềm hệ thống WINDOWS. Cuộc chạy đua giữa hai dòng máy tính này sẽ dẫn tới một sự hoà nhập nào đó trong tương lai khi các bộ vi xử lý đạt được tốc độ xử lý thông tin ngang cỡ với các bộ xử lý của các máy tính trung bình. </para>
+        <para id="id22401679">Khoảng từ những năm 1980, người ta đã đưa ra ý tưởng hình thành hệ thống mạng máy tính. Đây là một ý tưởng có tính cách mạng trong công nghệ thông tin và đã làm thay đổi hướng phát triển. Đầu tiên người ta giải quyết mạng cục bộ (LAN) nhằm nối các máy nhỏ lại với nhau để giải quyết các bài toán lớn hơn. Hệ mạng này làm cho máy tính PC có thể tìm kiếm được một vị trí cao hơn trong ứng dụng thực tế. Sau đó người ta đã tổ chức hệ thống thông tin toàn cầu (Intermet) làm cho thông tin được xã hội hoá mạnh hơn và các máy tính PC càng phát huy khả năng lớn hơn. Từ việc triển khai hệ thống internet cho từng ngành hoặc cho từng khu vực và hệ thống extranet cho liên ngành hoặc liên khu vực. Khi các mạng thông tin được hình thành người ta lại đưa ra một mô hình máy tính mới là NC- máy tính mạng. Đây là loại máy tính rất đơn giản có nhiều phần cứng được sử dụng chung trên mạng.</para>
+      </section>
+      <section id="id-00723664257538">
+        <title>Sự phát triển của kỹ thuật xử lý thông tin</title>
+        <para id="id22282424">Tốc độ xử lý thông tin với các bộ xử lý (CPU) hiện nay đã tăng lên hàng nghìn lần so với 10 năm trước (ví dụ từ hệ thống 16 bít tới hệ 64 bít hiện nay). Tốc độ xử lý cao là điều kiện để các nhà thiết kế phần mềm thực hiện các ý tưởng về định hướng đối tượng (object- oriented), kỹ thuật liên kết OLE nhúng và nối (linking and embeding), kỹ thuật xử lý đa nhiệm vụ (multitasking) và kỹ thuật liên kết mạng (networking). Các kỹ thuật xử lý này có tác động mạnh tới việc tổ chức cơ sở dữ liệu, xử lý khối lượng dữ liệu lớn và các thông tin phức tạp như địa lý.</para>
+      </section>
+      <section id="id-558779761306">
+        <title>Sự phát triển trong xây dựng các cơ sở dữ liệu</title>
+        <para id="id21109898">Trước đây máy tính được thiết kế theo quan điểm tập trung (centralized data- base). Thiết kế này tỏ ra lúng túng khi phải quản lý một khối lượng thông tin lớn và đa dạng. Từ khi mạng máy tính ra đời người ta đã đưa ra quan niệm về hệ thống cơ sở dữ liệu phân tán (dicentralized data base). Hệ CSDL phân tán vừa cho phép giải quyết tốt bài toán với khối lượng dữ liệu lớn, vừa tạo được khả năng tương thích giữa hệ thống thông tin với hệ thống quản lý vừa tạo điều kiện tốt cho quá trình xã hội hoá thông tin.</para>
+      </section>
+      <section id="id-067139882919">
+        <title>Sự phát triển mạng thông và kỹ thuật truyền tin</title>
+        <para id="id21931923">Quá trình phát triển mạng thông tin từ mạng cục bộ (LAN) tới các mạng diện rộng (WAN) bao gồm intranet, extranet, hay internet đã giới thiệu ở trên. Các xa lộ thông tin với đường truyền tốc độ cao được hình thành để nối các máy lại với nhau. Thiết kế cụ thể các mạng là một kỹ thuật đơn thuần, ít điều cần nói đến. Vấn đề quan trọng ở đây là cần giải quyết tốc độ truyền tin, tính an toàn khi truyền tin và đảm bảo bí mật khi truyền tin. Các vấn đề này đang được giải quyết từng bước.</para>
+      </section>
+      <section id="id-549027840075">
+        <title>Sự phát triển trong kỹ thuật thu nhận và cung cấp thông tin</title>
+        <para id="id21591416">Cho đến nay người ta đã đạt được thành tựu khá lớn trong tốc độ xử lý thông tin nhưng chưa đạt được kết quả như mong muốn trong kỹ thuật thu thập thông tin. Mặc dù vậy, việc thu thập thông tin địa lý đã đạt được nhiều thành tựu quan trọng. Đó là kỹ thuật đo đạc số với các máy toàn đạc điện tử tự động (electronic totalstation), máy định vị thu từ vệ tinh GPS (RTK GPS), máy chụp ảnh số (digital camera), máy đo sáu số (Digital echosounder).. Điều cần quan tâm phát triển ở đây là kỹ thuật thu nhận các thông tin chữ- số. Vì cho đến nay vẫn chưa có gì nhanh hơn bàn phím máy tính. Để tăng nhanh tốc độ cần có sự phối hợp tốt nhất giữa mạng lưới thu nhận thông tin với hệ thống quản lý các ngành.</para>
+        <para id="id21591451">Cung cấp thông tin đòi hỏi nâng cao kỹ thuật hiển thị thông tin. Hiển thị trên màn hình, trên các thiết bị nhớ đã được giải quyết tốt nhưng việc hiển thị trên các máy vẽ và máy in vẫn chưa đạt được tốc độ và chất lượng cần thiết.</para>
+      </section>
+    </section>
+    <section id="id-716170500536">
+      <title>LỢI ÍCH VÀ NHỮNG HẠN CHẾ CỦA VIỆC SỬ DỤNG KỸ THUẬT GIS</title>
+      <para id="id21866220">Kỹ thuật GIS là một công nghệ ứng dụng các tiến bộ của khoa học máy tính, (computer based technology) do đó việc sử dụng GIS trong các mục tiêu nghiên cứu so với các phương tiện cổ điển có thể mang lại những hiệu quả cao do:</para>
+      <list id="id21866238" list-type="bulleted">
+        <item>Là cách tiết kiệm chi phí và thời gian nhất trong việc lưu trữ số liệu,</item>
+        <item>Có thể thu thập số liệu với số lượng lớn,</item>
+        <item>Số liệu lưu trữ có thể được cập nhật hoá một cách dễ dàng,</item>
+        <item>Chất lượng số liệu được quản lý, xử lý và hiệu chỉnh tốt,</item>
+        <item>Dễ dàng truy cập, phân tích số liệu từ nhiều nguổn và nhiều loại khác nhau,</item>
+        <item>Tổng hợp một lần được nhiều loại số liệu khác nhau để phân tích và tạo ra nhanh chóng một lớp số liệu tổng hợp mới.</item>
+      </list>
+      <para id="id21003709">Tuy nhiên, có những trở ngại xuất hiện trong quá trình sử dụng kỹ thuật GIS, những trở ngại này đặc biệt quan trọng là cần được cân nhắc thận trọng trong quá trình phát triển GIS tại các nước kém và đang phát triển như Việt Nam, đó là:</para>
+      <list id="id21003716" list-type="bulleted">
+        <item>Chi phí và những vấn đề kỹ thuật đòi hỏi trong việc chuẩn bị lại các số liệu thô hiện có, nhằm có thể chuyển từ bản đổ dạng giấy truyền thống sang dạng kỹ thuật số trên máy tính (thông qua việc số hoá, quét ảnh...)</item>
+        <item>Đòi hỏi nhiều kiến thức của các kỹ thuật cơ bản về máy tính, và yêu cầu lớn về nguồn tài chính ban đầu.</item>
+        <item>Chi phí của việc mua sắm và lắp đặt thiết bị và phần mềm GIS khá cao.</item>
+        <item>Trong một số lĩnh vực ứng dụng, hiệu quả tài chánh thu lại thấp.</item>
+      </list>
+      <para id="id21873131">Đặc biệt trong nông nghiệp, GIS có 3 điểm thuận lợi chính khi được so sánh với cách quản lý bản đổ bằng tay trước đây:</para>
+      <list id="id21051590" list-type="bulleted">
+        <item>Chúng là một công cụ khá mạnh trong việc lưu trữ và diễn đạt các số liệu đặc biệt là các bản đổ.</item>
+        <item>Chúng có thể cho ra những kết quả dưới những dạng khác nhau như các bản đổ, biểu bản, và các biểu đổ thống kê,..</item>
+        <item>Chúng là một công cụ đắc lực cho các nhà khoa học đặc biệt về lãnh vực nghiên cứu hệ thống canh tác, đánh giá đất đai, khả năng thích nghi của các kiểu sử dụng đất, quản lý và xử lý các bản đồ giai thửa trong quản lý đất đai,..Nó giúp cho các nhà làm khoa học đó khả năng phân tích các nguyên nhân và những ảnh hưởng và kiểm chứng những biến đổi trong hệ thống sinh thái cũng như khả năng thích ứng của việc thay đổi một chính sách đối với người dân.</item>
+      </list>
+    </section>
+  </content>
+</document>

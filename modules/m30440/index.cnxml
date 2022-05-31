@@ -1,0 +1,180 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Các đặc điểm của hệ thống thông tin địa lý - GIS</title>
+  <metadata>
+  <md:content-id>m30440</md:content-id><md:title>Các đặc điểm của hệ thống thông tin địa lý - GIS</md:title>
+  <md:abstract>Đây là giáo trình về các đặc điểm của hệ thống thông tin địa lý</md:abstract>
+  <md:uuid>d0cb594b-f028-4d5e-879b-56184632f970</md:uuid>
+</metadata>
+
+<content>
+    <para id="id17956943">Hệ thống thông tin địa lý trước hết là một hệ thống thông tin cũng như các hệ thống thông tin khác, ví dụ như thương mại, pháp luật, ngân hàng, ... Các hệ thống thông tin nói chung đều bao gồm các phần:</para>
+    <list id="id17956949" list-type="enumerated">
+      <item>Hệ thống thiết bị phần cứng bao gồm máy tính hoặc hệ mạng máy tính, các thiết bị đầu vào, các thiết bị đầu ra.</item>
+      <item>Hệ thống phần mềm bao gồm phần mềm hệ thống, phần mềm quản trị, phần mềm ứng dụng.</item>
+      <item>Hệ thống thông tin đầu vào và hệ thống cập nhật thông tin.</item>
+      <item>Hệ thống CSDL bao gồm các loại dữ kiện cần thiết.</item>
+      <item>Hệ thống hiển thị thông tin và giao diện với người sử dụng </item>
+    </list>
+    <para id="id18040222">Sự khác nhau giữa hệ thống thông tin địa lý với các hệ thống thông tin khác chỉ ở hai điểm sau:</para>
+    <list id="id18040230" list-type="enumerated">
+      <item>CSDL bao gồm các dữ liệu địa lý và các dữ liệu thuộc tính (các dữ liệu chữ - số, dữ liệu multimedial,... ) và mối quan hệ giữa hai loại dữ liệu này.</item>
+      <item>Hệ thống thông tin đầu vào và hệ thống hiển thị thông tin đòi hỏi những đặc thù riêng về độ chính xác.</item>
+    </list>
+    <para id="id18923991">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+    <para id="id22239691">Hình 5.1: Sự thể hiện quang cảnh sự vật dưới các lớp bản đồ khác nhau</para>
+    <para id="id22239698">Một hệ thống thông tin địa lý có thể bao gồm các đặc điểm chính sau:</para>
+    <section id="id-347810132996">
+      <title>KHẢ NĂNG CHỒNG LẤP CÁC BẢN ĐỒ (Map Overlaying)</title>
+      <para id="id18923333">Việc chồng lắp các bản đồ trong kỹ thuật GIS là một khả năng ưu việt của GIS trong việc phân tích các số liệu thuộc về không gian, để có thể xây dựng thành một bản đồ mới mang các đặc tính hoàn toàn khác với bản đồ trước đây. Dựa vào kỹ thuật chồng lắp các bản đồ mà ta có các phương pháp sau:</para>
+      <list id="id20933450" list-type="bulleted">
+        <item>Phương pháp cộng (sum)</item>
+        <item>Phương pháp nhân (multiply)</item>
+        <item>Phương pháp trừ (substract)</item>
+        <item>Phương pháp chia (divide)</item>
+        <item>Phương pháp tính trung bình (average)</item>
+        <item>Phương pháp hàm số mũ (exponent)</item>
+        <item>Phương pháp che (cover)</item>
+        <item>Phương pháp tổ hợp (crosstabulation)</item>
+      </list>
+      <para id="id17958121">
+        <media id="id1166974005158" alt=""><image src="../../media/graphics1-f11f.png" mime-type="image/png" height="243" width="393"/></media>
+      </para>
+      <para id="id18919410">Hình 5.2: Nguyên lý khi chồng lắp các bản đồ</para>
+      <figure id="id18923231">
+        <media id="id1166974005195" alt=""><image src="../../media/graphics2-3656.png" mime-type="image/png" height="326" width="454"/></media>
+      </figure>
+      <para id="id17957044">Hình 5.3: Việc chồng lắp các bản đồ theo phương pháp cộng</para>
+      <figure id="id17957054">
+        <media id="id1166974005232" alt=""><image src="../../media/graphics3-c285.png" mime-type="image/png" height="310" width="456"/></media>
+      </figure>
+      <para id="id18229641">Hình 5.4: Một thí dụ trong việc chồng lắp các bản đồ.</para>
+    </section>
+    <section id="id-0587333064761">
+      <title>KHẢ NĂNG PHÂN LOẠI CÁC THUỘC TÍNH (Reclassification)</title>
+      <para id="id18231909">Một trong những điểm nổi bật trong tất cả các chương trình GIS trong việc phân tích các thuộc tính số liệu thuộc về không gian là khả năng của nó để phân loại các thuộc tính nổi bật của bản đồ. Nó là một quá trình nhằm chỉ ra một nhóm thuộc tính thuộc về một cấp nhóm nào đó. Một lớp bản đồ mới được tạo ra mang giá trị mới, mà nó được tạo thành dựa vào bản đồ trước đây.</para>
+      <para id="id18923318">Việc phân loại bản đồ rất quan trọng vì nó cho ra các mẩu khác nhau. Một trong những điểm quan trọng trong GIS là giúp để nhận biết được các mẩu đó. Đó có thể là những vùng thích nghi cho việc phát triển đô thị hoặc nông nghiệp mà hầu hết được chuyển sang phát triển dân cư. Việc phân loại bản đồ có thể được thực hiện trên 1 hay nhiều bản đồ..</para>
+      <figure id="id18231914">
+        <media id="id1166974005306" alt=""><image src="../../media/graphics4-3c9b.png" mime-type="image/png" height="222" width="583"/></media>
+      </figure>
+      <para id="id18231598">Hình 5.5: Một thí dụ trong việc phân loại lại một bản đồ.</para>
+    </section>
+    <section id="id-90683327247">
+      <title>KHẢ NĂNG PHÂN TÍCH (SPATIAL ANALYSIS)</title>
+      <list id="id18799614" list-type="bulleted">
+        <item>Tìm kiếm (Searching)</item>
+        <item>Vùng đệm (Buffer zone)</item>
+        <item>Nội suy (Spatial Interpolation)</item>
+        <item>Tính diện tích (Area Calculation)</item>
+      </list>
+      <section id="id-00350955543482">
+        <title>Tìm kiếm (Searching)</title>
+        <para id="id18232220">Nếu dữ liệu được mã hoá trong hệ vector sử dụng cấu trúc lớp hoặc lớp phủ, thì dữ liệu được nhóm lại với nhau sau cho có thể tìm kiếm một lớp 1cách dễ dàng.</para>
+        <para id="id18919235">Trong GIS phương pháp này khó khăn khi mỗi một thành phần có nhiều thuộc tính. Một hệ lớp đơn giản yêu cầu dữ liệu đối với mỗi lớp phải được phân lớp trước khi đưa vào.</para>
+        <para id="id18587710">Vd: Tìm đường đi trên xe taxi, tìm đặc tính của một chủ hộ nào đó trên bản đồ giai thửa, theo dõi hướng bay của các loài chim di cư.</para>
+        <para id="id18919080">Phép logic: Các thủ tục tìm kiếm dữ liệu sử dụng các thuật toán logic Boole để thao tác trên các thuộc tính và đặc tính không gian. Đại số Boole sử dụng các toán tử AND, OR, NOT tuỳ từng điều kiện cụ thể cho giá trị đúng, sai.</para>
+        <para id="id18799588">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <table id="id18896804" summary="">
+          <tgroup cols="6">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <tbody>
+              <row>
+                <entry>A</entry>
+                <entry>B</entry>
+                <entry>NOT A</entry>
+                <entry>A AND B</entry>
+                <entry>A OR B</entry>
+                <entry>A X OR B</entry>
+              </row>
+              <row>
+                <entry>1</entry>
+                <entry>1</entry>
+                <entry>0</entry>
+                <entry>1</entry>
+                <entry>1</entry>
+                <entry>0</entry>
+              </row>
+              <row>
+                <entry>1</entry>
+                <entry>0</entry>
+                <entry>0</entry>
+                <entry>0</entry>
+                <entry>1</entry>
+                <entry>1</entry>
+              </row>
+              <row>
+                <entry>0</entry>
+                <entry>1</entry>
+                <entry>1</entry>
+                <entry>0</entry>
+                <entry>1</entry>
+                <entry>1</entry>
+              </row>
+              <row>
+                <entry>0</entry>
+                <entry>0</entry>
+                <entry>1</entry>
+                <entry>0</entry>
+                <entry>0</entry>
+                <entry>0</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id18798802">Hình 5.6: Biểu đồ hình và bảng của các phép toán logic (Nguồn : Phạm Vọng Mạnh, và ctv. 1999)</para>
+        <para id="id18923759">Các phép toán logic không có tính chất giao hoán, chỉ có mức độ ưu tiên cao hơn. Nó không chỉ được áp dụng cho các thuộc tính mà cho các đặc tính không gian.</para>
+        <para id="id18587631">TD: Cho 2 bản đồ A &amp; B như dưới với thuật toán and và điều kiện “Tìm những vị trí có đất phù sa và đang canh tác lúa” ta tìm kiếm được những đối tượng không gian như bản đồ C.</para>
+        <figure id="id18588184">
+          <media id="id1166974014723" alt=""><image src="../../media/graphics5-c522.png" mime-type="image/png" height="302" width="421"/></media>
+        </figure>
+        <para id="id18896342">Hình 5.7: Ứng dụng thuật toán logic trong tìm kiếm không gian</para>
+      </section>
+      <section id="id-863364186257">
+        <title>Vùng đệm (Buffer zone)</title>
+        <para id="id18798640">- Nếu đường biên bên trong thì gọi là lõi còn nếu bên ngoài đường biên thì gọi là đệm (buffer). Vùng đệm sử dụng nhiều thao tác phân tích và mô hình hoá không gian.</para>
+        <figure id="id18880175">
+          <media id="id1166974033780" alt=""><image src="graphics6." mime-type="image/" height="342" width="529"/></media>
+        </figure>
+        <para id="id18798773">Hình 5.8: Bản đồ vùng đệm với các khoảng cách khách nhau (Nguồn : Robert Shumowsky, 2005)</para>
+        <para id="id18799185"/>
+        <para id="id18799194">Hình 5.9: Nội suy khoãng cách vùng đệm đến dòng sông (Nguồn : USGS, 2005)</para>
+      </section>
+      <section id="id-148152755447">
+        <title>Nội suy (Spatial Interpolation)</title>
+        <para id="id18230237">- Trong tình huống thông tin cho ít điểm, đường hay vùng lựa chọn thì nội suy hay ngoại suy phải thực hiện để có nhiều thông tin hơn. Nghĩa là phải giải đoán giá trị hay tập giá trị mới, phần này mô tả nội suy hướng điểm, có nghĩa 1 hay nhiều điểm trong không gian được sử dụng để phát sinh giá trị mới cho vị trí khác nơi không đo dữ liệu được trực tiếp.</para>
+        <para id="id18230245"/>
+        <para id="id18040252">Hình 5.10: Phương thức và kết quả nội suy điểm (Nguồn : Mary McDerby, 2002)</para>
+        <para id="id21665198">’</para>
+        <para id="id18923209">Hình 5.11: Nội suy giá trị pH đất tại các điểm khảo sát (Nguồn : USGS, 2005)</para>
+        <para id="id18919175">- Trong thực tế nội suy được áp dụng cho mô hình hoá bề mặt khi cần phải giải đoán các giá trị mới cho bề mặt 2 chiều trên cơ sở độ cao láng giềng.</para>
+      </section>
+      <section id="id-285875768001">
+        <title>Tính diện tích (Area Calculation)</title>
+        <para id="id17957337">- Phương pháp thủ công:</para>
+        <para id="id18229878">+ Đếm ô</para>
+        <para id="id17957125">+ Cân trọng lượng</para>
+        <para id="id17957131">+ Đo thước tỷ lệ</para>
+        <para id="id18688669">- Phương pháp GIS:</para>
+        <para id="id18231757">+ Dữ liệu Vector: chia nhỏ bản đồ dưới dạng đa giác</para>
+        <para id="id18587939">+ Dữ liệu Raster: tính diện tích của 1 ô, sau đó nhân diện tích này với số lượng ô của bản đồ</para>
+        <para id="id18230294">Với các chức năng nêu trên, kỹ thuật GIS có khả năng giải đáp được các dạng câu hỏi như sau:</para>
+        <list id="id18230298" list-type="bulleted">
+          <item>Vị trí của đối tượng nghiên cứu: quản lý và cung cấp vị trí của các đối tượng theo yêu cầu bằng các cách khác nhau như tên địa danh, mã, vị trí, toạ độ.</item>
+          <item>Ðiều kiện về thuộc tính của đối tượng: thông qua phân tích các dữ liệu không gian cung cấp các sự kiện tồn tại hoặc xảy ra tại một đỉem nhất định hoặc xác định các đối tượng thoả mãn các điều kiện đặt ra.</item>
+          <item>Xu hướng thay đổi của đối tượng: cung cấp hướng thay đổi của đối tượng thông qua phân tích các lãnh thổ trong vùng nghiên cứu theo thời gian.</item>
+          <item>Cấu trúc và thành phần có liên quan của đối tượng: cung cấp mức độ sai lệch của các đối tượng so với kiểu mẫu và nơi sắp đặt chúng đã có từ các nguồn khác.</item>
+          <item>Các giải pháp tốt nhất để đáp ứng mục tiêu nghiên cứu</item>
+          <item>Các mô hình nhằm giả định các phương án khác nhau</item>
+        </list>
+      </section>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,151 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Xử lý thông tin bản đồ trong GIS</title>
+  <metadata>
+  <md:content-id>m30079</md:content-id><md:title>Xử lý thông tin bản đồ trong GIS</md:title>
+  <md:abstract>Xử lý thông tin bản đồ trong GIS</md:abstract>
+  <md:uuid>c6e10a58-692f-464a-9c09-2190b86c780a</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-323073594287">
+      <title>CẤU TRÚC THÔNG TIN BẢN ĐỒ </title>
+      <section id="id-233421915943">
+        <title>Giới thiệu</title>
+        <para id="id22518001">Các đối tượng số trong cơ sở dữ liệu không gian là sự phản ánh lại các thực thể trong thế giới thực cùng với thuộc tính tương ứng. Điểm mạnh của các hệ thống GIS là khả năng thể hiện nội dung địa lý cả mối quan hệ về không gian giữa chúng. Sau đây chúng ta sẽ xem cách mà hệ thống GIS lưu trữ các đối tượng bản đồ như thế nào.</para>
+        <para id="id22518017">Thực thể phức tạp trong thế giới thực, trong bản đồ đều được qui về 4 loại đối tượng số cơ bản như sau: </para>
+        <list id="id22518026" list-type="bulleted">
+          <item>Đối tượng kiểu điểm (point)</item>
+          <item>Đối tượng kiểu đường (line, polyline)</item>
+          <item>Đối tượng kiểu vùng (area, polygon)</item>
+          <item>Đối tượng kiểu mô tả (annotation, text, symbol)</item>
+        </list>
+      </section>
+      <section id="id-882339112487">
+        <title>Cách phản ánh các đối tượng trên bản đồ </title>
+        <section id="id-578361789265">
+          <title>Sự phản ánh lại các đối tượng địa lý </title>
+          <list id="id22492987" list-type="bulleted">
+            <item>Bản đồ thể hiện các đối tượng địa lý thông qua mô tả bằng tập hợp các thành phần của: đường, màu sắc, ký hiệu và từ ngữ </item>
+            <item>Các thông tin đồ hoạ và mô tả cho chúng ta biết về vị trí địa lý và các thuộc tính của các đối tượng địa lý.</item>
+            <item>Mô hình dữ liệu số phản ánh lại các vị trí, tính chất và các quan hệ không gian dưới dạng số </item>
+            <item>Bản đồ số lưu trữ dữ liệu theo loại đối tượng. Bản đồ số lưu theo loại đối tượng dưới đây: </item>
+          </list>
+          <list id="id22066991" list-type="bulleted">
+            <item>Điểm (Points): Đối tượng đơn có vị trí.Ví dụ Trạm cứu hoả, nhà Giếng</item>
+            <item>Đường (Arcs): Các đối tượng dạng tuyến. Ví dụ đường sá, sông, đường điện</item>
+            <item>Vùng (Polygons): Vùng có diện tích, định nghĩa bởi đường bao . Ví dụ thửa loại đất </item>
+          </list>
+          <para id="id21533299">Để phản ánh toàn bộ các thông tin cần thiết của bản đồ dưới dạng đối tượng số, các đối tượng địa lý còn được phản ánh theo cấu trúc phân mảnh và phân lớp thông tin.</para>
+          <para id="id21533307">- Cấu trúc phân mảnh:</para>
+          <para id="id21533312">Một đối tượng địa lý về mặt không gian có thể liên tục trên một phạm vi rộng. Tuy nhiên trong cơ sở dữ liệu GIS, do hạn chế về các lý do kỹ thuật như khả năng lưu trữ, xử lý, quản lý dữ liệu mà các đối tượng địa lý lưu trữ dưới dạng cách mảnh (mapsheet, tile). Tuy nhiên khái niệm chia mảnh trong cơ sở dữ liệu GIS không hoàn toàn đồng nhất với khái niệm chia mảnh bản đồ thông thường. Một mảnh (tile) trong cơ sở dữ liệu GIS có thể có hình dạng bất kỳ miễn sau cho phù hợp với khả năng quản lý và xử lý của hệ thống. Trong một số hệ thống GIS đã có, người dùng phải tự quản lý cách chia mảnh của mình. Tuy nhiên xu hướng hiện nay, các hệ thống GIS đã cung cấp những công cụ cho phép người sử dụng tự động quản lý các mảnh trong cơ sở dữ liệu. Một số GIS tiến bộ hơn, dựa trên các kỹ thuật mới của công nghệ hướng đối tượng, về mặt vật lý, các đối tượng địa lý bị chia cắt theo từng mảnh, nhưng đối với người sử dụng, các đối tượng là liên tục không bị chia cắt.</para>
+          <para id="id21533350">- Cấu trúc phân lớp thông tin:</para>
+          <para id="id21533355">Một trong những bước quan trọng xây dựng cơ sở dữ liệu GIS là phân loại các lớp thông tin (layer, class). Hệ thống GIS lưu trữ các đối tượng địa lý theo các lớp thông tin. Mỗi lớp thông tin lưu trữ một loại các đối tượng có chung một tính chất, đặc điểm giống nhau. Thiết kế các lớp thông tin rất quan trọng đối với bất kỳ một hệ thống GIS nào. Cách phân lớp thông tin sẽ ảnh hưởng rất lớn đến tính hiệu quả, khả năng xử lý và sử dụng lâu dài của cơ sở dữ liệu không gian.</para>
+          <para id="id21533363">Một số nguyên tắc khi thiết kế các lớp thông tin:</para>
+          <para id="id21533367">- Có các lớp thông tin cơ bản: các ứng dụng khác nhằm cần đến những lớp thông tin cơ bản (thông tin nền) Ví dụ như:</para>
+          <para id="id22131021">+ Lớp thông tin cơ sở toán học bản đồ: điểm khống chế, khung, điểm độ cao, trắc địa nhà nước, v..v.. </para>
+          <para id="id22131030">+ Lớp thông tin về địa hình </para>
+          <para id="id22131035">+ Lớp thông tin về hệ thống thuỷ văn </para>
+          <para id="id22131041">+ Lớp thông tin về hệ thống đường giao thông </para>
+          <para id="id22131047">- Đủ các lớp thông tin chuyên đề: Tuỳ từng ứng dụng và yêu cầu cụ thể trước mắt, việc chọn lựa các lớp thông tin chuyên đề được lưu trữ trong cơ sở dữ liệu và thứ tự nhập vào là quan trọng. Nó ảnh hưởng trực tiếp đến giá thành và thời gian xây dựng cơ sở dữ liệu GIS </para>
+          <para id="id22131065">- Gộp các đối tượng thành một lớp thông tin: không quá chi tiết (để tránh có quá nhiều lớp thông tin phải quản lý) cũng như không quá tổng quát (khó khăn khi muốn xử lý riêng biệt)</para>
+          <para id="id21834541">Hình 8.1: Mô hình cơ sở dữ liệu bản đồ</para>
+        </section>
+        <section id="id-907685755351">
+          <title>Mô hình phân lớp đối tượng </title>
+          <para id="id21834555">Một phân lớp đối tượng (Layer) mà một mô hình dữ liệu lưu trữ một tập loging địa lý có cùng một tính chất chung nào đó và các thuộc tính tương ứng của chúng.</para>
+          <para id="id21834570">Các quan niệm dữ liệu không gian liên quan chặt chẽ với dữ liệu nguồn để xây dựng nên mô hình không gian trên máy tính. Hai nhóm mô hình dữ liệu không gian chính ta thường gặp trong GIS thương mại đó là mô hình dữ liệu vector và mô hình dữ liệu raster. Phương pháp biểu diễn các đặc trưng địa lý bằng các phần tử đồ hoạ cơ bản (điểm, đường, vùng) được gọi là phương pháp vector hay mô hình vector. Phương pháp biểu diễn các đặc trưng địa lý bằng các điểm ảnh được gọi là phương pháp raster hay mô hình dữ liệu raster.</para>
+          <para id="id21834600">* Mô hình Vector: </para>
+          <para id="id21840326">Mô hình dữ liệu vector coi hiện tượng là tập các thực thể không gian cơ sở và tổ hợp giữa chúng. Trong mô hình 2 chiều thì đối tượng sơ đẳng bao gồm điểm, đường và vùng, mô hình 3 chiều còn áp dụng bề mặt 3 chiều và khối. Các đối tượng sơ đẳng được hình thành trên cơ sở vector hay toạ độ của các điểm trong một hệ trục nào đó.</para>
+          <para id="id21840345">Hình 8.2: Các thành phần hình học cơ sở (Nguồn : Đặng Văn Đức, 2001)</para>
+          <para id="id21840355">Điểm là thành phần sơ cấp của dữ liệu địa lý ở mô hình này. Các điểm được nối với nhau bằng đoạn thẳng hay các đường cong để tạo thành các đối tượng khác nhau như đường hay vùng</para>
+          <para id="id21840364">Loại đối tượng sơ đẳng được sử dụng phụ thuộc vào đối tượng quan sát. Tỷ lệ trên bản đồ tỷ lệ lớn, đối tượng thể hiện dưới dạng vùng, tuy nhiên trên bản đồ tỷ lệ nhỏ, đối tượng này có thể thể hiện dưới dạng một điểm. Ví dụ: với tỷ lệ nhỏ thì thành phố được biểu diễn bằng điểm, còn đi và sông ngòi được biểu diễn bằng đường, với tỷ lệ trung bình thì thành phố được biểu diễn bằng vùng có đường ranh giới, với tỷ lệ lớn hơn thì thành phố được biểu diễn bởi tập hợp các đối tượng để tạo nên ngôi nhà, đường phố, công viên và các hiện tượng vật lý, hành chính khác. Như vậy, mô hình dữ liệu vector sử dụng các đoạn thẳng hay điểm rời rạc để nhận biết các vị trí của thế giới thực. Vì vậy, các đối tượng điểm và vùng có thể được dùng phản ánh lẫn nhau.</para>
+          <para id="id21616719">Hình 8.3: Biểu diễn bản đồ vector (Nguồn : Đặng Văn Đức, 2001)</para>
+          <para id="id21616729">Phương pháp vector hình thành trên cơ sở quan sát đối tượng của thế giới thực. Quan sát đặc trưng theo hướng đối tượng là phương pháp tổ chức thông tin trong các hệ GIS để định hướng các hệ thống quản trị cơ sở dữ liệu. Chúng có ưu việt trong việc lưu trữ số liệu bản đồ bởi vì chúng chỉ lưu các đường biên của các đặc trưng, không cần lưu toàn bộ vùng của chúng. Các thành phần đồ hoạ biểu diễn của bản đồ liên kết trực tiếp với các thuộc tính của cơ sở dữ liệu cho nên người sử dụng có thể dễ dàng tìm kiếm và hiển thị các thông tin từ CSDL.</para>
+          <para id="id21616761">- Cấu trúc dữ liệu toàn đa giác:</para>
+          <para id="id21616774">Mỗi lớp trong CSDL của cấu trúc toàn đa giác được chia thành tập hợp các đa giác. Mỗi đa giác được mã hoá thành trật tự các vị trí hình thành đường biên của vùng khép kín theo hệ trục toạ độ nào đó (hình 8.4). Trong cấu trúc này không có tham số để biết ngay các vùng kề nhau. Do quản lý từng đa giác như các đối tượng tách biệt cho nên không có tổ chức topo trong hệ thống này. Khái niệm topo đề cập đến các quan hệ giữa các đối tượng không gian khác nhau như đa giác nào cùng chung đường biên, điểm nào thuộc cạnh của đa giác nào, …</para>
+          <para id="id21788088">Hình 8.4: Cấu trúc toàn đa giác (Nguồn : Đặng Văn Đức, 2001)</para>
+          <para id="id21788098">Trong cấu trúc toàn đa giác thì các đoạn xác định đa giác được lưu 2 lần trong CSDL.Một số điểm tạo nên các cạnh đa giác sẽ lưu được nhiều lần. Do vậy việc cập nhật, sửa đổi dữ liệu trong tổ chức dữ liệu không gian loại này là rất khó khăn.</para>
+          <para id="id21788114">- Cấu trúc cung-nút</para>
+          <para id="id21788127">Một khía cạnh quan trọng của mô hình vectorlaf cho khả năng tách biệt các thành phần để đo đạc (diện tích, độ dài) và để xác định các quan hệ không gian giữa các thành phần. Quan hệ không gian của liên kết và gần kề là những thí dụ của quan hệ topo (hình 8.5). </para>
+          <para id="id21788146">Hình 8.5: Đối tượng topo cơ sở (Nguồn : Đặng Văn Đức, 2001)</para>
+          <para id="id22401728">Thông tin về vùng gần kề được lưu trữ bằng mã đặc trưng liên quan đến phía phải hay phía trái của cung. “Phải” hay “trái” được xác định từ hướng đi của cung: từ “nút” hay “ đến nút”. Để phân biệt đường biên trong và đường biên ngoài, ta quy định chiều quay kim đồng hồ cho đường biên ngoài và ngược chiều quay kim đồng hồ cho đường biên trong. Mỗi nút được gắn danh sách cung bao quanh, danh sách cung nối vào nút phải được xếp đặt theo trật tự xác định trước, theo chiều quay kim đồng hồ hay ngược lại (hình 8.6)</para>
+          <para id="id22401756">Hình 8.6: Đối tượng mã hoá topo(Nguồn : Đặng Văn Đức, 2001)</para>
+          <para id="id22401766">* Mô hình Raster:</para>
+          <para id="id22401770">Mô hình dữ liệu dạng raster phản ánh toàn bộ vùng nghiên cứu dưới dạng một lưới các điểm (cell) hay điểm ảnh (pixel). Các hệ thống trên cơ sở raster hiển thị, định vị và lưu trữ dữ liệu đồ hoạ nhờ sử dụng các ma trận hay lưới các điểm ảnh. Độ phân giải dữ liệu raster phụ thuộc vào kích thước của của điểm ảnh. Dữ liệu raster được thiết lập bằng cách mã hoá mỗi điểm ảnh bằng một giá trị theo các đặc trưng và tính chất trên bản đồ (hình 8.7), có thể sử dụng số nguyên, số thực, ký tự hay tổ hợp chúng để làm giá trị. Mỗi đặc tính giống nhau sẽ có cùng giá trị số. Độ chính xác của mô hình raster phụ thuộc vào kích thước hay độ phân giải của các pixel (hình 8.8). Một điểm có thể là là một điểm ảnh, một đường là vài điểm ảnh liền kề nhau, một vùng là tập hợp nhiều điểm ảnh.</para>
+          <para id="id22512000">Hình 8.7: Biểu diễn raster (Nguồn : Đặng Văn Đức, 2001)</para>
+          <para id="id22512011">Hình 8.8: Sự ảnh hưởng của sự lựa chọn kích thước tế bào (Nguồn : Đặng Văn Đức, 2001)</para>
+          <para id="id22512022">Các nguồn dữ liệu xây dựng nên dữ liệu raster có thể bao gồm:</para>
+          <list id="id22512029" list-type="bulleted">
+            <item>Quét ảnh </item>
+            <item>Ảnh máy bay, ảnh viễn thám </item>
+            <item>Chuyển từ dữ liệu vector sang </item>
+            <item>Lưu trữ dữ liệu dạng RASTER</item>
+            <item>Nén theo hàng (Run lengh coding)</item>
+            <item>Nén theo chia nhỏ thành từng phần (Quadtree)</item>
+            <item>Nén theo ngữ cảnh (Fractal)</item>
+          </list>
+          <para id="id22411948">Trong một hệ thống dữ liệu cơ bản raster được lưu trữ trong các ô (thường hình vuông) được sắp xếp trong một mảng hoặc các dãy hàng và cột. Nếu có thể, các hàng và cột nên được căn cứ vào hệ thống lưới bản đổ thích hợp.</para>
+          <para id="id22411966">Việc sử dụng cấu trúc dữ liệu raster tất nhiên đưa đến một số chi tiết bị mất. Với lý do này, hệ thống raster-based không được sử dụng trong các trường hợp nơi có các chi tiết có chất lượng cao được đòi hỏi. </para>
+          <para id="id22411982">Hình 8.9: Sự biểu thị kết quả bản đồ dưới dạng Raster</para>
+          <para id="id22411988">* Mô hình lưới dữ liệu tam giác không đều (TIN):</para>
+          <para id="id22412003">Các ứng dụng mô hình hoá địa hình đòi hỏi phương pháp biểu diễn độ cao mặt đất. Một trong những phương pháp đó có tên là “ lưới tam giác không đều” (Triangulated Irregular Network - TIN). Khái niệm hình học TIN là tập các đỉnh được nối với nhau thành các tam giác. Các tam giác này hình thành bề mặt 3 chiều. Bề mặt TIN được sử dụng để biểu diễn các vấn đề khác nhau như độ cao, mức độ ô nhiễm, lượng mưa, … (hình 8.10, 8.11)</para>
+          <para id="id22412012">Hình 8.10: Điểm dữ liệu rời rạc (Nguồn : Đặng Văn Đức, 2001)</para>
+          <para id="id21673689">Hình 8.11: Mô hình TIN (Nguồn : Đặng Văn Đức, 2001)</para>
+          <para id="id21673699">Hình 8.10 mô tả vị trí các điểm dữ liệu trên mặt phẳng. Chúng có vị trí không gian x, y kèm theo giá trị (giả sử biểu diễn độ cao). TIN được hình thành khi nối các điểm dữ liệu gần nhau. Hình 8.11 là mô hình TIN của khối dữ liệu mô tả trên hình 8.10 tiến trình nối các điểm dữ liệu với nhau gọi là “khảm” (tesselation), bằng cách thay đổi điểm nhìn ta có mô hình TIN dưới các góc độ khác nhau. Vì TIN hình thành bề mặt liên tục, do vậy có thể tính được các đặc tính như hướng chảy và đường bình độ của các giá trị hằng (hình 8.12). Trong GIS vector thì TIN được coi như các đa giác có các thuộc tính là độ dốc, hướng và diện tích. Các đỉnh của chúng có thuộc tính là độ cao, các cạnh có thuộc tính độ dốc và hướng. Mô hình này khá hấp dẫn vì tính đơn giản và kinh tế của nó.</para>
+          <para id="id21673735">Hình 8.12: TIN và đường bình độ(Nguồn : Đặng Văn Đức, 2001)</para>
+          <para id="id21673745"/>
+          <para id="id21637348">Hình 8.13: So sánh đường bình độ và TIN (Nguồn : Đặng Văn Đức, 2001)</para>
+          <para id="id21637358">Trong bản đồ học thì phương pháp truyền thống để biểu diễn bề mặt địa hình là đường bình độ, tuy nhiên đường bình độ không thuận tiện cho mục đích phân tích. Nếu có dữ liêu là đường bình độ thì thông thường chuyển sang phương pháp biểu diễn địa hình chung nhất của hệ GIS lưới tam giác không đều (TIN). Mô hình TIN sẽ bao gồm dãy tam giác không phủ nhau bao trùm toàn bộ bề mặt topo, mỗi tam giác xác định một mặt phẳng, đỉnh của tam giá được mã hoá bởi vị trí của chúng và gắn theo độ cao. Khoảng cách không đều của các điểm độ cao dẫn tới ta có tập các tam giác có kích thước và hình dáng khác nhau, nơi các điểm dữ liệu gần nhau thì vùng nghiên cứu sẽ thay đổi độ cao nhanh, nơi điểm dữ liệu xa nhau thì kích thước tam giác tăng nhanh (hình 8.13). GIS chứa dữ liệu độ cao trong mô hình TIN cho phép tính toán độ dốc rất hiệu quả, chúng cho phép phát sinh đường bình độ hay phác hoạ ảnh vùng nghiên cứu.</para>
+        </section>
+      </section>
+    </section>
+    <section id="id-615864569809">
+      <title>CHUẨN THÔNG TIN BẢN ĐỒ </title>
+      <section id="id-946490079799">
+        <title>Giới thiệu </title>
+        <para id="id22507211">Chuẩn thông tin bản đồ bao gồm các chuẩn sau:</para>
+        <list id="id22507217" list-type="bulleted">
+          <item>Chuẩn về hệ thống toạ độ </item>
+          <item>Chuẩn về các sai số </item>
+          <item>Chuẩn về các phân mảnh, đánh phiên hiệu mảnh bản đồ số</item>
+          <item>Chuẩn về phân lớp thông tin </item>
+          <item>Chuẩn về mô hình dữ liệu lưu trữ và mô tả thông tin </item>
+        </list>
+      </section>
+      <section id="id-142750907802">
+        <title>Mô tả về các chuẩn </title>
+        <section id="id-254971139499">
+          <title>Chuẩn về hệ thống toạ độ bản đồ</title>
+          <para id="id22507277">Dữ liệu bản đồ số lưu trong cơ sở dữ liệu phải được đưa về hệ thống toạ độ và độ cao quốc gia trong một hệ chiếu thống nhất.</para>
+        </section>
+        <section id="id-994598672409">
+          <title>Chuẩn về các sai số</title>
+          <para id="id21939437">Sai số dữ liệu là một yếu tố phải cân nhắc khi xây dựng cơ sở dữ liệu bản đồ. Đối với những loại ứng dụng khác nhau, sai số dữ liệu cho phép cũng có thể khác nhau. Ví dụ: Bản địa hình tuân theo các sai số qui định trong qui phạm của bản đồ địa hình. Trong các ứng dụng về quản lý môi trường, tài nguyên , sai số của dữ liệu có thể lớn hơn.</para>
+        </section>
+        <section id="id-710247965722">
+          <title>Chuẩn về cách phân mảnh, đánh phiên hiệu mảnh bản đồ số </title>
+          <para id="id21939462">Để có thể dễ dàng trong quản lý, xử lý mảnh và trợ giúp quá trình tự động hoá xử lý trên mảnh, yêu cầu về chuẩn cách phân mảnh, đánh phiên hiệu mảnh là bắt buộc phải có. Có thể nhiều cách phân mảnh, đánh tên khác nhau cho những dạng dữ liệu khác nhau nhưng phải thống nhất tròn cùng một cơ sở dữ liệu. Phân mảnh có thể theo:</para>
+          <para id="id21939480">Cách phân mảnh hiện có trên bản đồ giấy </para>
+          <para id="id21939486">Theo đơn vị hành chính</para>
+          <para id="id21939492">Theo phạm vi nghiên cứu ..v..v..</para>
+        </section>
+        <section id="id-827882516128">
+          <title>Chuẩn về phân lớp thông tin</title>
+          <para id="id21894517">Đây là một chuẩn quan trọng đặc biệt trong các ứng dụng có dữ liệu lớn, sử dụng lâu dài. Chuẩn đòi hỏi mọi thông tin lưu trữ trong cơ sở dữ liệu phải tuân theo các lớp thông tin đã được xác định trước cho cơ sở dữ liệu. Bảng phân lớp thông tin phải thể hiện đầy đủ các dữ liệu cần lưu trữ mà không quá tổng quát, hoặc quá chi tiết.</para>
+          <para id="id21894536">Chuẩn về tính quan hệ, tương hỗ giữa các lớp thông tin khác nhau. Ví dụ đường giao thông không được chạy ra ngoài sông.</para>
+        </section>
+        <section id="id-50084880357">
+          <title>Chuẩn về mô hình dữ liệu lưu trữ và mô tả thông tin </title>
+          <para id="id21894559">Công nghệ kỹ thuật về phân tích, xử lý có thể thay đổi rất nhanh nhưng cơ sở dữ liệu thì không thể nhanh chóng thay đổi. Chuẩn về mô hình dữ liệu là chuẩn để đảm bảo cơ sở dữ liệu có thể sử dụng lâu dài và chia sẻ thông tin với các hệ thống GIS khác. Chuẩn về mô hình dữ liệu lưu trữ và mô tả thông tin bao gồm: </para>
+          <list id="id21894573" list-type="bulleted">
+            <item>Chuẩn về mô hình dữ liệu: Lựa chọn mô hình dữ liệu nào vector (có / không có topology) hoặc raster cho dữ liệu địa lý, mô hình cơ sở dữ liệu quan hệ cho dữ liệu thuộc tính </item>
+            <item>Chuẩn về format lưu trữ dữ liệu:</item>
+          </list>
+          <para id="id21894593">Dữ liệu vector theo DXF, DGN hoặc ArcInfo, Ilwis..v..v..</para>
+          <para id="id21792441">Dữ liệu raster theo GRD, TIF, BMP, JPG, JPEG..v..v..</para>
+          <para id="id21792447">Dữ liệu thuộc tính theo DBF, MSSQL, TXT họặc ORACLE</para>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>

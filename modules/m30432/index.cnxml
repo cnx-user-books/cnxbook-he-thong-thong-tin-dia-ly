@@ -1,0 +1,290 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Các ứng dụng của hệ thống thông tin địa lý</title>
+  <metadata>
+  <md:content-id>m30432</md:content-id><md:title>Các ứng dụng của hệ thống thông tin địa lý</md:title>
+  <md:abstract>Nhờ những khả năng phân tích và xử lý đa dạng, kỹ thuật GIS hiện nay được ứng dụng phổ biến trong nhiều lĩnh vực, được xem là "công cụ hỗ trợ quyết định (decision - making support tool). Một số lĩnh vực được ứng dụng chủ yếu ở nhiều nơi trên thế giới là:</md:abstract>
+  <md:uuid>582d46e5-e7bb-48de-a682-d7fdd6b9d383</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-984641483183">
+      <title>NGHIÊN CỨU QUẢN LÝ TÀI NGUYÊN THIÊN NHIÊN VÀ MÔI TRƯỜNG</title>
+      <list id="id22311309" list-type="bulleted">
+        <item>Quản trị rừng (theo dõi sự thay đổi, phân loại...),</item>
+        <item>Quản trị đường di cư và đời sống động vật hoang dã,</item>
+        <item>Quản lý và quy hoạch đồng bằng ngập lũ, lưu vực sông,</item>
+        <item>Bảo tồn đất ướt,</item>
+        <item>Phân tích các biến động khí hậu, thuỷ văn.</item>
+        <item>Phân tích các tác động môi trường (EIA),</item>
+        <item>Nghiên cứu tình trạng xói mòn đất,</item>
+        <item>Quản trị sở hữu ruộng đất,</item>
+        <item>Quản lý chất lượng nước,</item>
+        <item>Quản lý, đánh giá và theo dõi dịch bệnh,</item>
+        <item>Xây dựng bản đổ và thống kê chất lượng thổ nhường.</item>
+        <item>Quy hoạch và đánh giá sử dụng đất đai.</item>
+      </list>
+    </section>
+    <section id="id-996400482188">
+      <title>NGHIÊN CỨU ĐIỀU KIỆN KINH TẾ - XÃ HỘI</title>
+      <list id="id22155116" list-type="bulleted">
+        <item>Quản lý dân số,</item>
+        <item>Quản trị mạng lưới giao thông (thuỷ - bộ),</item>
+        <item>Quản lý mạng lưới y tế, giáo dục,</item>
+        <item>Điều tra và quản lý hệ thống cơ sở hạ tầng.</item>
+      </list>
+    </section>
+    <section id="id-0231309479108">
+      <title>NGHIÊN CỨU HỖ TRỢ CÁC CHƯƠNG TRÌNH QUY HOẠCH PHÁT TRIỂN</title>
+      <list id="id22155157" list-type="bulleted">
+        <item>Đánh giá khả năng thích nghi cây trồng, vật nuôi và động vật hoang dã,</item>
+        <item>Định hướng và xác định các vùng phát triển tối ưu trong sản xuất nông nghiệp,</item>
+        <item>Hỗ trợ quy hoạch và quản lý các vùng bảo tồn thiên nhiên,</item>
+        <item>Đánh giá khả năng và định hướng quy hoạch các vùng đô thị, công nghiệp lớn,</item>
+        <item>Hỗ trợ bố trí mạng lưới y tế, giáo dục. </item>
+      </list>
+      <para id="id21882757">Trong nghiên cứu sản xuất nông nghiệp và phát triển nông thôn, các lĩnh vực ứng dụng của kỹ thuật GIS rất rộng rãi. Do vậy, GIS trở thành công cụ đắc dụng cho việc quản lý và tổ chức sản xuất nông nghiệp - nông thôn trên các vùng lãnh thổ.</para>
+    </section>
+    <section id="id-879617111486">
+      <title>CÁC LĨNH VỰC ỨNG DỤNG CỦA GIS TRONG SẢN XUẤT NÔNG NGHIỆP VÀ PHÁT TRIỂN NÔNG THÔN</title>
+      <section id="id-469015008458">
+        <title>Thổ nhường</title>
+        <list id="id21882791" list-type="bulleted">
+          <item>Xây dựng các bản đồ đất và đơn tính đất.</item>
+          <item>Đặc trưng hoá các lớp phủ thổ nhường</item>
+        </list>
+      </section>
+      <section id="id-217977326992">
+        <title>Trồng trọt</title>
+        <list id="id21573585" list-type="bulleted">
+          <item>Khả năng thích nghi các loại cây trồng</item>
+          <item>Sự thay đổi của việc sử dụng đất</item>
+          <item>Xây dựng các đề xuất về sử dụng đất</item>
+          <item>Khả năng bền vững của sản xuất nông nghiệp Nông - Lâm kết hợp</item>
+          <item>Theo dõi mạng lưới khuyến nông</item>
+          <item>Khảo sát nghiên cứu dịch - bệnh cây trồng (côn trùng và cỏ dại)</item>
+          <item>Suy đoán hay nội suy các ứng dụng kỹ thuật</item>
+        </list>
+      </section>
+      <section id="id-838806787787">
+        <title>Quy hoạch thuỷ văn và tưới tiêu</title>
+        <list id="id21573651" list-type="bulleted">
+          <item>Xác định hệ thống tưới tiêu</item>
+          <item>Lập thời biểu tưới nước</item>
+          <item>Tính toán sự xói mòn/ bồi lắng trong hồ chứa nước</item>
+          <item>Nghiên cứu đánh giá ngập lũ</item>
+        </list>
+      </section>
+      <section id="id-895886232849">
+        <title>Kinh tế nông nghiệp</title>
+        <list id="id22293524" list-type="bulleted">
+          <item>Điều tra dân số / nông hộ</item>
+          <item>Thống kê</item>
+          <item>Khảo sát kỹ thuật canh tác</item>
+          <item>Xu thế thị trường của cây trồng</item>
+          <item>Nguồn nông sản hàng hoá</item>
+        </list>
+      </section>
+      <section id="id-433159371493">
+        <title>Phân tích khí hậu</title>
+        <list id="id22293567" list-type="bulleted">
+          <item>Hạn hán</item>
+          <item>Các yếu tố thời tiết</item>
+          <item>Thống kê</item>
+        </list>
+      </section>
+      <section id="id-879218943941">
+        <title>Mô hình hoá nông nghiệp</title>
+        <list id="id21830305" list-type="bulleted">
+          <item>Ước lượng / tiên đoán năng suất cây trồng</item>
+        </list>
+      </section>
+      <section id="id-809680839574">
+        <title>Chăn nuôi gia súc / gia cầm</title>
+        <list id="id21830324" list-type="bulleted">
+          <item>Thống kê</item>
+          <item>Phân bố</item>
+          <item>Khảo sát và theo dõi diễn biến, dự báo dịch bệnh</item>
+        </list>
+        <para id="id21830346">(Theo Rajan, M.S. 1991)</para>
+        <para id="id21830358">Một ứng dụng quan trọng của GIS là mô hình hoá các cấu trúc căn bản thực của thế giới trên dữ liệu con số. Nghệ thuật làm mô hình có thể phân tích những khuynh hướng, định nghĩa những nhân tố gây ra chúng, trình bày các khả năng cho phép chọn lựa các giải pháp để giải quyết những vấn đề được đặt ra, hoặc chỉ ra các mối quan hệ mật thiết và các kết quả của một quyết định. Thí dụ, GIS có thể chỉ ra các nguồn tài nguyên thiên nhiên có khả năng bị ảnh hưởng do các quyết định nào đó trên cơ sở các dữ liệu của ảnh vệ tinh. Những vùng chịu tổn thất từ vùng khai hoang có thể được định nghĩa và phân tích trên cơ sở dữ liệu chồng lấp của các yêu cầu về loại đất, sự gia tăng năng suất, thời gian, loại, tỷ lệ, và khả năng quản lý, nhu cầu thực tế có thể được chỉ ra và định rõ kết quả. </para>
+        <para id="id21830364">Trong nông nghiệp, sự thiệt hại về tiềm năng tài nguyên thiên nhiên do việc mở rộng diện tích trồng lúa có thể được đánh giá về mặt số lượng, việc đánh giá trên cơ sở về mặt kinh tế của nơi có sự thay đổi về mặt kỹ thuật. GIS có thể chỉ ra sự thay đổi ở mặt giới hạn về số lượng (trong việc phát triển diện tích của một vùng mới). GIS cũng được sử dụng để chỉ ra những tuyến đường tốt nhất cho giao thông đường bộ và thuỷ lợi.</para>
+        <para id="id21830368">Một hướng sử dụng quan trọng khác của GIS là trong phân tích thống kê những đặc điểm (như diện tích của khu rừng hay chiều dài của con sông, kênh, đường, vùng) qua việc xác định các vùng đệm. Ví dụ, đất xung quanh một khu rừng được giới hạn có thể được nghiên cứu để quyết định cách sử dụng đất thích hợp nhất, vùng đệm xung quanh có thể được chồng lấp với hiện trạng đất có khả năng tiềm tàng lý tưởng để chọn ra cách sử dụng có hiệu quả nhất.</para>
+        <para id="id21470967">Một phương pháp khác có thể được sử dụng để đánh giá thích nghi đất cho việc canh tác các vụ riêng biệt. Phương pháp bao gồm sử dụng một vài bản đổ có chủ đề từ dữ liệu của vệ tinh cũng như dữ liệu không ảnh. Thí dụ, tài nguyên đất có thể được dùng để đánh giá cho sự phát triển ruộng lúa. Các dữ liệu về điều kiện đất, sức sản xuất của đất và yêu cầu điều kiện ẩm độ đất cần phải được thu thập và đánh giá khả năng thích nghi cho các vùng trồng lúa .</para>
+        <para id="id21470993">Có thể nói GIS là một hệ thống dưới dạng số dùng cho việc phân tích và quản lý các số liệu thuộc về địa lý được kết hợp với các hệ thống phụ dùng cho việc nhập các dữ liệu và quyết định một kế hoạch phát triển nào đó. Thí dụ như các bản đổ đất, mưa, địa hình, mật độ dân số, sử dụng đất, ... có thể được kết hợp để phát triển thành một bản đổ mới sẽ chỉ ra được những vùng có khả năng đất bị xói mòn hoặc những vùng đất thích nghi cho sự phát triển của các loại cây ăn trái hoặc lúa 2, 3 vụ, ... với các mức độ khác nhau tuỳ vào các yêu cầu mà ta đã đặt ra trước đó.</para>
+        <para id="id21997555">Hình 9.1: Một thí dụ ứng dụng của GIS trong đánh giá sử dụng đất (Mohan Sundara Rajan, 1991)</para>
+      </section>
+    </section>
+    <section id="id-216585227834">
+      <title>CÁC BÀI TOÁN ỨNG DỤNG CỦA CÔNG NGHỆ GIS </title>
+      <section id="id-85596722797">
+        <title>Giới thiệu </title>
+        <para id="id21997586">Công nghệ GIS, cấu trúc dữ liệu và kỹ thuật phân tích được ứng dụng rộng rãi trong quản lý và trợ giúp quyết định </para>
+        <para id="id21997595">Các lĩnh vực ứng dụng của công nghệ GIS có thể được phân loại theo chức năng: </para>
+        <list id="id21997603" list-type="enumerated">
+          <item>Dựa vào đặc điểm của dữ liệu như: </item>
+        </list>
+        <list id="id21997613" list-type="bulleted">
+          <item>Dạng dữ liệu cần lưu trữ </item>
+          <item>Độ chính xác đòi hỏi </item>
+          <item>Mô hình dữ liệu </item>
+          <item>Theo các chức năng mà hệ thống GIS cung cấp </item>
+        </list>
+        <para id="id17651662">Những chức năng nào mà hệ thống cung cấp: gắn địa chỉ, chồng xếp</para>
+        <list id="id17651670" list-type="enumerated">
+          <item>Theo sản phẩm đầu ra </item>
+        </list>
+        <para id="id17651681">Phép phân loại theo những đặc điểm này trở nên không rõ ràng khi các hệ thống GIS trở thành các công cụ mềm dẻo với nhiều chức năng để xử lý và tạo sản phẩm ra.</para>
+        <list id="id17651693" list-type="enumerated">
+          <item>Coi GIS như là một công cụ trợ giúp quyết định</item>
+        </list>
+        <para id="id17651706">Từ đó chúng ta có thể phân loại các bài toán ứng dụng GIS là theo kiểu quyết định mà GIS trợ giúp.</para>
+        <para id="id17651714">GIS là một công cụ được sử dụng bởi nhiều loại người dùng khác nhau: các người dùng cuối, các nhà quản lý, các giáo sư, các nhà nghiên cứu mà làm việc với thông tin không gian.</para>
+      </section>
+      <section id="id-144530238848">
+        <title>Phân loại các bài toán ứng dụng của công nghệ GIS </title>
+        <para id="id22288812">Công nghệ GIS được áp dụng trong các lĩnh vực sau:</para>
+        <list id="id22288819" list-type="enumerated">
+          <item>Các lĩnh vực dùng chung và chia sẻ kỹ thuật và cung cấp dữ liệu cho GIS là:</item>
+        </list>
+        <list id="id22288830" list-type="bulleted">
+          <item>Trắc địa </item>
+          <item>Bản đồ </item>
+          <item>Viễn thám</item>
+          <item>Các lĩnh vực áp dụng công nghệ GIS như là một công cụ để quản lý, phân tích dữ liệu và trợ giúp tạo quyết định </item>
+        </list>
+        <list id="id22288867" list-type="bulleted">
+          <item>Quản lý và điều tra tài nguyên </item>
+          <item>Quản lý và qui hoạch đô thị (Urban Information Systems)</item>
+          <item>Quản lý đất và giải thửa, thuế (Land Information Systems)</item>
+          <item>Quản lý cơ sở hạ tầng (AM/FM)</item>
+          <item>Nghiên cứu, đánh giá thị trường </item>
+          <item>Phân phối giao thông vận tải </item>
+          <item>Hoạt động về nghiên cứu khoa học trong các trường đại học và các viện nghiên cứu.</item>
+        </list>
+      </section>
+      <section id="id-533786278017">
+        <title>Các bài toán ứng dụng của công nghệ GIS</title>
+        <section id="id-529865946073">
+          <title>Bản đồ </title>
+          <list id="id22409157" list-type="enumerated">
+            <item>Có 2 lĩnh vực chính ứng dụng vào GIS trong bản đồ:</item>
+          </list>
+          <list id="id22409168" list-type="bulleted">
+            <item>Tự động hoá quá trình xây dựng bản đồ </item>
+            <item>Sản xuất những bản đồ mới qua phân tích, xử lý dữ liệu </item>
+            <item>Ứng dụng máy tính trong bản đồ:</item>
+          </list>
+          <list id="id22003882" list-type="bulleted">
+            <item>Ưu điểm chính trong tự động hoá là sửa chữa dễ dàng </item>
+            <item>Các đối tượng có thể thay đổi trong bản đồ số mà không cần vẽ lại </item>
+            <item>Tỷ lệ và phép chiếu thay đổi dễ dàng</item>
+            <item>Sự khác biệt giữa tự động hoá bản đồ và GIS như sau: </item>
+          </list>
+          <list id="id22003924" list-type="bulleted">
+            <item>Tạo bản đồ đòi hỏi: hiểu biết về vị trí của đối tượng, giới hạn thuộc tính </item>
+            <item>GIS đòi hỏi: hiểu biết về vị trí của đối tượng và quan hệ giữa đối tượng và thuộc tính</item>
+          </list>
+          <para id="id22003946">Ở đây là sự khác biệt giữa cơ sở dữ liệu bản đồ và cơ sở dữ liệu có tính topology. Các phép toán phân tích bản đồ được sử dụng để phân tích dữ liệu bản đồ số. Bản đồ đóng vai trò sống còn của sự thành công trong GIS.</para>
+          <para id="id22003950">Hiện nay, công nghệ số dùng trong phần lớn công đoạn của quá trình xây dựng bản đồ. Cụm từ “bản đồ để bàn-desktop mapping” nhấn mạnh khả năng truy nhập trên các người dùng số có sự khác biệt với “desktop publishing”</para>
+        </section>
+        <section id="id-904229255263">
+          <title>Trắc địa </title>
+          <para id="id21867745">Trắc địa là khoa học về đo đạc và xác định vị trí của các đối tượng trên mặt trái đất. Trong thiết kế đường, mô hình DEM được sử dụng rất nhiều: tính khối lượng, hiển thị 3 chiều.</para>
+          <para id="id21867759">Các phát triển mới trong công nghệ:</para>
+          <list id="id21867764" list-type="bulleted">
+            <item>Thiết bị đo đạc máy đo điện tử “total station “</item>
+            <item>Hệ thống định vị toàn cầu GPS (Global Positioning System)</item>
+            <item>Liên kết trực tiếp giữa thiết bị trắc địa và cơ sở dữ liệu không gian.</item>
+          </list>
+          <para id="id21867795">* Đặc điểm trong lĩnh vực này:</para>
+          <list id="id21940544" list-type="bulleted">
+            <item>Tỷ lệ lớn, đo đạc với sự chính xác đến mm độ phân giải trong mô hình DEM cao</item>
+            <item>Mô hình dữ liệu dùng loại vector.</item>
+          </list>
+        </section>
+        <section id="id-263518067853">
+          <title>Viễn thám </title>
+          <para id="id21940571">Đây là lĩnh vực cung cấp dữ liệu cho GIS. Viễn thám cho phép thu thập thông tin về trái đất từ vệ tinh hay máy bay.</para>
+          <para id="id21940578">Hai nguyên tắc chính của viễn thám dùng với GIS:</para>
+          <list id="id21940584" list-type="bulleted">
+            <item>Chất lượng và giá trị dữ liệu được cải thiện qua độ chính xác của phép phân loại.</item>
+            <item>Để có đầy đủ thông tin cho tạo quyết định, cần kết hợp với các lớp thông tin khác không gian quan sát được từ ngoài không gian. Ví dụ: ranh giới hành chính.</item>
+          </list>
+          <para id="id21940605">* Đặc điểm ứng dụng trong lĩnh vực này:</para>
+          <list id="id21940611" list-type="bulleted">
+            <item>Tỷ lệ bao trùm nhiều tỷ lệ phụ thuộc vào độ cao bay chụp và khả năng thiết bị </item>
+            <item>Mô hình dữ liệu thu thập chủ yếu ở dạng raster </item>
+            <item>Ảnh sau khi phân loại có thể chuyển sang dạng vector hoặc input vào GIS </item>
+          </list>
+          <para id="id21879334">Viễn thám giao tiếp với GIS như là một hướng đang được phát triển hiện nay. Cả hai lĩnh vực đều đang được phát triển.</para>
+          <para id="id21879343">Trong viễn thám, các hệ thống bao gồm các chức năng xử lý ảnh.Giao tiếp là không khó khăn về mặt kỹ thuật, tuy nhiên vẫn còn có sự không tương thích về mô hình dữ liệu, format chuẩn và độ phân giải không gian.</para>
+          <para id="id21879360">Nhiều phần mềm GIS có chức năng chuyển đổi dữ liệu từ các hệ thống viễn thám và hiển thị dữ liệu vector trên nền ảnh viễn thám </para>
+          <para id="id21879370">Bản đồ ảnh: ảnh đã được nắn chỉnh, đưa các yếu tố toán học về bản đồ lên: phép chiếu, toạ độ, điểm khống chế, khung, lưới..v..v.. </para>
+        </section>
+        <section id="id-453017861066">
+          <title>Trong các ngành khoa học và công tác nghiên cứu</title>
+          <list id="id21879393" list-type="bulleted">
+            <item>Ứng dụng GIS trong nghiên cứu khoa học đang được phát triển </item>
+            <item>Trợ giúp nghiên cứu môi trường toàn cầu- global science</item>
+            <item>Tìm kiếm các yếu tố tạo nên các dịch bệnh - Vệ sinh dịch tễ </item>
+            <item>Tìm hiểu sự thay đổi trong di cư, phân bố dân số, kinh tế xã hội </item>
+            <item>Tìm hiểu mối quan hệ giữa phân bố loài và môi trường sống: sinh thái học </item>
+            <item>GIS được gọi là công nghệ được dùng trong nghiên cứu như một công cụ </item>
+            <item>Trong khoa học thống kê </item>
+          </list>
+          <para id="id21879408">* Đặc điểm:</para>
+          <list id="id21588295" list-type="bulleted">
+            <item>Tỷ lệ: rất lớn đến rất nhỏ </item>
+            <item>Chức năng: chồng xếp, để kết hợp, so sánh các lớp thông tin khác nhau như</item>
+          </list>
+          <list id="id21588314" list-type="bulleted">
+            <item>Nội suy </item>
+            <item>Hiển thị dữ liệu </item>
+            <item>Phân tích 3D, các ứng dụng phụ thuộc thời gian </item>
+          </list>
+        </section>
+        <section id="id-715976274785">
+          <title>Các ứng dụng trong môi trường, tài nguyên</title>
+          <list id="id22084485" list-type="bulleted">
+            <item>Điều tra và quản lý môi trường, tài nguyên là một trong những ứng dụng sớm nhất của GIS </item>
+            <item>Những ứng dụng đã được thương mại hoá từ 1980</item>
+            <item>Những hệ thống đã được thiết lập trong các bộ ngành như: Quản lý tài nguyên, rừng, khí đốt, v..v.. </item>
+            <item>Các ứng dụng đem lại thành công nhất là:</item>
+          </list>
+          <list id="id22084519" list-type="bulleted">
+            <item>Rừng điều tra, hệ thống rừng, quản lý lưu vực sông phát triển hệ thống cơ sở hạ tầng trong điều kiện có rừng</item>
+            <item>Nông nghiệp nghiên cứu sự mất mùa, điều tra khả năng đất </item>
+            <item>Sử dụng đất - qui hoạch việc sử dụng đất, qui hoạch vùng, đánh giá các tác động </item>
+            <item>Tự nhiên hoang dã - quản lý môi trường tự nhiên, đánh giá các yếu tố tác động đến môi trường tự nhiên </item>
+          </list>
+        </section>
+        <section id="id-607123819081">
+          <title>Các lĩnh vực ứng dụng kém thành công </title>
+          <list id="id22470844" list-type="bulleted">
+            <item>Các nguồn tài nguyên trên bề mặt - đòi hỏi tiếp cận theo 3 chiều, trong khi đó công nghệ chủ yếu là 2D </item>
+            <item>Đại cương đòi hỏi 3D, các bài toán phụ thuộc vào thời gian, nghèo nàn các nguồn dữ liệu thích hợp </item>
+            <item>Quản lý tài nguyên nước - tốt. Tuy nhiên cách tiếp cận theo 2D không phải là ý tưởng cho bề mặt dẫn nước hoặc mạng nước ngầm 3D</item>
+          </list>
+        </section>
+        <section id="id-0597113794528">
+          <title>Đặc điểm của các ứng dụng cho quản lý môi trường, tài nguyên</title>
+          <list id="id22470885" list-type="bulleted">
+            <item>Có nhiều lớp thông tin: thông thường, đòi hỏi nhiều lớp thông tin trên một vùng diện tích - các tài nguyên và các yếu tố quản lý liên quan và đa chiều </item>
+            <item>Trộn lẫn các mô hình dữ liệu - Raster và vector </item>
+            <item>Với mô hình vector, thiên về sử dụng các đối tượng polygon để phản ánh các vùng thuần nhất </item>
+            <item>Tỷ lệ bản đồ với nhiều tỷ lệ nhưng thông thường trên 1/10.000</item>
+            <item>Chất lượng dữ liệu: nhiều lớp thông tin là kết quả của phép nội suy, phân loại. Chất lượng có tính biến thiên, thường không đánh giá được </item>
+            <item>Chức năng </item>
+          </list>
+          <list id="id22470922" list-type="bulleted">
+            <item>Phân tích bản đồ đơn giản </item>
+            <item>Chồng xếp, tính toán, đo đạc vùng, tạo vùng đệm, tính vùng nhìn </item>
+          </list>
+          <list id="id22147967" list-type="bulleted">
+            <item>Mô hình sử dụng thêm nhiều các mô hình ngoại lai dựa trên các biến được lưu ở các lớp thông tin khác nhau </item>
+          </list>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>
