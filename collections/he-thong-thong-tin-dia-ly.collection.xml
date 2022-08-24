@@ -1,3 +1,23 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Course">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col10780</md:content-id>  <md:title>Hệ thống thông tin địa lý</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>en</md:language>              <md:uuid>3c31c09f-b63a-428d-a4d4-b8c8751ab860</md:uuid>
-<md:slug>he-thong-thong-tin-dia-ly</md:slug>
-</metadata>  <col:content>          <col:module document="m30059"/>                            <col:module document="m30470"/>                            <col:module document="m30467"/>                            <col:module document="m30398"/>                            <col:module document="m30440"/>                            <col:module document="m30534"/>                            <col:module document="m30432"/>                            <col:module document="m30079"/>                            <col:module document="m30078"/>                            <col:module document="m30555"/>                    </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Course" authors="V&#xF5; Quang Minh">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10780</md:content-id>
+    <md:title>H&#x1EC7; th&#x1ED1;ng th&#xF4;ng tin &#x111;&#x1ECB;a l&#xFD;</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>en</md:language>
+    <md:uuid>3c31c09f-b63a-428d-a4d4-b8c8751ab860</md:uuid>
+    <md:slug>he-thong-thong-tin-dia-ly</md:slug>
+  </metadata>
+  <col:content>
+    <col:module document="m30059"/>
+    <col:module document="m30470"/>
+    <col:module document="m30467"/>
+    <col:module document="m30398"/>
+    <col:module document="m30440"/>
+    <col:module document="m30534"/>
+    <col:module document="m30432"/>
+    <col:module document="m30079"/>
+    <col:module document="m30078"/>
+    <col:module document="m30555"/>
+  </col:content>
+</col:collection>
